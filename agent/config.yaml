@@ -4,21 +4,22 @@ marketplace:
 
 models:
   provider: gemini
-  default_model: gemini-2.0-flash
-  premium_model: gemini-1.5-pro
+  default_model: gemini-3.5-flash
+  premium_model: gemini-3.1-pro-preview
   nodes:
-    scout: gemini-2.0-flash
-    analyst: gemini-2.0-flash
-    risk_assessor: gemini-2.0-flash
-    fit_matcher: gemini-2.0-flash
-    pricing: gemini-2.0-flash
-    writer: gemini-1.5-pro
-    verifier: gemini-2.0-flash
-    critic: gemini-1.5-pro
-    compliance: gemini-2.0-flash
-    client_liaison: gemini-2.0-flash
+    scout: gemini-3.5-flash
+    analyst: gemini-3.5-flash
+    risk_assessor: gemini-3.5-flash
+    fit_matcher: gemini-3.5-flash
+    pricing: gemini-3.5-flash
+    writer: gemini-3.5-flash
+    verifier: gemini-3.5-flash
+    critic: gemini-3.5-flash
+    compliance: gemini-3.5-flash
+    client_liaison: gemini-3.5-flash
   embeddings: text-embedding-004
   reranker: bge-reranker-v2-m3
+
 
 
 budgets:

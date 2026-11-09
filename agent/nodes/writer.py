@@ -46,7 +46,8 @@ def writer_node(state: BidGraphState) -> dict:
             f"Adhere strictly to: {style_guidelines}. Do not use generic pleasantries. "
             f"{feedback_note}"
         )
-        gemini_text = call_gemini(prompt=prompt, system_instruction=load_prompt(), model="gemini-2.0-flash")
+        gemini_text = call_gemini(prompt=prompt, system_instruction=load_prompt(), model="gemini-3.5-flash")
+
         if gemini_text and len(gemini_text.strip()) > 30:
             cover_letter = gemini_text.strip()
 

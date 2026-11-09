@@ -9,7 +9,8 @@ import httpx
 from typing import Optional
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
-DEFAULT_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
+DEFAULT_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash")
+
 
 def call_gemini(
     prompt: str,
@@ -105,3 +106,4 @@ async def acall_gemini(
     except Exception as e:
         print(f"[Gemini API Async] Request error: {e}")
         return ""
+
