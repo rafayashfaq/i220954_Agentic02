@@ -20,18 +20,30 @@ SAMPLE_JOBS_FILE = os.path.join(PROJECT_ROOT, "data", "sample", "jobs.json")
 def load_jobs() -> list[dict]:
     all_jobs = []
     seen = set()
-    for fpath in [SAMPLE_JOBS_FILE, STREAM_JOBS_FILE]:
+
+    candidate_files = [
+        STREAM_JOBS_FILE,
+        SAMPLE_JOBS_FILE,
+        os.path.join(os.getcwd(), "data", "processed", "jobs_stream.json"),
+        os.path.join(os.getcwd(), "data", "sample", "jobs.json"),
+        os.path.join(os.path.dirname(os.path.dirname(BASE_DIR)), "data", "processed", "jobs_stream.json"),
+        os.path.join(os.path.dirname(BASE_DIR), "data", "processed", "jobs_stream.json"),
+    ]
+
+    for fpath in candidate_files:
         if os.path.exists(fpath):
             try:
                 with open(fpath, "r", encoding="utf-8") as f:
                     data = json.load(f)
-                    for j in data:
-                        jid = j.get("job_id")
-                        if jid and jid not in seen:
-                            seen.add(jid)
-                            all_jobs.append(j)
+                    if isinstance(data, list):
+                        for j in data:
+                            jid = j.get("job_id")
+                            if jid and jid not in seen:
+                                seen.add(jid)
+                                all_jobs.append(j)
             except Exception:
                 pass
+
     return all_jobs
 
 @router.get("", response_model=list[JobSummary])

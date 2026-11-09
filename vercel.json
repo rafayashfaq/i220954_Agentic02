@@ -4,10 +4,17 @@
   "framework": null,
   "functions": {
     "api/*.py": {
-      "excludeFiles": "{docs/**,starter_kit/**,apps/web/**,tests/**,evals/**,infra/**,.github/**}"
+      "includeFiles": "{apps/api/**,apps/__init__.py,agent/**,rag/**,mcp_servers/**,gigsim/**,data/**}"
+    },
+    "api/index.py": {
+      "includeFiles": "{apps/api/**,apps/__init__.py,agent/**,rag/**,mcp_servers/**,gigsim/**,data/**}"
     }
   },
   "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/index.py"
+    },
     {
       "source": "/(auth|jobs|proposals|approvals|messages|runs|analytics|settings|health)(.*)",
       "destination": "/api/index.py"
