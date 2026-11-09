@@ -10,9 +10,65 @@ import math
 import re
 from collections import Counter
 from typing import Any, Optional
-import numpy as np
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
+
+try:
+    import numpy as np
+    from sklearn.feature_extraction.text import TfidfVectorizer
+    from sklearn.metrics.pairwise import cosine_similarity
+    HAS_SKLEARN = True
+except ImportError:
+    HAS_SKLEARN = False
+
+class PureTfidfVectorizer:
+    def __init__(self, max_features: int = 4000):
+        self.max_features = max_features
+        self.vocab: dict[str, int] = {}
+        self.idf: dict[str, float] = {}
+        self.num_docs = 0
+
+    def _tokenize(self, text: str) -> list[str]:
+        return re.findall(r"\b[a-zA-Z0-9_\-\.]{2,}\b", text.lower())
+
+    def fit_transform(self, texts: list[str]) -> list[dict[int, float]]:
+        self.num_docs = len(texts)
+        df = Counter()
+        doc_tokens = []
+        for t in texts:
+            tokens = self._tokenize(t)
+            doc_tokens.append(tokens)
+            for w in set(tokens):
+                df[w] += 1
+        
+        most_common = [w for w, _ in df.most_common(self.max_features)]
+        self.vocab = {w: i for i, w in enumerate(most_common)}
+        
+        for w in self.vocab:
+            self.idf[w] = math.log((self.num_docs + 1) / (df[w] + 1)) + 1.0
+
+        return [self._vectorize(tokens) for tokens in doc_tokens]
+
+    def transform(self, texts: list[str]) -> list[dict[int, float]]:
+        return [self._vectorize(self._tokenize(t)) for t in texts]
+
+    def _vectorize(self, tokens: list[str]) -> dict[int, float]:
+        tf = Counter(tokens)
+        vec = {}
+        norm_sq = 0.0
+        for w, count in tf.items():
+            if w in self.vocab:
+                idx = self.vocab[w]
+                val = count * self.idf[w]
+                vec[idx] = val
+                norm_sq += val * val
+        norm = math.sqrt(norm_sq) if norm_sq > 0 else 1.0
+        return {idx: val / norm for idx, val in vec.items()}
+
+def pure_cosine_similarity(vec_q: dict[int, float], doc_vectors: list[dict[int, float]]) -> list[float]:
+    sims = []
+    for d_vec in doc_vectors:
+        dot = sum(vec_q[i] * d_vec[i] for i in vec_q if i in d_vec)
+        sims.append(dot)
+    return sims
 
 class BM25Index:
     def __init__(self, k1: float = 1.5, b: float = 0.75):
@@ -65,11 +121,12 @@ class PortfolioIndex:
         self.texts = [c["text"] for c in chunks]
         
         # Dense representation
-        self.vectorizer = TfidfVectorizer(max_features=4000, ngram_range=(1, 2), stop_words="english")
-        if self.texts:
-            self.tfidf_matrix = self.vectorizer.fit_transform(self.texts)
+        if HAS_SKLEARN:
+            self.vectorizer = TfidfVectorizer(max_features=4000, ngram_range=(1, 2), stop_words="english")
+            self.tfidf_matrix = self.vectorizer.fit_transform(self.texts) if self.texts else None
         else:
-            self.tfidf_matrix = None
+            self.vectorizer = PureTfidfVectorizer(max_features=4000)
+            self.tfidf_matrix = self.vectorizer.fit_transform(self.texts) if self.texts else []
 
         # Sparse BM25 representation
         self.bm25 = BM25Index()
@@ -77,12 +134,20 @@ class PortfolioIndex:
             self.bm25.fit(self.texts)
 
     def dense_search(self, query: str, top_k: int = 10) -> list[tuple[dict[str, Any], float]]:
-        if self.tfidf_matrix is None or not self.texts:
+        if not self.texts or self.tfidf_matrix is None:
             return []
-        q_vec = self.vectorizer.transform([query])
-        sims = cosine_similarity(q_vec, self.tfidf_matrix).flatten()
-        ranked_indices = np.argsort(sims)[::-1][:top_k]
-        return [(self.chunks[i], float(sims[i])) for i in ranked_indices]
+        
+        if HAS_SKLEARN:
+            q_vec = self.vectorizer.transform([query])
+            sims = cosine_similarity(q_vec, self.tfidf_matrix).flatten()
+            ranked_indices = np.argsort(sims)[::-1][:top_k]
+            return [(self.chunks[i], float(sims[i])) for i in ranked_indices]
+        else:
+            q_vec = self.vectorizer.transform([query])[0]
+            sims = pure_cosine_similarity(q_vec, self.tfidf_matrix)
+            scored = list(enumerate(sims))
+            scored.sort(key=lambda x: x[1], reverse=True)
+            return [(self.chunks[i], float(s)) for i, s in scored[:top_k]]
 
     def bm25_search(self, query: str, top_k: int = 10) -> list[tuple[dict[str, Any], float]]:
         results = self.bm25.search(query, top_k=top_k)
