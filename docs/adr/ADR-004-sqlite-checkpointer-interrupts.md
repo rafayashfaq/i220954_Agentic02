@@ -58,3 +58,4 @@ Chosen **Option 3: Native `interrupt()` paired with SQLite Checkpointing**.
   - Zero state loss during server deployments or container restarts.
 - **Negative:**
   - SQLite database locks require proper connection management and async driver (`aiosqlite`) configuration.
+

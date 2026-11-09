@@ -46,3 +46,4 @@ Chosen **Option 3: Hand-built LangGraph `StateGraph`**.
   - Sub-second pipeline resumption from persistent SQLite checkpoints.
 - **Negative:**
   - Adding a new pipeline stage requires updating `agent/state.py` and graph edges in `agent/graphs/bid_graph.py`.
+

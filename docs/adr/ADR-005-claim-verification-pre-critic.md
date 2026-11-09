@@ -51,3 +51,4 @@ Chosen **Option 3: Two-Phase Deterministic Grounding Verification (`rag/verify.p
   - Transparent evidence hover in the web UI increases user confidence during human approval.
 - **Negative:**
   - Adds a verification step (~180ms) to the proposal generation pipeline before the critic.
+

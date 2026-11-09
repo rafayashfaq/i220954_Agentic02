@@ -45,3 +45,4 @@ Chosen **V2 Hybrid RRF as the baseline retriever paired with V4 Outcome-Aware Bo
   - Consistent sub-15ms retrieval latency without requiring external GPU vector databases.
 - **Negative:**
   - Inverted index and dense vocabulary matrices must be rebuilt or incrementally updated when new portfolio items are added.
+

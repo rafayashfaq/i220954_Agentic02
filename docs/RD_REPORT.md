@@ -347,3 +347,4 @@ The full stack is packaged into containerized services in `infra/docker-compose.
 - `web`: Nginx-backed Vite React/TypeScript frontend.
 - `worker`: Scheduled polling daemon running the LangGraph scout loop.
 - `gigsim`: Standalone REST marketplace simulator.
+

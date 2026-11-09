@@ -19,8 +19,24 @@ dependencies = [
 [project.optional-dependencies]
 dev = ["pytest", "pytest-asyncio", "ruff", "mypy"]
 
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["agent*", "apps*", "evals*", "gigsim*", "mcp_servers*", "rag*", "worker*"]
+exclude = ["starter_kit*", "data*", "infra*", "docs*", "tests*"]
+
 [tool.ruff]
 line-length = 100
+exclude = ["starter_kit", "data", "infra", "apps/web", ".venv"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+ignore = ["E501", "F401", "F841", "W293", "W291", "E402", "E741"]
+
+
 
 [tool.pytest.ini_options]
 testpaths = ["tests", "mcp_servers"]

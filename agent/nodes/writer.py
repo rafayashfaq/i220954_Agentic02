@@ -7,6 +7,8 @@ from datetime import datetime
 from agent.state import BidGraphState
 from agent.handoffs import ProposalDraft
 from agent.memory.store import get_memory_store
+from agent.llm import call_gemini
+
 
 def load_prompt() -> str:
     prompt_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "prompts", "writer_v1.md")
@@ -35,13 +37,28 @@ def writer_node(state: BidGraphState) -> dict:
     feedback_note = f" Addressing feedback: {critique.feedback}" if critique and critique.requires_rewrite else ""
 
     # Grounded proposal text following strict style rules (no boilerplate opening)
-    cover_letter = (
-        f"For your {title} requirement, I have delivered production systems with {', '.join(skills[:3])}. "
-        f"In past projects (e.g. [{primary_ev}]), I achieved measurable latency reductions and verified uptime. "
-        f"My proposed architecture uses modular components with automated unit test suites and reproducible CI/CD. "
-        f"I can deliver the initial milestone within your timeline."
-        f"{feedback_note}"
-    )
+    gemini_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
+    cover_letter = None
+    if gemini_key:
+        prompt = (
+            f"Write a concise, professional freelance proposal for '{title}' requiring {', '.join(skills[:3])}. "
+            f"Cite portfolio evidence [{primary_ev}] with quantifiable performance metrics. "
+            f"Adhere strictly to: {style_guidelines}. Do not use generic pleasantries. "
+            f"{feedback_note}"
+        )
+        gemini_text = call_gemini(prompt=prompt, system_instruction=load_prompt(), model="gemini-2.0-flash")
+        if gemini_text and len(gemini_text.strip()) > 30:
+            cover_letter = gemini_text.strip()
+
+    if not cover_letter:
+        cover_letter = (
+            f"For your {title} requirement, I have delivered production systems with {', '.join(skills[:3])}. "
+            f"In past projects (e.g. [{primary_ev}]), I achieved measurable latency reductions and verified uptime. "
+            f"My proposed architecture uses modular components with automated unit test suites and reproducible CI/CD. "
+            f"I can deliver the initial milestone within your timeline."
+            f"{feedback_note}"
+        )
+
 
     # Draft screening question answers
     screening_questions = job_spec.screening_questions if job_spec else job.get("screening_questions", [])

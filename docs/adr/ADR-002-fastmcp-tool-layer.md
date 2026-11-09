@@ -49,3 +49,4 @@ Empirically validated on 40 synthetic multi-step agent tasks:
 ## Consequences
 - Clean separation of concerns with full JSON Schema contracts snapshot-tested in `tests/contract/test_mcp_schemas.py`.
 - Switching from GigSim to Upwork Live requires only changing `MARKETPLACE_ADAPTER=upwork_live` in `.env`.
+

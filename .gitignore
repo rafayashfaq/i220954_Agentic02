@@ -16,4 +16,7 @@ starter_kit/
 *.db
 *.sqlite
 *.log
+*.egg-info/
+.ruff_cache/
+
 

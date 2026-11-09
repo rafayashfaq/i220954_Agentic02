@@ -14,8 +14,10 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -e ".[dev]"
-          pip install mcp langchain-mcp-adapters scikit-learn langgraph-checkpoint-sqlite aiosqlite
+          pip install mcp langchain-mcp-adapters scikit-learn langgraph-checkpoint-sqlite aiosqlite reportlab pypdf
+
       - name: Generate Seed Data if needed
         run: python data/generate_dataset.py
       - name: Run CI Evaluation Quality Gate
         run: python evals/runners/ci_eval.py
+

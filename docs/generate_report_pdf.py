@@ -217,7 +217,7 @@ def build_pdf(filename="docs/GigBid_RD_Report.pdf"):
     story.append(Paragraph("• <b>Parallel Analytical Fan-out:</b> Following initial extraction by the <code>analyst</code> node, execution forks concurrently into <code>risk_assessor</code> and <code>fit_matcher</code>. This concurrent fan-out cuts wall-clock evaluation latency from 4.6s to 1.8s.", bullet_style))
     story.append(Paragraph("• <b>Deterministic Edge Routing:</b> If <code>is_scam == True</code> or <code>fit_score < 0.60</code>, conditional routing immediately diverts to terminal skip, avoiding 100% of proposal drafting tokens.", bullet_style))
     story.append(Paragraph("• <b>Pre-Critic Atomic Claim Verification:</b> Draft proposals undergo deterministic sentence-level NLI grounding against retrieved portfolio chunks. Unsupported claims are eliminated or softened before the style critic is invoked.", bullet_style))
-    story.append(Paragraph("• <b>Bounded Critic Feedback Loop:</b> Revision iterations are capped at $\le 2$ cycles to enforce strict execution and cost bounds.", bullet_style))
+    story.append(Paragraph(r"• <b>Bounded Critic Feedback Loop:</b> Revision iterations are capped at $\le 2$ cycles to enforce strict execution and cost bounds.", bullet_style))
     story.append(Paragraph("• <b>Durable SQLite Interrupt Gate:</b> Execution pauses natively at <code>interrupt()</code>. State is checkpointed in SQLite (<code>agent_state.db</code>), surviving server restarts until the user reviews and approves via the web UI.", bullet_style))
     story.append(Paragraph("• <b>FastMCP Sandboxed Tool Layer:</b> Protocol-isolated servers handle Portfolio, Marketplace (with GigSim simulator and Upwork Live adapters), and Workspace filesystem access with immutable audit logging.", bullet_style))
     story.append(Spacer(1, 10))
@@ -280,7 +280,7 @@ def build_pdf(filename="docs/GigBid_RD_Report.pdf"):
     story.append(Spacer(1, 6))
 
     story.append(Paragraph(
-        "<b>Multi-Requirement Gain (Ablation Study):</b> On complex postings with $\ge 4$ technical requirements, Hybrid RRF raised Recall@5 from "
+        r"<b>Multi-Requirement Gain (Ablation Study):</b> On complex postings with $\ge 4$ technical requirements, Hybrid RRF raised Recall@5 from "
         "<b>52.4% to 87.9% (+35.5% net gain)</b>. On exact library keywords (e.g. <code>vLLM</code>, <code>Playwright</code>), recall rose from 61.0% to 91.5% (+30.5%).", body_style))
     story.append(Paragraph(
         "<b>Automated Claim Verification:</b> Across all variants, deterministic NLI verification reduced unsupported claims from an average of 1.60 per draft down to <b>0.00</b>.", body_style))

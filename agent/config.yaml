@@ -3,18 +3,23 @@ marketplace:
   max_requests_per_minute: 20
 
 models:
-  profile: open
+  provider: gemini
+  default_model: gemini-2.0-flash
+  premium_model: gemini-1.5-pro
   nodes:
-    scout: qwen3-4b
-    analyst: qwen3-4b
-    risk_assessor: qwen3-4b
-    fit_matcher: qwen3-4b
-    pricing: qwen3-4b
-    writer: configure-your-model
-    critic: configure-your-model
-    client_liaison: configure-your-model
-  embeddings: nomic-embed-text
+    scout: gemini-2.0-flash
+    analyst: gemini-2.0-flash
+    risk_assessor: gemini-2.0-flash
+    fit_matcher: gemini-2.0-flash
+    pricing: gemini-2.0-flash
+    writer: gemini-1.5-pro
+    verifier: gemini-2.0-flash
+    critic: gemini-1.5-pro
+    compliance: gemini-2.0-flash
+    client_liaison: gemini-2.0-flash
+  embeddings: text-embedding-004
   reranker: bge-reranker-v2-m3
+
 
 budgets:
   max_graph_steps: 30
