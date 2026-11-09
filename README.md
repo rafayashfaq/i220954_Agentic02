@@ -197,8 +197,8 @@ For local development and grader evaluation:
 ### 2. Setup Environment
 ```bash
 # Clone repository
-git clone https://github.com/gigbid/gigbid.git
-cd gigbid
+git clone https://github.com/rafayashfaq/i220954_Agentic02.git
+cd i220954_Agentic02
 
 # Setup virtual environment
 python -m venv .venv
