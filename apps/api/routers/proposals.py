@@ -68,6 +68,21 @@ async def get_proposal_studio(job_id: str):
     }
 
     STUDIO_CACHE[job_id] = studio_data
+
+    # Ensure approval gate has this thread ready for immediate human action
+    from apps.api.routers.approvals import PENDING_APPROVALS
+    PENDING_APPROVALS[f"thread-{job_id}"] = {
+        "thread_id": f"thread-{job_id}",
+        "job_id": job_id,
+        "title": f"Proposal for {job_id}",
+        "cover_letter": cover_letter,
+        "bid_amount": 450.0,
+        "connects_cost": 6,
+        "evidence_ids": ev_ids,
+        "status": "pending",
+        "created_at": "2026-11-09T10:00:00Z"
+    }
+
     return ProposalStudioResponse(**studio_data)
 
 @router.post("/studio/{job_id}/regenerate_paragraph")

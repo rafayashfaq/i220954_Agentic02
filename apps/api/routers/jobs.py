@@ -18,13 +18,21 @@ STREAM_JOBS_FILE = os.path.join(PROJECT_ROOT, "data", "processed", "jobs_stream.
 SAMPLE_JOBS_FILE = os.path.join(PROJECT_ROOT, "data", "sample", "jobs.json")
 
 def load_jobs() -> list[dict]:
-    if os.path.exists(STREAM_JOBS_FILE):
-        with open(STREAM_JOBS_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
-    if os.path.exists(SAMPLE_JOBS_FILE):
-        with open(SAMPLE_JOBS_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return []
+    all_jobs = []
+    seen = set()
+    for fpath in [SAMPLE_JOBS_FILE, STREAM_JOBS_FILE]:
+        if os.path.exists(fpath):
+            try:
+                with open(fpath, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    for j in data:
+                        jid = j.get("job_id")
+                        if jid and jid not in seen:
+                            seen.add(jid)
+                            all_jobs.append(j)
+            except Exception:
+                pass
+    return all_jobs
 
 @router.get("", response_model=list[JobSummary])
 def get_inbox_jobs(query: Optional[str] = None, filter_action: Optional[str] = None, limit: int = 40):

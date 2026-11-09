@@ -27,7 +27,22 @@ export const ApprovalPanel: React.FC<ApprovalPanelProps> = ({
   const [rejectReason, setRejectReason] = useState('');
   const [showRejectModal, setShowRejectModal] = useState(false);
 
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
   const hasEdits = editedText.trim() !== initialDraft.trim();
+
+  const handleApproveClick = async () => {
+    setIsSubmitting(true);
+    try {
+      if (isEditing && hasEdits) {
+        await onEditAndApprove(editedText);
+      } else {
+        await onApprove();
+      }
+    } finally {
+      setTimeout(() => setIsSubmitting(false), 1500);
+    }
+  };
 
   return (
     <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-5 shadow-xl">
@@ -123,17 +138,18 @@ export const ApprovalPanel: React.FC<ApprovalPanelProps> = ({
         </div>
 
         <button
-          onClick={() => {
-            if (isEditing && hasEdits) {
-              onEditAndApprove(editedText);
-            } else {
-              onApprove();
-            }
-          }}
-          className="px-5 py-2.5 rounded-xl text-xs font-bold bg-emerald-600 hover:bg-emerald-500 text-white shadow-lg shadow-emerald-600/25 transition-all flex items-center gap-1.5"
+          onClick={handleApproveClick}
+          disabled={isSubmitting}
+          className="px-5 py-2.5 rounded-xl text-xs font-bold bg-emerald-600 hover:bg-emerald-500 disabled:opacity-60 disabled:cursor-not-allowed text-white shadow-lg shadow-emerald-600/25 transition-all flex items-center gap-1.5 cursor-pointer"
         >
           <span>✓</span>
-          <span>{isEditing && hasEdits ? 'Save Edits & Submit to GigSim' : 'Approve & Submit to GigSim'}</span>
+          <span>
+            {isSubmitting
+              ? 'Submitting to GigSim...'
+              : isEditing && hasEdits
+              ? 'Save Edits & Submit to GigSim'
+              : 'Approve & Submit to GigSim'}
+          </span>
         </button>
       </div>
 

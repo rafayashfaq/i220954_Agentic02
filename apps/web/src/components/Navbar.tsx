@@ -45,7 +45,8 @@ export const Navbar: React.FC<NavbarProps> = ({
             { id: 'messages', label: 'Messages' },
             { id: 'runs', label: 'Agent Runs' },
             { id: 'analytics', label: 'Analytics' },
-            { id: 'settings', label: 'Settings' }
+            { id: 'settings', label: 'Settings' },
+            { id: 'onboarding', label: 'Onboarding' }
           ].map((tab) => (
             <button
               key={tab.id}

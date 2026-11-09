@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { PipelineCard, api } from '../lib/api/client';
 
-export const PipelineView: React.FC = () => {
+interface PipelineViewProps {
+  onSelectJob?: (jobId: string) => void;
+}
+
+export const PipelineView: React.FC<PipelineViewProps> = ({ onSelectJob }) => {
   const [cards, setCards] = useState<PipelineCard[]>([]);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -71,7 +75,9 @@ export const PipelineView: React.FC = () => {
                     stageCards.map((card) => (
                       <div
                         key={card.card_id}
-                        className="bg-slate-950/80 hover:bg-slate-950 border border-slate-800/80 rounded-xl p-3 text-xs shadow-sm hover:border-slate-700 transition-all cursor-pointer group"
+                        onClick={() => onSelectJob && onSelectJob(card.job_id)}
+                        title="Click to inspect job detail & evidence matrix"
+                        className="bg-slate-950/80 hover:bg-slate-950 border border-slate-800/80 rounded-xl p-3 text-xs shadow-sm hover:border-emerald-500/50 hover:shadow-lg transition-all cursor-pointer group"
                       >
                         <h4 className="font-semibold text-slate-200 group-hover:text-emerald-400 transition-colors line-clamp-2 mb-1.5">
                           {card.title}

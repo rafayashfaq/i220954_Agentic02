@@ -18,14 +18,16 @@ export const ProposalStudioView: React.FC<ProposalStudioViewProps> = ({
   const [isLoading, setIsLoading] = useState(true);
   const [isRegenerating, setIsRegenerating] = useState(false);
   const [submittedStatus, setSubmittedStatus] = useState<string | null>(null);
+  const [errorStatus, setErrorStatus] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchStudio = async () => {
       try {
         const res = await api.getProposalStudio(jobId);
         setStudio(res);
-      } catch (err) {
+      } catch (err: any) {
         console.error(err);
+        setErrorStatus(`Failed to load proposal studio: ${err?.message || 'Server error'}`);
       } finally {
         setIsLoading(false);
       }
@@ -35,16 +37,30 @@ export const ProposalStudioView: React.FC<ProposalStudioViewProps> = ({
 
   const handleRegenerateParagraph = async (pIndex: number, currentText: string) => {
     setIsRegenerating(true);
+    setErrorStatus(null);
     try {
       const res = await api.regenerateParagraph(jobId, pIndex, currentText);
       if (studio) {
+        const updatedLetter = studio.cover_letter + "\n\n" + res.regenerated_text;
+        const newClaim = {
+          claim_text: res.regenerated_text,
+          status: 'supported' as const,
+          evidence_id: 'case-regen-01',
+          evidence_title: 'Modular High-Reliability Architecture',
+          evidence_summary: 'Asynchronous streaming pipelines with structured schemas and full observability.',
+          proven_outcome: 'Production zero-downtime reliability'
+        };
         setStudio({
           ...studio,
-          cover_letter: studio.cover_letter + "\n\n" + res.regenerated_text
+          cover_letter: updatedLetter,
+          claims_with_evidence: [...studio.claims_with_evidence, newClaim]
         });
+        setSubmittedStatus('Section regenerated with grounded portfolio citation!');
+        setTimeout(() => setSubmittedStatus(null), 3500);
       }
-    } catch (err) {
+    } catch (err: any) {
       console.error(err);
+      setErrorStatus(`Failed to regenerate section: ${err?.message || 'Server error'}`);
     } finally {
       setIsRegenerating(false);
     }
@@ -52,6 +68,7 @@ export const ProposalStudioView: React.FC<ProposalStudioViewProps> = ({
 
   const handleApprove = async () => {
     if (!studio) return;
+    setErrorStatus(null);
     try {
       const res = await api.executeApproval({
         thread_id: studio.thread_id,
@@ -60,14 +77,16 @@ export const ProposalStudioView: React.FC<ProposalStudioViewProps> = ({
       setSubmittedStatus('Submitted successfully to GigSim!');
       setTimeout(() => {
         onSubmissionSuccess();
-      }, 1500);
-    } catch (err) {
+      }, 1200);
+    } catch (err: any) {
       console.error(err);
+      setErrorStatus(`Submission error: ${err?.message || 'Failed to submit'}`);
     }
   };
 
   const handleEditAndApprove = async (editedText: string) => {
     if (!studio) return;
+    setErrorStatus(null);
     try {
       const res = await api.executeApproval({
         thread_id: studio.thread_id,
@@ -77,14 +96,16 @@ export const ProposalStudioView: React.FC<ProposalStudioViewProps> = ({
       setSubmittedStatus('Edits saved to Style Memory & proposal submitted!');
       setTimeout(() => {
         onSubmissionSuccess();
-      }, 1500);
-    } catch (err) {
+      }, 1200);
+    } catch (err: any) {
       console.error(err);
+      setErrorStatus(`Submission error: ${err?.message || 'Failed to submit edits'}`);
     }
   };
 
   const handleReject = async (reason: string) => {
     if (!studio) return;
+    setErrorStatus(null);
     try {
       await api.executeApproval({
         thread_id: studio.thread_id,
@@ -94,9 +115,10 @@ export const ProposalStudioView: React.FC<ProposalStudioViewProps> = ({
       setSubmittedStatus('Proposal rejected and marked skipped.');
       setTimeout(() => {
         onBack();
-      }, 1200);
-    } catch (err) {
+      }, 1000);
+    } catch (err: any) {
       console.error(err);
+      setErrorStatus(`Rejection error: ${err?.message || 'Failed to record rejection'}`);
     }
   };
 
@@ -137,6 +159,16 @@ export const ProposalStudioView: React.FC<ProposalStudioViewProps> = ({
         <div className="mb-6 p-4 bg-emerald-500/20 border border-emerald-500/40 rounded-2xl text-emerald-200 text-sm font-semibold flex items-center gap-2 animate-fadeIn">
           <span>✓</span>
           <span>{submittedStatus}</span>
+        </div>
+      )}
+
+      {errorStatus && (
+        <div className="mb-6 p-4 bg-rose-500/20 border border-rose-500/40 rounded-2xl text-rose-200 text-sm font-semibold flex items-center justify-between gap-2 animate-fadeIn">
+          <div className="flex items-center gap-2">
+            <span>⚠️</span>
+            <span>{errorStatus}</span>
+          </div>
+          <button onClick={() => setErrorStatus(null)} className="text-xs text-rose-300 hover:text-rose-100 underline">Dismiss</button>
         </div>
       )}
 

@@ -112,7 +112,14 @@ export const App: React.FC = () => {
           />
         )}
 
-        {currentTab === 'pipeline' && <PipelineView />}
+        {currentTab === 'pipeline' && (
+          <PipelineView
+            onSelectJob={(id) => {
+              setSelectedJobId(id);
+              setCurrentTab('detail');
+            }}
+          />
+        )}
 
         {currentTab === 'messages' && <MessagesView />}
 
@@ -120,7 +127,9 @@ export const App: React.FC = () => {
 
         {currentTab === 'analytics' && <AnalyticsView />}
 
-        {currentTab === 'settings' && <SettingsView />}
+        {currentTab === 'settings' && (
+          <SettingsView onOpenOnboarding={() => setCurrentTab('onboarding')} />
+        )}
       </main>
 
       {/* Footer */}

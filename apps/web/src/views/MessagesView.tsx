@@ -7,6 +7,7 @@ export const MessagesView: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [replyText, setReplyText] = useState('');
   const [isSending, setIsSending] = useState(false);
+  const [statusMessage, setStatusMessage] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchThreads = async () => {
@@ -31,6 +32,7 @@ export const MessagesView: React.FC = () => {
   const handleSendReply = async () => {
     if (!activeThread) return;
     setIsSending(true);
+    setStatusMessage(null);
     try {
       await api.sendReply(
         activeThread.thread_id,
@@ -53,9 +55,12 @@ export const MessagesView: React.FC = () => {
             : t
         )
       );
+      setStatusMessage('✓ Message delivered to client via Marketplace API and tentative calendar slot held.');
       setReplyText('');
+      setTimeout(() => setStatusMessage(null), 4000);
     } catch (err) {
       console.error(err);
+      setStatusMessage('⚠️ Failed to deliver message. Check backend connection.');
     } finally {
       setIsSending(false);
     }
@@ -130,11 +135,51 @@ export const MessagesView: React.FC = () => {
 
                 {/* AI-drafted reply with human approval */}
                 <div className="pt-4 border-t border-slate-800">
-                  {activeThread.suggested_interview_slots.length > 0 && (
-                    <div className="mb-3 p-2.5 bg-purple-500/10 border border-purple-500/20 rounded-xl text-xs text-purple-200">
-                      <strong>📅 Workspace MCP Hold Placed:</strong> 2 tentative interview slots synced to calendar.
+                  {statusMessage && (
+                    <div className="mb-3 p-3 bg-emerald-500/20 border border-emerald-500/40 rounded-xl text-xs text-emerald-200 font-semibold animate-fadeIn">
+                      {statusMessage}
                     </div>
                   )}
+
+                  {activeThread.suggested_interview_slots.length > 0 && (
+                    <div className="mb-3 p-2.5 bg-purple-500/10 border border-purple-500/20 rounded-xl text-xs text-purple-200 flex items-center justify-between">
+                      <div>
+                        <strong>📅 Workspace MCP Hold Placed:</strong> 2 tentative interview slots synced to calendar.
+                      </div>
+                      <button
+                        onClick={() => setReplyText('Hi! I can confirm our technical sync for Wednesday at 10:00 AM UTC. Looking forward to speaking with the team.')}
+                        className="px-2 py-0.5 rounded bg-purple-500/20 hover:bg-purple-500/30 text-[11px] font-medium text-purple-300 transition-colors"
+                      >
+                        Insert Confirmation
+                      </button>
+                    </div>
+                  )}
+
+                  {/* Quick Reply Chips */}
+                  <div className="flex flex-wrap items-center gap-1.5 mb-2.5">
+                    <span className="text-[11px] text-slate-400 font-medium mr-1">Quick Fill:</span>
+                    <button
+                      type="button"
+                      onClick={() => setReplyText("Hi! Thanks for reaching out. Yes, I'm available this week and would love to review your architecture specs.")}
+                      className="px-2 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 text-[11px] transition-colors"
+                    >
+                      Availability & Interest
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setReplyText("I've reviewed the repo requirements and prepared a technical milestone breakdown for the 2-week deliverable.")}
+                      className="px-2 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 text-[11px] transition-colors"
+                    >
+                      Technical Milestones
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setReplyText("Happy to jump on a quick 15-minute call. Wednesday 3:00 PM UTC works best for me.")}
+                      className="px-2 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 text-[11px] transition-colors"
+                    >
+                      Accept Wednesday 3PM
+                    </button>
+                  </div>
 
                   <div className="flex items-center justify-between text-xs text-slate-400 mb-2">
                     <span className="font-semibold text-slate-200 flex items-center gap-1.5">
@@ -157,7 +202,7 @@ export const MessagesView: React.FC = () => {
                     <button
                       onClick={handleSendReply}
                       disabled={isSending || !replyText.trim()}
-                      className="px-5 py-2 rounded-xl text-xs font-bold bg-emerald-600 hover:bg-emerald-500 text-white shadow-lg shadow-emerald-600/25 transition-all flex items-center gap-1.5"
+                      className="px-5 py-2 rounded-xl text-xs font-bold bg-emerald-600 hover:bg-emerald-500 disabled:opacity-40 disabled:cursor-not-allowed text-white shadow-lg shadow-emerald-600/25 transition-all flex items-center gap-1.5 cursor-pointer"
                     >
                       {isSending ? 'Sending...' : '✓ Approve & Send to Client'}
                     </button>

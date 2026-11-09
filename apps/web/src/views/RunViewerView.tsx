@@ -16,8 +16,10 @@ export const RunViewerView: React.FC<RunViewerViewProps> = ({ initialJobId = 'sa
     setIsStreaming(true);
     setActiveNode('init');
 
-    const API_BASE = 'http://127.0.0.1:8000';
-    const eventSource = new EventSource(`${API_BASE}/runs/stream/${jobId}`);
+    const streamUrl = typeof window !== 'undefined' && window.location.port === '3000'
+      ? `/runs/stream/${jobId}`
+      : `http://127.0.0.1:8000/runs/stream/${jobId}`;
+    const eventSource = new EventSource(streamUrl);
 
     eventSource.onmessage = (e) => {
       try {
@@ -37,6 +39,13 @@ export const RunViewerView: React.FC<RunViewerViewProps> = ({ initialJobId = 'sa
           setIsStreaming(false);
           eventSource.close();
         } else if (data.event === 'done') {
+          setIsStreaming(false);
+          eventSource.close();
+        } else if (data.event === 'error') {
+          setEvents((prev) => [
+            ...prev,
+            { node: 'error', message: data.error || 'Execution stopped', status: 'error' }
+          ]);
           setIsStreaming(false);
           eventSource.close();
         }

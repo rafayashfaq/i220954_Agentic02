@@ -154,7 +154,9 @@ export interface SettingsResponse {
   style_memory_rules: Array<{ id: string; rule: string; learned_from?: string }>;
 }
 
-const API_BASE = 'http://127.0.0.1:8000';
+const API_BASE = typeof window !== 'undefined' && window.location.port === '3000'
+  ? ''
+  : 'http://127.0.0.1:8000';
 
 
 async function fetchJson<T>(path: string, options?: RequestInit): Promise<T> {

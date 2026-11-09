@@ -5,6 +5,8 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+playwright-report/
+test-results/
 node_modules/
 .next/
 dist/
@@ -18,5 +20,7 @@ starter_kit/
 *.log
 *.egg-info/
 .ruff_cache/
+playwright-report/
+test-results/
 
 

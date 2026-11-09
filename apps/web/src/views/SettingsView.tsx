@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { SettingsResponse, api } from '../lib/api/client';
 
-export const SettingsView: React.FC = () => {
+interface SettingsViewProps {
+  onOpenOnboarding?: () => void;
+}
+
+export const SettingsView: React.FC<SettingsViewProps> = ({ onOpenOnboarding }) => {
   const [settings, setSettings] = useState<SettingsResponse | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [autonomyLevel, setAutonomyLevel] = useState('auto_skip_only');
@@ -61,11 +65,22 @@ export const SettingsView: React.FC = () => {
 
   return (
     <div className="max-w-4xl mx-auto py-8 px-4 animate-fadeIn">
-      <div className="mb-6">
-        <h1 className="text-2xl font-bold text-white tracking-tight">System Settings & Memory</h1>
-        <p className="text-xs text-slate-400 mt-0.5">
-          Configure autonomy thresholds, Connects limits, and inspect what GigBid has learned from your edits.
-        </p>
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+        <div>
+          <h1 className="text-2xl font-bold text-white tracking-tight">System Settings & Memory</h1>
+          <p className="text-xs text-slate-400 mt-0.5">
+            Configure autonomy thresholds, Connects limits, and inspect what GigBid has learned from your edits.
+          </p>
+        </div>
+
+        {onOpenOnboarding && (
+          <button
+            onClick={onOpenOnboarding}
+            className="px-4 py-2 rounded-xl text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-emerald-400 border border-slate-700/80 transition-all flex items-center gap-1.5 self-start sm:self-auto cursor-pointer"
+          >
+            <span>🚀 Run Profile Onboarding Wizard →</span>
+          </button>
+        )}
       </div>
 
       {saveSuccess && (
