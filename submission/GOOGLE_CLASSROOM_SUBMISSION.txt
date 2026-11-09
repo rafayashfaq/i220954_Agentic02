@@ -1,0 +1,46 @@
+================================================================================
+AI-4016 R&D ASSIGNMENT 02: GIGBID FREELANCER COPILOT
+STUDENT ID: i220954
+STUDENT NAME: Muhammad Rafay Ashfaq
+CAMPUS: FAST-NUCES Islamabad
+================================================================================
+
+SUBMISSION CONTENT (COPY-PASTE READY FOR GOOGLE CLASSROOM):
+
+1. PUBLIC GITHUB REPOSITORY:
+   https://github.com/rafayashfaq/i220954_Agentic02
+
+2. R&D REPORT (PDF):
+   Attached: GigBid_RD_Report.pdf
+   Path in Repository: docs/GigBid_RD_Report.pdf
+   Markdown Source: docs/RD_REPORT.md
+
+3. 3-MINUTE SCREEN RECORDING / WALKTHROUGH DEMO:
+   [Paste your Google Drive / YouTube unlisted video link here]
+   (Demonstrates: job discovery in inbox, evidence citation hover, human approval gate, pipeline transition, and SSE live stream)
+
+4. LIVE DEPLOYED WEB APPLICATION URL:
+   [Paste your live URL here, e.g. https://gigbid-i220954.loca.lt or Render / Railway URL]
+   Note: Full Docker Compose configuration is available in infra/docker-compose.yml.
+   Local run command: python -m uvicorn apps.api.main:app & cd apps/web && npm run dev
+
+5. REVIEWER CREDENTIALS & PRELOADED PERSONA (PRIVATE COMMENT):
+   Default Persona: AI/ML Engineer (Alex Morgan)
+   Alternative Personas: Full-Stack Developer (Marcus Vance), Data Analyst (Elena Rostova)
+   Reviewer Username: reviewer@fast-nuces.edu.pk
+   Reviewer Password: GigBidReviewer2026!
+   Connects Starting Balance: 80 Connects
+   Marketplace Simulator: GigSim Deterministic Local Adapter (Default)
+
+6. PUBLISHED PORTFOLIO MCP SERVER:
+   Package Name: gigbid-portfolio-mcp
+   Path in Repository: mcp_servers/portfolio/
+   Installation command:
+     pip install -e mcp_servers/portfolio
+     or
+     uvx --from ./mcp_servers/portfolio portfolio-mcp
+
+7. TECHNICAL WRITE-UP (LINKEDIN / BLOG):
+   [Optional - Paste link if published, or refer to docs/RD_REPORT.md]
+
+================================================================================
