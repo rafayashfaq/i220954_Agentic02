@@ -1,0 +1,422 @@
+[
+  {
+    "evidence_id": "case-ai_-001",
+    "persona_id": "persona_ai_engineer",
+    "type": "case_study",
+    "title": "Customer churn classification with scikit-learn & LightGBM",
+    "summary": "Delivered Customer churn classification with scikit-learn & LightGBM in HealthTech industry utilizing PyTorch, Python, FastAPI, Fine-tuning.",
+    "skills": [
+      "PyTorch",
+      "Python",
+      "FastAPI",
+      "Fine-tuning"
+    ],
+    "outcome": "Successful delivery with 22% measurable performance gain.",
+    "source": "case_studies/case-ai_-001.md",
+    "client_industry": "HealthTech",
+    "date": "2025-10-15"
+  },
+  {
+    "evidence_id": "case-ai_-002",
+    "persona_id": "persona_ai_engineer",
+    "type": "case_study",
+    "title": "Multi-Agent LangGraph orchestration for automated contract review",
+    "summary": "Delivered Multi-Agent LangGraph orchestration for automated contract review in HealthTech industry utilizing RAG, Python, HuggingFace, vLLM.",
+    "skills": [
+      "RAG",
+      "Python",
+      "HuggingFace",
+      "vLLM"
+    ],
+    "outcome": "Successful delivery with 37% measurable performance gain.",
+    "source": "case_studies/case-ai_-002.md",
+    "client_industry": "HealthTech",
+    "date": "2025-04-15"
+  },
+  {
+    "evidence_id": "case-ai_-003",
+    "persona_id": "persona_ai_engineer",
+    "type": "case_study",
+    "title": "Production RAG pipeline with Qdrant, hybrid search and BGE reranking",
+    "summary": "Delivered Production RAG pipeline with Qdrant, hybrid search and BGE reranking in LegalTech industry utilizing HuggingFace, RAG, LangGraph, vLLM.",
+    "skills": [
+      "HuggingFace",
+      "RAG",
+      "LangGraph",
+      "vLLM"
+    ],
+    "outcome": "Successful delivery with 30% measurable performance gain.",
+    "source": "case_studies/case-ai_-003.md",
+    "client_industry": "LegalTech",
+    "date": "2025-05-15"
+  },
+  {
+    "evidence_id": "case-ai_-004",
+    "persona_id": "persona_ai_engineer",
+    "type": "case_study",
+    "title": "Local LLM deployment using vLLM and TensorRT-LLM on AWS EC2",
+    "summary": "Delivered Local LLM deployment using vLLM and TensorRT-LLM on AWS EC2 in FinTech industry utilizing LangChain, LangGraph, Vector Databases, Python.",
+    "skills": [
+      "LangChain",
+      "LangGraph",
+      "Vector Databases",
+      "Python"
+    ],
+    "outcome": "Successful delivery with 39% measurable performance gain.",
+    "source": "case_studies/case-ai_-004.md",
+    "client_industry": "FinTech",
+    "date": "2025-05-15"
+  },
+  {
+    "evidence_id": "case-ai_-005",
+    "persona_id": "persona_ai_engineer",
+    "type": "case_study",
+    "title": "Fine-tuning Llama-3 8B with LoRA/QLoRA on domain legal corpora",
+    "summary": "Delivered Fine-tuning Llama-3 8B with LoRA/QLoRA on domain legal corpora in FinTech industry utilizing Python, vLLM, PyTorch, LangGraph.",
+    "skills": [
+      "Python",
+      "vLLM",
+      "PyTorch",
+      "LangGraph"
+    ],
+    "outcome": "Successful delivery with 38% measurable performance gain.",
+    "source": "case_studies/case-ai_-005.md",
+    "client_industry": "FinTech",
+    "date": "2025-04-15"
+  },
+  {
+    "evidence_id": "case-ai_-006",
+    "persona_id": "persona_ai_engineer",
+    "type": "case_study",
+    "title": "Real-time fraud detection streaming pipeline with Kafka and PyTorch",
+    "summary": "Delivered Real-time fraud detection streaming pipeline with Kafka and PyTorch in E-Commerce industry utilizing PyTorch, Python, LangGraph, RAG.",
+    "skills": [
+      "PyTorch",
+      "Python",
+      "LangGraph",
+      "RAG"
+    ],
+    "outcome": "Successful delivery with 28% measurable performance gain.",
+    "source": "case_studies/case-ai_-006.md",
+    "client_industry": "E-Commerce",
+    "date": "2025-08-15"
+  },
+  {
+    "evidence_id": "case-ai_-007",
+    "persona_id": "persona_ai_engineer",
+    "type": "case_study",
+    "title": "Medical entity recognition with clinical BERT and spaCy",
+    "summary": "Delivered Medical entity recognition with clinical BERT and spaCy in HealthTech industry utilizing Vector Databases, LangChain, Fine-tuning, HuggingFace.",
+    "skills": [
+      "Vector Databases",
+      "LangChain",
+      "Fine-tuning",
+      "HuggingFace"
+    ],
+    "outcome": "Successful delivery with 39% measurable performance gain.",
+    "source": "case_studies/case-ai_-007.md",
+    "client_industry": "HealthTech",
+    "date": "2025-11-15"
+  },
+  {
+    "evidence_id": "case-ai_-008",
+    "persona_id": "persona_ai_engineer",
+    "type": "case_study",
+    "title": "Semantic search engine across 2M e-commerce product catalogs",
+    "summary": "Delivered Semantic search engine across 2M e-commerce product catalogs in SaaS industry utilizing LangChain, HuggingFace, LangGraph, PyTorch.",
+    "skills": [
+      "LangChain",
+      "HuggingFace",
+      "LangGraph",
+      "PyTorch"
+    ],
+    "outcome": "Successful delivery with 41% measurable performance gain.",
+    "source": "case_studies/case-ai_-008.md",
+    "client_industry": "SaaS",
+    "date": "2025-06-15"
+  },
+  {
+    "evidence_id": "case-ai_-009",
+    "persona_id": "persona_ai_engineer",
+    "type": "case_study",
+    "title": "Audio transcription and diarization copilot using Whisper",
+    "summary": "Delivered Audio transcription and diarization copilot using Whisper in E-Commerce industry utilizing Python, LangGraph, Fine-tuning, RAG.",
+    "skills": [
+      "Python",
+      "LangGraph",
+      "Fine-tuning",
+      "RAG"
+    ],
+    "outcome": "Successful delivery with 49% measurable performance gain.",
+    "source": "case_studies/case-ai_-009.md",
+    "client_industry": "E-Commerce",
+    "date": "2025-10-15"
+  },
+  {
+    "evidence_id": "case-ai_-010",
+    "persona_id": "persona_ai_engineer",
+    "type": "case_study",
+    "title": "Self-healing agentic web scraper with browser-use and Playwright",
+    "summary": "Delivered Self-healing agentic web scraper with browser-use and Playwright in SaaS industry utilizing Vector Databases, LangGraph, vLLM, HuggingFace.",
+    "skills": [
+      "Vector Databases",
+      "LangGraph",
+      "vLLM",
+      "HuggingFace"
+    ],
+    "outcome": "Successful delivery with 43% measurable performance gain.",
+    "source": "case_studies/case-ai_-010.md",
+    "client_industry": "SaaS",
+    "date": "2025-09-15"
+  },
+  {
+    "evidence_id": "case-ai_-011",
+    "persona_id": "persona_ai_engineer",
+    "type": "case_study",
+    "title": "Customer churn classification with scikit-learn & LightGBM",
+    "summary": "Delivered Customer churn classification with scikit-learn & LightGBM in SaaS industry utilizing HuggingFace, FastAPI, RAG, Fine-tuning.",
+    "skills": [
+      "HuggingFace",
+      "FastAPI",
+      "RAG",
+      "Fine-tuning"
+    ],
+    "outcome": "Successful delivery with 35% measurable performance gain.",
+    "source": "case_studies/case-ai_-011.md",
+    "client_industry": "SaaS",
+    "date": "2025-02-15"
+  },
+  {
+    "evidence_id": "case-ai_-012",
+    "persona_id": "persona_ai_engineer",
+    "type": "case_study",
+    "title": "Multi-Agent LangGraph orchestration for automated contract review",
+    "summary": "Delivered Multi-Agent LangGraph orchestration for automated contract review in HealthTech industry utilizing Python, PyTorch, LangChain, Vector Databases.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "LangChain",
+      "Vector Databases"
+    ],
+    "outcome": "Successful delivery with 32% measurable performance gain.",
+    "source": "case_studies/case-ai_-012.md",
+    "client_industry": "HealthTech",
+    "date": "2025-07-15"
+  },
+  {
+    "evidence_id": "case-ai_-013",
+    "persona_id": "persona_ai_engineer",
+    "type": "case_study",
+    "title": "Production RAG pipeline with Qdrant, hybrid search and BGE reranking",
+    "summary": "Delivered Production RAG pipeline with Qdrant, hybrid search and BGE reranking in FinTech industry utilizing Fine-tuning, vLLM, FastAPI, HuggingFace.",
+    "skills": [
+      "Fine-tuning",
+      "vLLM",
+      "FastAPI",
+      "HuggingFace"
+    ],
+    "outcome": "Successful delivery with 44% measurable performance gain.",
+    "source": "case_studies/case-ai_-013.md",
+    "client_industry": "FinTech",
+    "date": "2025-05-15"
+  },
+  {
+    "evidence_id": "case-ai_-014",
+    "persona_id": "persona_ai_engineer",
+    "type": "case_study",
+    "title": "Local LLM deployment using vLLM and TensorRT-LLM on AWS EC2",
+    "summary": "Delivered Local LLM deployment using vLLM and TensorRT-LLM on AWS EC2 in HealthTech industry utilizing Vector Databases, PyTorch, FastAPI, LangGraph.",
+    "skills": [
+      "Vector Databases",
+      "PyTorch",
+      "FastAPI",
+      "LangGraph"
+    ],
+    "outcome": "Successful delivery with 44% measurable performance gain.",
+    "source": "case_studies/case-ai_-014.md",
+    "client_industry": "HealthTech",
+    "date": "2025-03-15"
+  },
+  {
+    "evidence_id": "case-ai_-015",
+    "persona_id": "persona_ai_engineer",
+    "type": "case_study",
+    "title": "Fine-tuning Llama-3 8B with LoRA/QLoRA on domain legal corpora",
+    "summary": "Delivered Fine-tuning Llama-3 8B with LoRA/QLoRA on domain legal corpora in LegalTech industry utilizing HuggingFace, PyTorch, FastAPI, RAG.",
+    "skills": [
+      "HuggingFace",
+      "PyTorch",
+      "FastAPI",
+      "RAG"
+    ],
+    "outcome": "Successful delivery with 44% measurable performance gain.",
+    "source": "case_studies/case-ai_-015.md",
+    "client_industry": "LegalTech",
+    "date": "2025-03-15"
+  },
+  {
+    "evidence_id": "case-ai_-016",
+    "persona_id": "persona_ai_engineer",
+    "type": "case_study",
+    "title": "Real-time fraud detection streaming pipeline with Kafka and PyTorch",
+    "summary": "Delivered Real-time fraud detection streaming pipeline with Kafka and PyTorch in E-Commerce industry utilizing HuggingFace, Fine-tuning, Python, FastAPI.",
+    "skills": [
+      "HuggingFace",
+      "Fine-tuning",
+      "Python",
+      "FastAPI"
+    ],
+    "outcome": "Successful delivery with 48% measurable performance gain.",
+    "source": "case_studies/case-ai_-016.md",
+    "client_industry": "E-Commerce",
+    "date": "2025-05-15"
+  },
+  {
+    "evidence_id": "case-ai_-017",
+    "persona_id": "persona_ai_engineer",
+    "type": "case_study",
+    "title": "Medical entity recognition with clinical BERT and spaCy",
+    "summary": "Delivered Medical entity recognition with clinical BERT and spaCy in FinTech industry utilizing LangGraph, Python, Fine-tuning, FastAPI.",
+    "skills": [
+      "LangGraph",
+      "Python",
+      "Fine-tuning",
+      "FastAPI"
+    ],
+    "outcome": "Successful delivery with 44% measurable performance gain.",
+    "source": "case_studies/case-ai_-017.md",
+    "client_industry": "FinTech",
+    "date": "2025-03-15"
+  },
+  {
+    "evidence_id": "case-ai_-018",
+    "persona_id": "persona_ai_engineer",
+    "type": "case_study",
+    "title": "Semantic search engine across 2M e-commerce product catalogs",
+    "summary": "Delivered Semantic search engine across 2M e-commerce product catalogs in LegalTech industry utilizing LangChain, vLLM, Fine-tuning, HuggingFace.",
+    "skills": [
+      "LangChain",
+      "vLLM",
+      "Fine-tuning",
+      "HuggingFace"
+    ],
+    "outcome": "Successful delivery with 49% measurable performance gain.",
+    "source": "case_studies/case-ai_-018.md",
+    "client_industry": "LegalTech",
+    "date": "2025-09-15"
+  },
+  {
+    "evidence_id": "case-ai_-019",
+    "persona_id": "persona_ai_engineer",
+    "type": "case_study",
+    "title": "Audio transcription and diarization copilot using Whisper",
+    "summary": "Delivered Audio transcription and diarization copilot using Whisper in E-Commerce industry utilizing LangGraph, FastAPI, RAG, Vector Databases.",
+    "skills": [
+      "LangGraph",
+      "FastAPI",
+      "RAG",
+      "Vector Databases"
+    ],
+    "outcome": "Successful delivery with 27% measurable performance gain.",
+    "source": "case_studies/case-ai_-019.md",
+    "client_industry": "E-Commerce",
+    "date": "2025-04-15"
+  },
+  {
+    "evidence_id": "case-ai_-020",
+    "persona_id": "persona_ai_engineer",
+    "type": "case_study",
+    "title": "Self-healing agentic web scraper with browser-use and Playwright",
+    "summary": "Delivered Self-healing agentic web scraper with browser-use and Playwright in LegalTech industry utilizing PyTorch, Vector Databases, Python, FastAPI.",
+    "skills": [
+      "PyTorch",
+      "Vector Databases",
+      "Python",
+      "FastAPI"
+    ],
+    "outcome": "Successful delivery with 22% measurable performance gain.",
+    "source": "case_studies/case-ai_-020.md",
+    "client_industry": "LegalTech",
+    "date": "2025-12-15"
+  },
+  {
+    "evidence_id": "repo-ai_-1",
+    "persona_id": "persona_ai_engineer",
+    "type": "repo",
+    "title": "Open Source Repo: repo-ai_-1",
+    "summary": "Production reference architecture demonstrating Python, LangGraph, PyTorch.",
+    "skills": [
+      "Python",
+      "LangGraph",
+      "PyTorch"
+    ],
+    "outcome": "Maintained repository with 150+ GitHub stars.",
+    "source": "repos/repo-ai_-1_README.md",
+    "client_industry": "Open Source",
+    "date": "2025-06-01"
+  },
+  {
+    "evidence_id": "repo-ai_-2",
+    "persona_id": "persona_ai_engineer",
+    "type": "repo",
+    "title": "Open Source Repo: repo-ai_-2",
+    "summary": "Production reference architecture demonstrating Python, Vector Databases, PyTorch.",
+    "skills": [
+      "Python",
+      "Vector Databases",
+      "PyTorch"
+    ],
+    "outcome": "Maintained repository with 150+ GitHub stars.",
+    "source": "repos/repo-ai_-2_README.md",
+    "client_industry": "Open Source",
+    "date": "2025-06-01"
+  },
+  {
+    "evidence_id": "repo-ai_-3",
+    "persona_id": "persona_ai_engineer",
+    "type": "repo",
+    "title": "Open Source Repo: repo-ai_-3",
+    "summary": "Production reference architecture demonstrating HuggingFace, LangGraph, FastAPI.",
+    "skills": [
+      "HuggingFace",
+      "LangGraph",
+      "FastAPI"
+    ],
+    "outcome": "Maintained repository with 150+ GitHub stars.",
+    "source": "repos/repo-ai_-3_README.md",
+    "client_industry": "Open Source",
+    "date": "2025-06-01"
+  },
+  {
+    "evidence_id": "repo-ai_-4",
+    "persona_id": "persona_ai_engineer",
+    "type": "repo",
+    "title": "Open Source Repo: repo-ai_-4",
+    "summary": "Production reference architecture demonstrating vLLM, LangGraph, LangChain.",
+    "skills": [
+      "vLLM",
+      "LangGraph",
+      "LangChain"
+    ],
+    "outcome": "Maintained repository with 150+ GitHub stars.",
+    "source": "repos/repo-ai_-4_README.md",
+    "client_industry": "Open Source",
+    "date": "2025-06-01"
+  },
+  {
+    "evidence_id": "repo-ai_-5",
+    "persona_id": "persona_ai_engineer",
+    "type": "repo",
+    "title": "Open Source Repo: repo-ai_-5",
+    "summary": "Production reference architecture demonstrating Fine-tuning, vLLM, LangGraph.",
+    "skills": [
+      "Fine-tuning",
+      "vLLM",
+      "LangGraph"
+    ],
+    "outcome": "Maintained repository with 150+ GitHub stars.",
+    "source": "repos/repo-ai_-5_README.md",
+    "client_industry": "Open Source",
+    "date": "2025-06-01"
+  }
+]

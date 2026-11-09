@@ -1,0 +1,1752 @@
+[
+  {
+    "proposal_id": "prop-ful-001",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "React",
+      "Tailwind CSS"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building React pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-002",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "Docker",
+      "TypeScript"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Docker and TypeScript. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-003",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "Next.js",
+      "Redis"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Next.js and Redis. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-004",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "Next.js",
+      "React"
+    ],
+    "text": "Hello. For your Next.js deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with React within 10 days. Here is my portfolio case study: case-ful-004.",
+    "evidence_cited": [
+      "case-ful-004"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-005",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "Docker",
+      "FastAPI"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Docker and FastAPI. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-006",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "PostgreSQL",
+      "Redis"
+    ],
+    "text": "Hello. For your PostgreSQL deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Redis within 10 days. Here is my portfolio case study: case-ful-006.",
+    "evidence_cited": [
+      "case-ful-006"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-007",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "React",
+      "PostgreSQL"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in React and PostgreSQL. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-008",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "Tailwind CSS",
+      "Redis"
+    ],
+    "text": "Hello. For your Tailwind CSS deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Redis within 10 days. Here is my portfolio case study: case-ful-008.",
+    "evidence_cited": [
+      "case-ful-008"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-009",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "PostgreSQL",
+      "Docker"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in PostgreSQL and Docker. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-010",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "Tailwind CSS",
+      "TypeScript"
+    ],
+    "text": "Hello. For your Tailwind CSS deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with TypeScript within 10 days. Here is my portfolio case study: case-ful-010.",
+    "evidence_cited": [
+      "case-ful-010"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-011",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "GraphQL",
+      "React"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building GraphQL pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-012",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "Node.js",
+      "FastAPI"
+    ],
+    "text": "Hello. For your Node.js deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with FastAPI within 10 days. Here is my portfolio case study: case-ful-012.",
+    "evidence_cited": [
+      "case-ful-012"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-013",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "Node.js",
+      "React"
+    ],
+    "text": "Hello. For your Node.js deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with React within 10 days. Here is my portfolio case study: case-ful-013.",
+    "evidence_cited": [
+      "case-ful-013"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-014",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "Redis",
+      "React"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Redis pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-015",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "React",
+      "Docker"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in React and Docker. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-016",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "Next.js",
+      "FastAPI"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Next.js and FastAPI. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-017",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "TypeScript",
+      "GraphQL"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building TypeScript pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-018",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "PostgreSQL",
+      "TypeScript"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in PostgreSQL and TypeScript. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-019",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "FastAPI",
+      "PostgreSQL"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in FastAPI and PostgreSQL. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-020",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "PostgreSQL",
+      "Redis"
+    ],
+    "text": "Hello. For your PostgreSQL deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Redis within 10 days. Here is my portfolio case study: case-ful-020.",
+    "evidence_cited": [
+      "case-ful-020"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-021",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "Next.js",
+      "Node.js"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Next.js pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-022",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "Tailwind CSS",
+      "Redis"
+    ],
+    "text": "Hello. For your Tailwind CSS deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Redis within 10 days. Here is my portfolio case study: repo-ful-2.",
+    "evidence_cited": [
+      "repo-ful-2"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-023",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "GraphQL",
+      "Next.js"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building GraphQL pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-024",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "Next.js",
+      "GraphQL"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Next.js and GraphQL. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-025",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "React",
+      "Redis"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building React pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-026",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "GraphQL",
+      "Node.js"
+    ],
+    "text": "Hello. For your GraphQL deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Node.js within 10 days. Here is my portfolio case study: case-ful-001.",
+    "evidence_cited": [
+      "case-ful-001"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-027",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "Docker",
+      "Next.js"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Docker pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-028",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "Node.js",
+      "Docker"
+    ],
+    "text": "Hello. For your Node.js deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Docker within 10 days. Here is my portfolio case study: case-ful-003.",
+    "evidence_cited": [
+      "case-ful-003"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-029",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "FastAPI",
+      "Docker"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building FastAPI pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-030",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "FastAPI",
+      "TypeScript"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in FastAPI and TypeScript. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-031",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "Docker",
+      "FastAPI"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Docker and FastAPI. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-032",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "Tailwind CSS",
+      "Next.js"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Tailwind CSS pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-033",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "React",
+      "Docker"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in React and Docker. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-034",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "PostgreSQL",
+      "FastAPI"
+    ],
+    "text": "Hello. For your PostgreSQL deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with FastAPI within 10 days. Here is my portfolio case study: case-ful-009.",
+    "evidence_cited": [
+      "case-ful-009"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-035",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "Redis",
+      "FastAPI"
+    ],
+    "text": "Hello. For your Redis deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with FastAPI within 10 days. Here is my portfolio case study: case-ful-010.",
+    "evidence_cited": [
+      "case-ful-010"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-036",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "Docker",
+      "FastAPI"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Docker and FastAPI. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-037",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "Node.js",
+      "Redis"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Node.js pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-038",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "Docker",
+      "React"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Docker pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-039",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "Node.js",
+      "Redis"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Node.js and Redis. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-040",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "GraphQL",
+      "PostgreSQL"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in GraphQL and PostgreSQL. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-041",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "GraphQL",
+      "FastAPI"
+    ],
+    "text": "Hello. For your GraphQL deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with FastAPI within 10 days. Here is my portfolio case study: case-ful-016.",
+    "evidence_cited": [
+      "case-ful-016"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-042",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "FastAPI",
+      "TypeScript"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in FastAPI and TypeScript. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-043",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "Redis",
+      "FastAPI"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Redis pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-044",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "TypeScript",
+      "GraphQL"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in TypeScript and GraphQL. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-045",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "GraphQL",
+      "Docker"
+    ],
+    "text": "Hello. For your GraphQL deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Docker within 10 days. Here is my portfolio case study: case-ful-020.",
+    "evidence_cited": [
+      "case-ful-020"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-046",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "FastAPI",
+      "Node.js"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building FastAPI pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-047",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "GraphQL",
+      "PostgreSQL"
+    ],
+    "text": "Hello. For your GraphQL deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with PostgreSQL within 10 days. Here is my portfolio case study: repo-ful-2.",
+    "evidence_cited": [
+      "repo-ful-2"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-048",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "Node.js",
+      "GraphQL"
+    ],
+    "text": "Hello. For your Node.js deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with GraphQL within 10 days. Here is my portfolio case study: repo-ful-3.",
+    "evidence_cited": [
+      "repo-ful-3"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-049",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "GraphQL",
+      "FastAPI"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building GraphQL pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-050",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "Next.js",
+      "React"
+    ],
+    "text": "Hello. For your Next.js deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with React within 10 days. Here is my portfolio case study: repo-ful-5.",
+    "evidence_cited": [
+      "repo-ful-5"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-051",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "TypeScript",
+      "FastAPI"
+    ],
+    "text": "Hello. For your TypeScript deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with FastAPI within 10 days. Here is my portfolio case study: case-ful-001.",
+    "evidence_cited": [
+      "case-ful-001"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-052",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "Docker",
+      "TypeScript"
+    ],
+    "text": "Hello. For your Docker deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with TypeScript within 10 days. Here is my portfolio case study: case-ful-002.",
+    "evidence_cited": [
+      "case-ful-002"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-053",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "GraphQL",
+      "PostgreSQL"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in GraphQL and PostgreSQL. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-054",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "Next.js",
+      "React"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Next.js pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-055",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "FastAPI",
+      "PostgreSQL"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building FastAPI pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-056",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "Redis",
+      "Next.js"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Redis pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-057",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "Node.js",
+      "Next.js"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Node.js and Next.js. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-058",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "Tailwind CSS",
+      "PostgreSQL"
+    ],
+    "text": "Hello. For your Tailwind CSS deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with PostgreSQL within 10 days. Here is my portfolio case study: case-ful-008.",
+    "evidence_cited": [
+      "case-ful-008"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-059",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "Tailwind CSS",
+      "GraphQL"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Tailwind CSS pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-060",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "FastAPI",
+      "Next.js"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in FastAPI and Next.js. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-061",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "FastAPI",
+      "Docker"
+    ],
+    "text": "Hello. For your FastAPI deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Docker within 10 days. Here is my portfolio case study: case-ful-011.",
+    "evidence_cited": [
+      "case-ful-011"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-062",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "FastAPI",
+      "PostgreSQL"
+    ],
+    "text": "Hello. For your FastAPI deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with PostgreSQL within 10 days. Here is my portfolio case study: case-ful-012.",
+    "evidence_cited": [
+      "case-ful-012"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-063",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "React",
+      "Docker"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building React pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-064",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "React",
+      "Next.js"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in React and Next.js. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-065",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "Node.js",
+      "Redis"
+    ],
+    "text": "Hello. For your Node.js deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Redis within 10 days. Here is my portfolio case study: case-ful-015.",
+    "evidence_cited": [
+      "case-ful-015"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-066",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "Tailwind CSS",
+      "PostgreSQL"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Tailwind CSS pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-067",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "React",
+      "Redis"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building React pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-068",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "TypeScript",
+      "FastAPI"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in TypeScript and FastAPI. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-069",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "Tailwind CSS",
+      "React"
+    ],
+    "text": "Hello. For your Tailwind CSS deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with React within 10 days. Here is my portfolio case study: case-ful-019.",
+    "evidence_cited": [
+      "case-ful-019"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-070",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "Docker",
+      "PostgreSQL"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Docker and PostgreSQL. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-071",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "FastAPI",
+      "Redis"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building FastAPI pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-072",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "PostgreSQL",
+      "React"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building PostgreSQL pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-073",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "Node.js",
+      "Docker"
+    ],
+    "text": "Hello. For your Node.js deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Docker within 10 days. Here is my portfolio case study: repo-ful-3.",
+    "evidence_cited": [
+      "repo-ful-3"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-074",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building TypeScript pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-075",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "PostgreSQL",
+      "Node.js"
+    ],
+    "text": "Hello. For your PostgreSQL deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Node.js within 10 days. Here is my portfolio case study: repo-ful-5.",
+    "evidence_cited": [
+      "repo-ful-5"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-076",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "React",
+      "Docker"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in React and Docker. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-077",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "FastAPI",
+      "Redis"
+    ],
+    "text": "Hello. For your FastAPI deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Redis within 10 days. Here is my portfolio case study: case-ful-002.",
+    "evidence_cited": [
+      "case-ful-002"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-078",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "React",
+      "Next.js"
+    ],
+    "text": "Hello. For your React deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Next.js within 10 days. Here is my portfolio case study: case-ful-003.",
+    "evidence_cited": [
+      "case-ful-003"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-079",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "TypeScript",
+      "GraphQL"
+    ],
+    "text": "Hello. For your TypeScript deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with GraphQL within 10 days. Here is my portfolio case study: case-ful-004.",
+    "evidence_cited": [
+      "case-ful-004"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-080",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "FastAPI",
+      "Docker"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building FastAPI pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-081",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "React",
+      "GraphQL"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building React pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-082",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "Node.js",
+      "Tailwind CSS"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Node.js and Tailwind CSS. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-083",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "Next.js",
+      "Redis"
+    ],
+    "text": "Hello. For your Next.js deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Redis within 10 days. Here is my portfolio case study: case-ful-008.",
+    "evidence_cited": [
+      "case-ful-008"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-084",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "Docker",
+      "PostgreSQL"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Docker and PostgreSQL. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-085",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "Tailwind CSS",
+      "Redis"
+    ],
+    "text": "Hello. For your Tailwind CSS deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Redis within 10 days. Here is my portfolio case study: case-ful-010.",
+    "evidence_cited": [
+      "case-ful-010"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-086",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "GraphQL",
+      "Next.js"
+    ],
+    "text": "Hello. For your GraphQL deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Next.js within 10 days. Here is my portfolio case study: case-ful-011.",
+    "evidence_cited": [
+      "case-ful-011"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-087",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "Redis",
+      "React"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Redis pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-088",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "Docker",
+      "Redis"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Docker pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-089",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "FastAPI",
+      "TypeScript"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building FastAPI pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-090",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "PostgreSQL",
+      "Node.js"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in PostgreSQL and Node.js. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-091",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "Docker",
+      "GraphQL"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Docker pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-092",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Node.js and PostgreSQL. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-093",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "React",
+      "PostgreSQL"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building React pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-094",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "Tailwind CSS",
+      "PostgreSQL"
+    ],
+    "text": "Hello. For your Tailwind CSS deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with PostgreSQL within 10 days. Here is my portfolio case study: case-ful-019.",
+    "evidence_cited": [
+      "case-ful-019"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-095",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "TypeScript",
+      "Redis"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in TypeScript and Redis. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-096",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "FastAPI",
+      "Node.js"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in FastAPI and Node.js. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-097",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "React",
+      "Docker"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building React pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-098",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "React",
+      "Node.js"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building React pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-099",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "GraphQL",
+      "TypeScript"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in GraphQL and TypeScript. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-100",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "text": "Hello. For your TypeScript deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with PostgreSQL within 10 days. Here is my portfolio case study: repo-ful-5.",
+    "evidence_cited": [
+      "repo-ful-5"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-101",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "Node.js",
+      "Next.js"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Node.js pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-102",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "GraphQL",
+      "Node.js"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in GraphQL and Node.js. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-103",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "React",
+      "Tailwind CSS"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building React pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-104",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "Node.js",
+      "GraphQL"
+    ],
+    "text": "Hello. For your Node.js deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with GraphQL within 10 days. Here is my portfolio case study: case-ful-004.",
+    "evidence_cited": [
+      "case-ful-004"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-105",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Node.js and PostgreSQL. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-106",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "Next.js",
+      "TypeScript"
+    ],
+    "text": "Hello. For your Next.js deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with TypeScript within 10 days. Here is my portfolio case study: case-ful-006.",
+    "evidence_cited": [
+      "case-ful-006"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-107",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "FastAPI",
+      "Next.js"
+    ],
+    "text": "Hello. For your FastAPI deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Next.js within 10 days. Here is my portfolio case study: case-ful-007.",
+    "evidence_cited": [
+      "case-ful-007"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-108",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "Next.js",
+      "Tailwind CSS"
+    ],
+    "text": "Hello. For your Next.js deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Tailwind CSS within 10 days. Here is my portfolio case study: case-ful-008.",
+    "evidence_cited": [
+      "case-ful-008"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-109",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "FastAPI",
+      "Next.js"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in FastAPI and Next.js. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-110",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "React",
+      "TypeScript"
+    ],
+    "text": "Hello. For your React deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with TypeScript within 10 days. Here is my portfolio case study: case-ful-010.",
+    "evidence_cited": [
+      "case-ful-010"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-111",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "Next.js",
+      "TypeScript"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Next.js pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-112",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "PostgreSQL",
+      "Node.js"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building PostgreSQL pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-113",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "GraphQL",
+      "PostgreSQL"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in GraphQL and PostgreSQL. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-114",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "TypeScript",
+      "Next.js"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building TypeScript pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-115",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "FastAPI",
+      "TypeScript"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building FastAPI pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-116",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "Next.js",
+      "Redis"
+    ],
+    "text": "Hello. For your Next.js deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Redis within 10 days. Here is my portfolio case study: case-ful-016.",
+    "evidence_cited": [
+      "case-ful-016"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-117",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "Tailwind CSS",
+      "React"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Tailwind CSS pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-118",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "React",
+      "Docker"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building React pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-119",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "Docker",
+      "PostgreSQL"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Docker and PostgreSQL. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-120",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "Tailwind CSS",
+      "React"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Tailwind CSS and React. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-121",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "Docker",
+      "Tailwind CSS"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Docker and Tailwind CSS. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-122",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "Node.js",
+      "TypeScript"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Node.js and TypeScript. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-123",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "Tailwind CSS",
+      "FastAPI"
+    ],
+    "text": "Hello. For your Tailwind CSS deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with FastAPI within 10 days. Here is my portfolio case study: repo-ful-3.",
+    "evidence_cited": [
+      "repo-ful-3"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-124",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "Docker",
+      "TypeScript"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Docker pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-125",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "TypeScript",
+      "Docker"
+    ],
+    "text": "Hello. For your TypeScript deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Docker within 10 days. Here is my portfolio case study: repo-ful-5.",
+    "evidence_cited": [
+      "repo-ful-5"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-126",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "Redis",
+      "GraphQL"
+    ],
+    "text": "Hello. For your Redis deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with GraphQL within 10 days. Here is my portfolio case study: case-ful-001.",
+    "evidence_cited": [
+      "case-ful-001"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-127",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "React",
+      "Docker"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building React pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-128",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "Docker",
+      "React"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Docker pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-129",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "React",
+      "PostgreSQL"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in React and PostgreSQL. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-130",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "GraphQL",
+      "Next.js"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in GraphQL and Next.js. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-131",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "React",
+      "Next.js"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in React and Next.js. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-132",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "FastAPI",
+      "Tailwind CSS"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in FastAPI and Tailwind CSS. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-133",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "PostgreSQL",
+      "Redis"
+    ],
+    "text": "Hello. For your PostgreSQL deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Redis within 10 days. Here is my portfolio case study: case-ful-008.",
+    "evidence_cited": [
+      "case-ful-008"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-134",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "GraphQL",
+      "Tailwind CSS"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building GraphQL pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-135",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "FastAPI",
+      "Docker"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in FastAPI and Docker. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-136",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "Tailwind CSS",
+      "Redis"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Tailwind CSS and Redis. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-137",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "React",
+      "GraphQL"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in React and GraphQL. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-138",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "Tailwind CSS",
+      "Node.js"
+    ],
+    "text": "Hello. For your Tailwind CSS deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Node.js within 10 days. Here is my portfolio case study: case-ful-013.",
+    "evidence_cited": [
+      "case-ful-013"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-139",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "Redis",
+      "Docker"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Redis and Docker. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-140",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "Node.js",
+      "Redis"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Node.js pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-141",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "PostgreSQL",
+      "Docker"
+    ],
+    "text": "Hello. For your PostgreSQL deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Docker within 10 days. Here is my portfolio case study: case-ful-016.",
+    "evidence_cited": [
+      "case-ful-016"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-142",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "Redis",
+      "GraphQL"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Redis pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-143",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "React",
+      "PostgreSQL"
+    ],
+    "text": "Hello. For your React deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with PostgreSQL within 10 days. Here is my portfolio case study: case-ful-018.",
+    "evidence_cited": [
+      "case-ful-018"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-144",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "Redis",
+      "PostgreSQL"
+    ],
+    "text": "Hello. For your Redis deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with PostgreSQL within 10 days. Here is my portfolio case study: case-ful-019.",
+    "evidence_cited": [
+      "case-ful-019"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-145",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "FastAPI",
+      "PostgreSQL"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building FastAPI pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-146",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "replied",
+    "skills": [
+      "Next.js",
+      "Docker"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Next.js pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-147",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "React",
+      "GraphQL"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in React and GraphQL. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ful-148",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "React",
+      "GraphQL"
+    ],
+    "text": "Hello. For your React deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with GraphQL within 10 days. Here is my portfolio case study: repo-ful-3.",
+    "evidence_cited": [
+      "repo-ful-3"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-149",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "won",
+    "skills": [
+      "Redis",
+      "React"
+    ],
+    "text": "Hello. For your Redis deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with React within 10 days. Here is my portfolio case study: repo-ful-4.",
+    "evidence_cited": [
+      "repo-ful-4"
+    ]
+  },
+  {
+    "proposal_id": "prop-ful-150",
+    "persona_id": "persona_fullstack_dev",
+    "outcome": "ignored",
+    "skills": [
+      "PostgreSQL",
+      "Next.js"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in PostgreSQL and Next.js. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  }
+]

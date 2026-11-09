@@ -1,0 +1,1490 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "GigBid Freelancer Copilot API",
+    "description": "Multi-Agent Freelancer Copilot API for AI-4016 R&D Assignment.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/auth/me": {
+      "get": {
+        "tags": [
+          "auth"
+        ],
+        "summary": "Get Current User",
+        "operationId": "get_current_user_auth_me_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserProfile"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/auth/onboarding": {
+      "post": {
+        "tags": [
+          "auth"
+        ],
+        "summary": "Onboard User",
+        "operationId": "onboard_user_auth_onboarding_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OnboardingRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserProfile"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/auth/switch_persona/{persona_key}": {
+      "post": {
+        "tags": [
+          "auth"
+        ],
+        "summary": "Switch Persona",
+        "operationId": "switch_persona_auth_switch_persona__persona_key__post",
+        "parameters": [
+          {
+            "name": "persona_key",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Persona Key"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserProfile"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/jobs": {
+      "get": {
+        "tags": [
+          "jobs"
+        ],
+        "summary": "Get Inbox Jobs",
+        "operationId": "get_inbox_jobs_jobs_get",
+        "parameters": [
+          {
+            "name": "query",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Query"
+            }
+          },
+          {
+            "name": "filter_action",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Filter Action"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "default": 40,
+              "title": "Limit"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/JobSummary"
+                  },
+                  "title": "Response Get Inbox Jobs Jobs Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/jobs/{job_id}": {
+      "get": {
+        "tags": [
+          "jobs"
+        ],
+        "summary": "Get Job Detail",
+        "operationId": "get_job_detail_jobs__job_id__get",
+        "parameters": [
+          {
+            "name": "job_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Job Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JobDetailResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proposals/studio/{job_id}": {
+      "get": {
+        "tags": [
+          "proposals"
+        ],
+        "summary": "Get Proposal Studio",
+        "operationId": "get_proposal_studio_proposals_studio__job_id__get",
+        "parameters": [
+          {
+            "name": "job_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Job Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProposalStudioResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proposals/studio/{job_id}/regenerate_paragraph": {
+      "post": {
+        "tags": [
+          "proposals"
+        ],
+        "summary": "Regenerate Paragraph",
+        "operationId": "regenerate_paragraph_proposals_studio__job_id__regenerate_paragraph_post",
+        "parameters": [
+          {
+            "name": "job_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Job Id"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegenerateParagraphRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/approvals": {
+      "get": {
+        "tags": [
+          "approvals"
+        ],
+        "summary": "List Pending Approvals",
+        "description": "Lists all current interrupted threads awaiting human approval.",
+        "operationId": "list_pending_approvals_approvals_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/approvals/action": {
+      "post": {
+        "tags": [
+          "approvals"
+        ],
+        "summary": "Execute Approval Action",
+        "description": "Resumes an interrupted graph thread with the user's decision:\n- approved: submits proposal with idempotency key\n- edited: saves diff to Style Memory, re-checks compliance, submits\n- rejected: registers rejection reason",
+        "operationId": "execute_approval_action_approvals_action_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ApprovalActionRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/messages": {
+      "get": {
+        "tags": [
+          "messages"
+        ],
+        "summary": "List Threads",
+        "operationId": "list_threads_messages_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/MessageThread"
+                  },
+                  "type": "array",
+                  "title": "Response List Threads Messages Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/messages/{thread_id}": {
+      "get": {
+        "tags": [
+          "messages"
+        ],
+        "summary": "Get Thread",
+        "operationId": "get_thread_messages__thread_id__get",
+        "parameters": [
+          {
+            "name": "thread_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Thread Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MessageThread"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/messages/{thread_id}/send": {
+      "post": {
+        "tags": [
+          "messages"
+        ],
+        "summary": "Send Client Reply",
+        "operationId": "send_client_reply_messages__thread_id__send_post",
+        "parameters": [
+          {
+            "name": "thread_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Thread Id"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SendMessageRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/runs": {
+      "get": {
+        "tags": [
+          "runs"
+        ],
+        "summary": "List Runs",
+        "operationId": "list_runs_runs_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/runs/stream/{job_id}": {
+      "get": {
+        "tags": [
+          "runs"
+        ],
+        "summary": "Stream Job Run",
+        "description": "Streams live LangGraph node-by-node updates for a job via Server-Sent Events.",
+        "operationId": "stream_job_run_runs_stream__job_id__get",
+        "parameters": [
+          {
+            "name": "job_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Job Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/runs/{run_id}/trace": {
+      "get": {
+        "tags": [
+          "runs"
+        ],
+        "summary": "Get Run Trace",
+        "operationId": "get_run_trace_runs__run_id__trace_get",
+        "parameters": [
+          {
+            "name": "run_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Run Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/analytics/overview": {
+      "get": {
+        "tags": [
+          "analytics"
+        ],
+        "summary": "Get Analytics Overview",
+        "operationId": "get_analytics_overview_analytics_overview_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AnalyticsOverview"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/analytics/pipeline": {
+      "get": {
+        "tags": [
+          "analytics"
+        ],
+        "summary": "Get Pipeline Cards",
+        "operationId": "get_pipeline_cards_analytics_pipeline_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/PipelineCard"
+                  },
+                  "type": "array",
+                  "title": "Response Get Pipeline Cards Analytics Pipeline Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/settings": {
+      "get": {
+        "tags": [
+          "settings"
+        ],
+        "summary": "Get Settings",
+        "operationId": "get_settings_settings_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SettingsResponse"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "settings"
+        ],
+        "summary": "Update Settings",
+        "operationId": "update_settings_settings_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateSettingsRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/settings/memory/{rule_id}": {
+      "delete": {
+        "tags": [
+          "settings"
+        ],
+        "summary": "Delete Memory Rule",
+        "description": "Deletes a learned style memory rule from the persistent store.",
+        "operationId": "delete_memory_rule_settings_memory__rule_id__delete",
+        "parameters": [
+          {
+            "name": "rule_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Rule Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/health": {
+      "get": {
+        "summary": "Health",
+        "operationId": "health_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AnalyticsOverview": {
+        "properties": {
+          "total_jobs_scouted": {
+            "type": "integer",
+            "title": "Total Jobs Scouted"
+          },
+          "total_proposals_submitted": {
+            "type": "integer",
+            "title": "Total Proposals Submitted"
+          },
+          "reply_rate_percentage": {
+            "type": "number",
+            "title": "Reply Rate Percentage"
+          },
+          "hire_rate_percentage": {
+            "type": "number",
+            "title": "Hire Rate Percentage"
+          },
+          "connects_spent_total": {
+            "type": "integer",
+            "title": "Connects Spent Total"
+          },
+          "average_cost_per_proposal_usd": {
+            "type": "number",
+            "title": "Average Cost Per Proposal Usd"
+          },
+          "p95_latency_ms": {
+            "type": "number",
+            "title": "P95 Latency Ms"
+          },
+          "rejection_taxonomy": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "type": "array",
+            "title": "Rejection Taxonomy"
+          },
+          "outcomes_by_category": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "type": "array",
+            "title": "Outcomes By Category"
+          }
+        },
+        "type": "object",
+        "required": [
+          "total_jobs_scouted",
+          "total_proposals_submitted",
+          "reply_rate_percentage",
+          "hire_rate_percentage",
+          "connects_spent_total",
+          "average_cost_per_proposal_usd",
+          "p95_latency_ms",
+          "rejection_taxonomy",
+          "outcomes_by_category"
+        ],
+        "title": "AnalyticsOverview"
+      },
+      "ApprovalActionRequest": {
+        "properties": {
+          "thread_id": {
+            "type": "string",
+            "title": "Thread Id"
+          },
+          "action": {
+            "type": "string",
+            "enum": [
+              "approved",
+              "edited",
+              "rejected"
+            ],
+            "title": "Action"
+          },
+          "edited_text": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Edited Text"
+          },
+          "reason": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Reason"
+          }
+        },
+        "type": "object",
+        "required": [
+          "thread_id",
+          "action"
+        ],
+        "title": "ApprovalActionRequest"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "JobDetailResponse": {
+        "properties": {
+          "job_id": {
+            "type": "string",
+            "title": "Job Id"
+          },
+          "title": {
+            "type": "string",
+            "title": "Title"
+          },
+          "description": {
+            "type": "string",
+            "title": "Description"
+          },
+          "deliverables": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Deliverables"
+          },
+          "required_skills": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Required Skills"
+          },
+          "implied_skills": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Implied Skills"
+          },
+          "budget_min": {
+            "type": "number",
+            "title": "Budget Min"
+          },
+          "budget_max": {
+            "type": "number",
+            "title": "Budget Max"
+          },
+          "connects_cost": {
+            "type": "integer",
+            "title": "Connects Cost"
+          },
+          "fit_score": {
+            "type": "number",
+            "title": "Fit Score"
+          },
+          "risk_score": {
+            "type": "number",
+            "title": "Risk Score"
+          },
+          "recommended_action": {
+            "type": "string",
+            "title": "Recommended Action"
+          },
+          "bid_or_skip_reason": {
+            "type": "string",
+            "title": "Bid Or Skip Reason"
+          },
+          "price_rationale": {
+            "type": "string",
+            "title": "Price Rationale"
+          },
+          "proposed_bid": {
+            "type": "number",
+            "title": "Proposed Bid"
+          },
+          "warning_signals": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Warning Signals"
+          },
+          "requirement_evidence_matrix": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "type": "array",
+            "title": "Requirement Evidence Matrix"
+          }
+        },
+        "type": "object",
+        "required": [
+          "job_id",
+          "title",
+          "description",
+          "deliverables",
+          "required_skills",
+          "implied_skills",
+          "budget_min",
+          "budget_max",
+          "connects_cost",
+          "fit_score",
+          "risk_score",
+          "recommended_action",
+          "bid_or_skip_reason",
+          "price_rationale",
+          "proposed_bid",
+          "warning_signals",
+          "requirement_evidence_matrix"
+        ],
+        "title": "JobDetailResponse"
+      },
+      "JobSummary": {
+        "properties": {
+          "job_id": {
+            "type": "string",
+            "title": "Job Id"
+          },
+          "title": {
+            "type": "string",
+            "title": "Title"
+          },
+          "description": {
+            "type": "string",
+            "title": "Description"
+          },
+          "required_skills": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Required Skills"
+          },
+          "budget_min": {
+            "type": "number",
+            "title": "Budget Min"
+          },
+          "budget_max": {
+            "type": "number",
+            "title": "Budget Max"
+          },
+          "connects_cost": {
+            "type": "integer",
+            "title": "Connects Cost"
+          },
+          "fit_score": {
+            "type": "number",
+            "title": "Fit Score"
+          },
+          "risk_score": {
+            "type": "number",
+            "title": "Risk Score"
+          },
+          "recommended_action": {
+            "type": "string",
+            "enum": [
+              "bid",
+              "skip",
+              "watch"
+            ],
+            "title": "Recommended Action"
+          },
+          "warning_signals": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Warning Signals"
+          },
+          "has_injection": {
+            "type": "boolean",
+            "title": "Has Injection",
+            "default": false
+          }
+        },
+        "type": "object",
+        "required": [
+          "job_id",
+          "title",
+          "description",
+          "required_skills",
+          "budget_min",
+          "budget_max",
+          "connects_cost",
+          "fit_score",
+          "risk_score",
+          "recommended_action"
+        ],
+        "title": "JobSummary"
+      },
+      "MessageThread": {
+        "properties": {
+          "thread_id": {
+            "type": "string",
+            "title": "Thread Id"
+          },
+          "client_id": {
+            "type": "string",
+            "title": "Client Id"
+          },
+          "messages": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "type": "array",
+            "title": "Messages"
+          },
+          "suggested_reply": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Suggested Reply"
+          },
+          "suggested_interview_slots": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Suggested Interview Slots"
+          },
+          "status": {
+            "type": "string",
+            "title": "Status"
+          }
+        },
+        "type": "object",
+        "required": [
+          "thread_id",
+          "client_id",
+          "messages",
+          "status"
+        ],
+        "title": "MessageThread"
+      },
+      "OnboardingRequest": {
+        "properties": {
+          "persona_key": {
+            "type": "string",
+            "title": "Persona Key"
+          },
+          "display_name": {
+            "type": "string",
+            "title": "Display Name"
+          },
+          "hourly_rate": {
+            "type": "number",
+            "title": "Hourly Rate"
+          },
+          "min_budget": {
+            "type": "number",
+            "title": "Min Budget"
+          },
+          "weekly_connects_budget": {
+            "type": "integer",
+            "title": "Weekly Connects Budget",
+            "default": 80
+          },
+          "marketplace_mode": {
+            "type": "string",
+            "title": "Marketplace Mode",
+            "default": "gigsim"
+          }
+        },
+        "type": "object",
+        "required": [
+          "persona_key",
+          "display_name",
+          "hourly_rate",
+          "min_budget"
+        ],
+        "title": "OnboardingRequest"
+      },
+      "PipelineCard": {
+        "properties": {
+          "card_id": {
+            "type": "string",
+            "title": "Card Id"
+          },
+          "job_id": {
+            "type": "string",
+            "title": "Job Id"
+          },
+          "title": {
+            "type": "string",
+            "title": "Title"
+          },
+          "client_id": {
+            "type": "string",
+            "title": "Client Id"
+          },
+          "stage": {
+            "type": "string",
+            "enum": [
+              "drafted",
+              "submitted",
+              "viewed",
+              "replied",
+              "interview",
+              "hired",
+              "lost"
+            ],
+            "title": "Stage"
+          },
+          "bid_amount": {
+            "type": "number",
+            "title": "Bid Amount"
+          },
+          "connects_spent": {
+            "type": "integer",
+            "title": "Connects Spent"
+          },
+          "updated_at": {
+            "type": "string",
+            "title": "Updated At"
+          }
+        },
+        "type": "object",
+        "required": [
+          "card_id",
+          "job_id",
+          "title",
+          "client_id",
+          "stage",
+          "bid_amount",
+          "connects_spent",
+          "updated_at"
+        ],
+        "title": "PipelineCard"
+      },
+      "ProposalStudioResponse": {
+        "properties": {
+          "thread_id": {
+            "type": "string",
+            "title": "Thread Id"
+          },
+          "job_id": {
+            "type": "string",
+            "title": "Job Id"
+          },
+          "cover_letter": {
+            "type": "string",
+            "title": "Cover Letter"
+          },
+          "claims_with_evidence": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "type": "array",
+            "title": "Claims With Evidence"
+          },
+          "screening_answers": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Screening Answers"
+          },
+          "critic_feedback": {
+            "type": "string",
+            "title": "Critic Feedback"
+          },
+          "compliance_explanation": {
+            "type": "string",
+            "title": "Compliance Explanation"
+          },
+          "is_compliant": {
+            "type": "boolean",
+            "title": "Is Compliant"
+          },
+          "dry_run_preview": {
+            "additionalProperties": true,
+            "type": "object",
+            "title": "Dry Run Preview"
+          },
+          "approval_status": {
+            "type": "string",
+            "title": "Approval Status"
+          }
+        },
+        "type": "object",
+        "required": [
+          "thread_id",
+          "job_id",
+          "cover_letter",
+          "claims_with_evidence",
+          "screening_answers",
+          "critic_feedback",
+          "compliance_explanation",
+          "is_compliant",
+          "dry_run_preview",
+          "approval_status"
+        ],
+        "title": "ProposalStudioResponse"
+      },
+      "RegenerateParagraphRequest": {
+        "properties": {
+          "paragraph_index": {
+            "type": "integer",
+            "title": "Paragraph Index"
+          },
+          "current_text": {
+            "type": "string",
+            "title": "Current Text"
+          },
+          "guidance": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Guidance"
+          }
+        },
+        "type": "object",
+        "required": [
+          "paragraph_index",
+          "current_text"
+        ],
+        "title": "RegenerateParagraphRequest"
+      },
+      "SendMessageRequest": {
+        "properties": {
+          "client_id": {
+            "type": "string",
+            "title": "Client Id"
+          },
+          "body": {
+            "type": "string",
+            "title": "Body"
+          },
+          "proposed_slots": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Proposed Slots"
+          }
+        },
+        "type": "object",
+        "required": [
+          "client_id",
+          "body"
+        ],
+        "title": "SendMessageRequest"
+      },
+      "SettingsResponse": {
+        "properties": {
+          "autonomy_level": {
+            "type": "string",
+            "title": "Autonomy Level"
+          },
+          "weekly_budget": {
+            "type": "integer",
+            "title": "Weekly Budget"
+          },
+          "saved_searches": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Saved Searches"
+          },
+          "connected_accounts": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "type": "array",
+            "title": "Connected Accounts"
+          },
+          "style_memory_rules": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "type": "array",
+            "title": "Style Memory Rules"
+          }
+        },
+        "type": "object",
+        "required": [
+          "autonomy_level",
+          "weekly_budget",
+          "saved_searches",
+          "connected_accounts",
+          "style_memory_rules"
+        ],
+        "title": "SettingsResponse"
+      },
+      "UpdateSettingsRequest": {
+        "properties": {
+          "autonomy_level": {
+            "type": "string",
+            "title": "Autonomy Level"
+          },
+          "weekly_budget": {
+            "type": "integer",
+            "title": "Weekly Budget"
+          }
+        },
+        "type": "object",
+        "required": [
+          "autonomy_level",
+          "weekly_budget"
+        ],
+        "title": "UpdateSettingsRequest"
+      },
+      "UserProfile": {
+        "properties": {
+          "user_id": {
+            "type": "string",
+            "title": "User Id"
+          },
+          "persona_key": {
+            "type": "string",
+            "title": "Persona Key",
+            "default": "ai_engineer"
+          },
+          "display_name": {
+            "type": "string",
+            "title": "Display Name"
+          },
+          "headline": {
+            "type": "string",
+            "title": "Headline"
+          },
+          "hourly_rate": {
+            "type": "number",
+            "title": "Hourly Rate"
+          },
+          "min_budget": {
+            "type": "number",
+            "title": "Min Budget"
+          },
+          "weekly_connects_budget": {
+            "type": "integer",
+            "title": "Weekly Connects Budget",
+            "default": 80
+          },
+          "marketplace_mode": {
+            "type": "string",
+            "title": "Marketplace Mode",
+            "default": "gigsim"
+          }
+        },
+        "type": "object",
+        "required": [
+          "user_id",
+          "display_name",
+          "headline",
+          "hourly_rate",
+          "min_budget"
+        ],
+        "title": "UserProfile"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "ctx": {
+            "type": "object",
+            "title": "Context"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      }
+    }
+  }
+}

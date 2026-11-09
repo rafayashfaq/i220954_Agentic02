@@ -1,0 +1,102 @@
+{
+  "calendar_holds": [
+    {
+      "hold_id": "cal-hold-cbc89a23",
+      "title": "Technical Discovery Call",
+      "slot": "2026-11-12T10:00:00Z",
+      "client_name": "Acme Health",
+      "status": "tentative",
+      "created_at": "2026-11-09T09:40:18.842021"
+    },
+    {
+      "hold_id": "cal-hold-553d81d0",
+      "title": "Technical Discovery Call",
+      "slot": "2026-11-12T10:00:00Z",
+      "client_name": "Acme Health",
+      "status": "tentative",
+      "created_at": "2026-11-09T10:28:08.602389"
+    },
+    {
+      "hold_id": "cal-hold-e906db61",
+      "title": "Technical Discovery Call",
+      "slot": "2026-11-12T10:00:00Z",
+      "client_name": "Acme Health",
+      "status": "tentative",
+      "created_at": "2026-11-09T10:48:51.922057"
+    },
+    {
+      "hold_id": "cal-hold-b58caa04",
+      "title": "Technical Discovery Call",
+      "slot": "2026-11-12T10:00:00Z",
+      "client_name": "Acme Health",
+      "status": "tentative",
+      "created_at": "2026-11-09T11:23:03.108423"
+    },
+    {
+      "hold_id": "cal-hold-9d080061",
+      "title": "Technical Discovery Call",
+      "slot": "2026-11-12T10:00:00Z",
+      "client_name": "Acme Health",
+      "status": "tentative",
+      "created_at": "2026-11-09T11:46:39.136733"
+    },
+    {
+      "hold_id": "cal-hold-abe9dcfe",
+      "title": "Technical Discovery Call",
+      "slot": "2026-11-12T10:00:00Z",
+      "client_name": "Acme Health",
+      "status": "tentative",
+      "created_at": "2026-11-09T13:17:23.867033"
+    }
+  ],
+  "email_drafts": [
+    {
+      "draft_id": "email-draft-bd3c7631",
+      "recipient": "hiring@techcorp.com",
+      "subject": "Clarification regarding deliverable timeline",
+      "body": "Hi, I reviewed your project scope...",
+      "status": "draft",
+      "created_at": "2026-11-09T09:40:18.863581"
+    },
+    {
+      "draft_id": "email-draft-5b659c59",
+      "recipient": "hiring@techcorp.com",
+      "subject": "Clarification regarding deliverable timeline",
+      "body": "Hi, I reviewed your project scope...",
+      "status": "draft",
+      "created_at": "2026-11-09T10:28:08.628480"
+    },
+    {
+      "draft_id": "email-draft-5c6d71c1",
+      "recipient": "hiring@techcorp.com",
+      "subject": "Clarification regarding deliverable timeline",
+      "body": "Hi, I reviewed your project scope...",
+      "status": "draft",
+      "created_at": "2026-11-09T10:48:51.943454"
+    },
+    {
+      "draft_id": "email-draft-222c1313",
+      "recipient": "hiring@techcorp.com",
+      "subject": "Clarification regarding deliverable timeline",
+      "body": "Hi, I reviewed your project scope...",
+      "status": "draft",
+      "created_at": "2026-11-09T11:23:03.127097"
+    },
+    {
+      "draft_id": "email-draft-6179a126",
+      "recipient": "hiring@techcorp.com",
+      "subject": "Clarification regarding deliverable timeline",
+      "body": "Hi, I reviewed your project scope...",
+      "status": "draft",
+      "created_at": "2026-11-09T11:46:39.167811"
+    },
+    {
+      "draft_id": "email-draft-ed5e11b8",
+      "recipient": "hiring@techcorp.com",
+      "subject": "Clarification regarding deliverable timeline",
+      "body": "Hi, I reviewed your project scope...",
+      "status": "draft",
+      "created_at": "2026-11-09T13:17:23.884067"
+    }
+  ]
+}

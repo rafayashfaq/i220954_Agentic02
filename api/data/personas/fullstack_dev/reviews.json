@@ -1,0 +1,17 @@
+[
+  {
+    "client": "TechCorp Global",
+    "rating": 5.0,
+    "comment": "Outstanding technical competence, clean code, and delivered ahead of schedule."
+  },
+  {
+    "client": "OmniHealth Labs",
+    "rating": 5.0,
+    "comment": "Exceptional communicator. Fixed architectural flaws we had struggled with for months."
+  },
+  {
+    "client": "RetailPulse Inc",
+    "rating": 4.9,
+    "comment": "Solid engineer. Pragmatic choices and very diligent documentation."
+  }
+]

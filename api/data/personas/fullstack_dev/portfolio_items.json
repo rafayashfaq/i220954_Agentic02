@@ -1,0 +1,422 @@
+[
+  {
+    "evidence_id": "case-ful-001",
+    "persona_id": "persona_fullstack_dev",
+    "type": "case_study",
+    "title": "Real-time collaboration whiteboard using Next.js, WebSockets, and CRDTs",
+    "summary": "Delivered Real-time collaboration whiteboard using Next.js, WebSockets, and CRDTs in Marketplaces industry utilizing FastAPI, Redis, Tailwind CSS, PostgreSQL.",
+    "skills": [
+      "FastAPI",
+      "Redis",
+      "Tailwind CSS",
+      "PostgreSQL"
+    ],
+    "outcome": "Successful delivery with 23% measurable performance gain.",
+    "source": "case_studies/case-ful-001.md",
+    "client_industry": "Marketplaces",
+    "date": "2025-12-15"
+  },
+  {
+    "evidence_id": "case-ful-002",
+    "persona_id": "persona_fullstack_dev",
+    "type": "case_study",
+    "title": "High-throughput Stripe multi-tenant billing & subscription platform",
+    "summary": "Delivered High-throughput Stripe multi-tenant billing & subscription platform in Logistics industry utilizing FastAPI, React, TypeScript, Next.js.",
+    "skills": [
+      "FastAPI",
+      "React",
+      "TypeScript",
+      "Next.js"
+    ],
+    "outcome": "Successful delivery with 36% measurable performance gain.",
+    "source": "case_studies/case-ful-002.md",
+    "client_industry": "Logistics",
+    "date": "2025-11-15"
+  },
+  {
+    "evidence_id": "case-ful-003",
+    "persona_id": "persona_fullstack_dev",
+    "type": "case_study",
+    "title": "Responsive B2B SaaS dashboard with Tailwind CSS and TanStack Table",
+    "summary": "Delivered Responsive B2B SaaS dashboard with Tailwind CSS and TanStack Table in EdTech industry utilizing PostgreSQL, TypeScript, Redis, Docker.",
+    "skills": [
+      "PostgreSQL",
+      "TypeScript",
+      "Redis",
+      "Docker"
+    ],
+    "outcome": "Successful delivery with 42% measurable performance gain.",
+    "source": "case_studies/case-ful-003.md",
+    "client_industry": "EdTech",
+    "date": "2025-03-15"
+  },
+  {
+    "evidence_id": "case-ful-004",
+    "persona_id": "persona_fullstack_dev",
+    "type": "case_study",
+    "title": "GraphQL gateway federation connecting 5 microservices",
+    "summary": "Delivered GraphQL gateway federation connecting 5 microservices in Logistics industry utilizing Redis, Next.js, FastAPI, Docker.",
+    "skills": [
+      "Redis",
+      "Next.js",
+      "FastAPI",
+      "Docker"
+    ],
+    "outcome": "Successful delivery with 46% measurable performance gain.",
+    "source": "case_studies/case-ful-004.md",
+    "client_industry": "Logistics",
+    "date": "2025-12-15"
+  },
+  {
+    "evidence_id": "case-ful-005",
+    "persona_id": "persona_fullstack_dev",
+    "type": "case_study",
+    "title": "Offline-first mobile-friendly PWA for warehouse inventory tracking",
+    "summary": "Delivered Offline-first mobile-friendly PWA for warehouse inventory tracking in Marketplaces industry utilizing GraphQL, FastAPI, PostgreSQL, Redis.",
+    "skills": [
+      "GraphQL",
+      "FastAPI",
+      "PostgreSQL",
+      "Redis"
+    ],
+    "outcome": "Successful delivery with 27% measurable performance gain.",
+    "source": "case_studies/case-ful-005.md",
+    "client_industry": "Marketplaces",
+    "date": "2025-08-15"
+  },
+  {
+    "evidence_id": "case-ful-006",
+    "persona_id": "persona_fullstack_dev",
+    "type": "case_study",
+    "title": "PostgreSQL performance tuning: query indexing and connection pooling",
+    "summary": "Delivered PostgreSQL performance tuning: query indexing and connection pooling in EdTech industry utilizing GraphQL, Redis, PostgreSQL, TypeScript.",
+    "skills": [
+      "GraphQL",
+      "Redis",
+      "PostgreSQL",
+      "TypeScript"
+    ],
+    "outcome": "Successful delivery with 26% measurable performance gain.",
+    "source": "case_studies/case-ful-006.md",
+    "client_industry": "EdTech",
+    "date": "2025-06-15"
+  },
+  {
+    "evidence_id": "case-ful-007",
+    "persona_id": "persona_fullstack_dev",
+    "type": "case_study",
+    "title": "Serverless event-driven architecture using AWS Lambda and DynamoDB",
+    "summary": "Delivered Serverless event-driven architecture using AWS Lambda and DynamoDB in Creator Economy industry utilizing FastAPI, PostgreSQL, GraphQL, Docker.",
+    "skills": [
+      "FastAPI",
+      "PostgreSQL",
+      "GraphQL",
+      "Docker"
+    ],
+    "outcome": "Successful delivery with 22% measurable performance gain.",
+    "source": "case_studies/case-ful-007.md",
+    "client_industry": "Creator Economy",
+    "date": "2025-04-15"
+  },
+  {
+    "evidence_id": "case-ful-008",
+    "persona_id": "persona_fullstack_dev",
+    "type": "case_study",
+    "title": "Automated video rendering pipeline with Next.js and Remotion",
+    "summary": "Delivered Automated video rendering pipeline with Next.js and Remotion in EdTech industry utilizing Redis, Docker, Node.js, PostgreSQL.",
+    "skills": [
+      "Redis",
+      "Docker",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "outcome": "Successful delivery with 45% measurable performance gain.",
+    "source": "case_studies/case-ful-008.md",
+    "client_industry": "EdTech",
+    "date": "2025-01-15"
+  },
+  {
+    "evidence_id": "case-ful-009",
+    "persona_id": "persona_fullstack_dev",
+    "type": "case_study",
+    "title": "Role-based access control (RBAC) and OAuth2 / SSO authentication service",
+    "summary": "Delivered Role-based access control (RBAC) and OAuth2 / SSO authentication service in Marketplaces industry utilizing React, FastAPI, Node.js, Docker.",
+    "skills": [
+      "React",
+      "FastAPI",
+      "Node.js",
+      "Docker"
+    ],
+    "outcome": "Successful delivery with 35% measurable performance gain.",
+    "source": "case_studies/case-ful-009.md",
+    "client_industry": "Marketplaces",
+    "date": "2025-09-15"
+  },
+  {
+    "evidence_id": "case-ful-010",
+    "persona_id": "persona_fullstack_dev",
+    "type": "case_study",
+    "title": "Interactive analytics dashboard with Chart.js and Server-Sent Events",
+    "summary": "Delivered Interactive analytics dashboard with Chart.js and Server-Sent Events in Logistics industry utilizing Tailwind CSS, PostgreSQL, Redis, GraphQL.",
+    "skills": [
+      "Tailwind CSS",
+      "PostgreSQL",
+      "Redis",
+      "GraphQL"
+    ],
+    "outcome": "Successful delivery with 28% measurable performance gain.",
+    "source": "case_studies/case-ful-010.md",
+    "client_industry": "Logistics",
+    "date": "2025-05-15"
+  },
+  {
+    "evidence_id": "case-ful-011",
+    "persona_id": "persona_fullstack_dev",
+    "type": "case_study",
+    "title": "Real-time collaboration whiteboard using Next.js, WebSockets, and CRDTs",
+    "summary": "Delivered Real-time collaboration whiteboard using Next.js, WebSockets, and CRDTs in Marketplaces industry utilizing FastAPI, Node.js, React, PostgreSQL.",
+    "skills": [
+      "FastAPI",
+      "Node.js",
+      "React",
+      "PostgreSQL"
+    ],
+    "outcome": "Successful delivery with 26% measurable performance gain.",
+    "source": "case_studies/case-ful-011.md",
+    "client_industry": "Marketplaces",
+    "date": "2025-04-15"
+  },
+  {
+    "evidence_id": "case-ful-012",
+    "persona_id": "persona_fullstack_dev",
+    "type": "case_study",
+    "title": "High-throughput Stripe multi-tenant billing & subscription platform",
+    "summary": "Delivered High-throughput Stripe multi-tenant billing & subscription platform in Marketplaces industry utilizing Docker, FastAPI, Tailwind CSS, TypeScript.",
+    "skills": [
+      "Docker",
+      "FastAPI",
+      "Tailwind CSS",
+      "TypeScript"
+    ],
+    "outcome": "Successful delivery with 29% measurable performance gain.",
+    "source": "case_studies/case-ful-012.md",
+    "client_industry": "Marketplaces",
+    "date": "2025-01-15"
+  },
+  {
+    "evidence_id": "case-ful-013",
+    "persona_id": "persona_fullstack_dev",
+    "type": "case_study",
+    "title": "Responsive B2B SaaS dashboard with Tailwind CSS and TanStack Table",
+    "summary": "Delivered Responsive B2B SaaS dashboard with Tailwind CSS and TanStack Table in B2B SaaS industry utilizing Tailwind CSS, Next.js, FastAPI, TypeScript.",
+    "skills": [
+      "Tailwind CSS",
+      "Next.js",
+      "FastAPI",
+      "TypeScript"
+    ],
+    "outcome": "Successful delivery with 40% measurable performance gain.",
+    "source": "case_studies/case-ful-013.md",
+    "client_industry": "B2B SaaS",
+    "date": "2025-08-15"
+  },
+  {
+    "evidence_id": "case-ful-014",
+    "persona_id": "persona_fullstack_dev",
+    "type": "case_study",
+    "title": "GraphQL gateway federation connecting 5 microservices",
+    "summary": "Delivered GraphQL gateway federation connecting 5 microservices in EdTech industry utilizing React, TypeScript, FastAPI, Node.js.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "FastAPI",
+      "Node.js"
+    ],
+    "outcome": "Successful delivery with 28% measurable performance gain.",
+    "source": "case_studies/case-ful-014.md",
+    "client_industry": "EdTech",
+    "date": "2025-08-15"
+  },
+  {
+    "evidence_id": "case-ful-015",
+    "persona_id": "persona_fullstack_dev",
+    "type": "case_study",
+    "title": "Offline-first mobile-friendly PWA for warehouse inventory tracking",
+    "summary": "Delivered Offline-first mobile-friendly PWA for warehouse inventory tracking in B2B SaaS industry utilizing React, GraphQL, Redis, Node.js.",
+    "skills": [
+      "React",
+      "GraphQL",
+      "Redis",
+      "Node.js"
+    ],
+    "outcome": "Successful delivery with 24% measurable performance gain.",
+    "source": "case_studies/case-ful-015.md",
+    "client_industry": "B2B SaaS",
+    "date": "2025-03-15"
+  },
+  {
+    "evidence_id": "case-ful-016",
+    "persona_id": "persona_fullstack_dev",
+    "type": "case_study",
+    "title": "PostgreSQL performance tuning: query indexing and connection pooling",
+    "summary": "Delivered PostgreSQL performance tuning: query indexing and connection pooling in B2B SaaS industry utilizing GraphQL, FastAPI, React, Docker.",
+    "skills": [
+      "GraphQL",
+      "FastAPI",
+      "React",
+      "Docker"
+    ],
+    "outcome": "Successful delivery with 44% measurable performance gain.",
+    "source": "case_studies/case-ful-016.md",
+    "client_industry": "B2B SaaS",
+    "date": "2025-09-15"
+  },
+  {
+    "evidence_id": "case-ful-017",
+    "persona_id": "persona_fullstack_dev",
+    "type": "case_study",
+    "title": "Serverless event-driven architecture using AWS Lambda and DynamoDB",
+    "summary": "Delivered Serverless event-driven architecture using AWS Lambda and DynamoDB in Logistics industry utilizing Redis, Docker, Tailwind CSS, Next.js.",
+    "skills": [
+      "Redis",
+      "Docker",
+      "Tailwind CSS",
+      "Next.js"
+    ],
+    "outcome": "Successful delivery with 39% measurable performance gain.",
+    "source": "case_studies/case-ful-017.md",
+    "client_industry": "Logistics",
+    "date": "2025-12-15"
+  },
+  {
+    "evidence_id": "case-ful-018",
+    "persona_id": "persona_fullstack_dev",
+    "type": "case_study",
+    "title": "Automated video rendering pipeline with Next.js and Remotion",
+    "summary": "Delivered Automated video rendering pipeline with Next.js and Remotion in B2B SaaS industry utilizing React, Node.js, Tailwind CSS, Next.js.",
+    "skills": [
+      "React",
+      "Node.js",
+      "Tailwind CSS",
+      "Next.js"
+    ],
+    "outcome": "Successful delivery with 25% measurable performance gain.",
+    "source": "case_studies/case-ful-018.md",
+    "client_industry": "B2B SaaS",
+    "date": "2025-01-15"
+  },
+  {
+    "evidence_id": "case-ful-019",
+    "persona_id": "persona_fullstack_dev",
+    "type": "case_study",
+    "title": "Role-based access control (RBAC) and OAuth2 / SSO authentication service",
+    "summary": "Delivered Role-based access control (RBAC) and OAuth2 / SSO authentication service in B2B SaaS industry utilizing Redis, Docker, Tailwind CSS, Next.js.",
+    "skills": [
+      "Redis",
+      "Docker",
+      "Tailwind CSS",
+      "Next.js"
+    ],
+    "outcome": "Successful delivery with 42% measurable performance gain.",
+    "source": "case_studies/case-ful-019.md",
+    "client_industry": "B2B SaaS",
+    "date": "2025-08-15"
+  },
+  {
+    "evidence_id": "case-ful-020",
+    "persona_id": "persona_fullstack_dev",
+    "type": "case_study",
+    "title": "Interactive analytics dashboard with Chart.js and Server-Sent Events",
+    "summary": "Delivered Interactive analytics dashboard with Chart.js and Server-Sent Events in Logistics industry utilizing React, Node.js, FastAPI, Redis.",
+    "skills": [
+      "React",
+      "Node.js",
+      "FastAPI",
+      "Redis"
+    ],
+    "outcome": "Successful delivery with 37% measurable performance gain.",
+    "source": "case_studies/case-ful-020.md",
+    "client_industry": "Logistics",
+    "date": "2025-04-15"
+  },
+  {
+    "evidence_id": "repo-ful-1",
+    "persona_id": "persona_fullstack_dev",
+    "type": "repo",
+    "title": "Open Source Repo: repo-ful-1",
+    "summary": "Production reference architecture demonstrating Next.js, FastAPI, GraphQL.",
+    "skills": [
+      "Next.js",
+      "FastAPI",
+      "GraphQL"
+    ],
+    "outcome": "Maintained repository with 150+ GitHub stars.",
+    "source": "repos/repo-ful-1_README.md",
+    "client_industry": "Open Source",
+    "date": "2025-06-01"
+  },
+  {
+    "evidence_id": "repo-ful-2",
+    "persona_id": "persona_fullstack_dev",
+    "type": "repo",
+    "title": "Open Source Repo: repo-ful-2",
+    "summary": "Production reference architecture demonstrating React, TypeScript, Next.js.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Next.js"
+    ],
+    "outcome": "Maintained repository with 150+ GitHub stars.",
+    "source": "repos/repo-ful-2_README.md",
+    "client_industry": "Open Source",
+    "date": "2025-06-01"
+  },
+  {
+    "evidence_id": "repo-ful-3",
+    "persona_id": "persona_fullstack_dev",
+    "type": "repo",
+    "title": "Open Source Repo: repo-ful-3",
+    "summary": "Production reference architecture demonstrating FastAPI, GraphQL, Docker.",
+    "skills": [
+      "FastAPI",
+      "GraphQL",
+      "Docker"
+    ],
+    "outcome": "Maintained repository with 150+ GitHub stars.",
+    "source": "repos/repo-ful-3_README.md",
+    "client_industry": "Open Source",
+    "date": "2025-06-01"
+  },
+  {
+    "evidence_id": "repo-ful-4",
+    "persona_id": "persona_fullstack_dev",
+    "type": "repo",
+    "title": "Open Source Repo: repo-ful-4",
+    "summary": "Production reference architecture demonstrating React, Docker, FastAPI.",
+    "skills": [
+      "React",
+      "Docker",
+      "FastAPI"
+    ],
+    "outcome": "Maintained repository with 150+ GitHub stars.",
+    "source": "repos/repo-ful-4_README.md",
+    "client_industry": "Open Source",
+    "date": "2025-06-01"
+  },
+  {
+    "evidence_id": "repo-ful-5",
+    "persona_id": "persona_fullstack_dev",
+    "type": "repo",
+    "title": "Open Source Repo: repo-ful-5",
+    "summary": "Production reference architecture demonstrating Redis, FastAPI, Docker.",
+    "skills": [
+      "Redis",
+      "FastAPI",
+      "Docker"
+    ],
+    "outcome": "Maintained repository with 150+ GitHub stars.",
+    "source": "repos/repo-ful-5_README.md",
+    "client_industry": "Open Source",
+    "date": "2025-06-01"
+  }
+]
