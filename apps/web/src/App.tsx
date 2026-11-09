@@ -60,7 +60,8 @@ export const App: React.FC = () => {
         user={user}
         onSwitchPersona={handleSwitchPersona}
         isDegraded={isDegraded}
-        toggleDegraded={toggleDegraded}
+        toggleDegraded={toggleDegradedMode}
+
       />
 
       {/* Active Screen View */}
