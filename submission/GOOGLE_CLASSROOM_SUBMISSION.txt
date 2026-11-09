@@ -1,7 +1,7 @@
 ================================================================================
 AI-4016 R&D ASSIGNMENT 02: GIGBID FREELANCER COPILOT
 STUDENT ID: i220954
-STUDENT NAME: Muhammad Rafay Ashfaq
+STUDENT NAME: Abdul Rafay
 CAMPUS: FAST-NUCES Islamabad
 ================================================================================
 
@@ -10,13 +10,13 @@ SUBMISSION CONTENT (COPY-PASTE READY FOR GOOGLE CLASSROOM):
 1. PUBLIC GITHUB REPOSITORY:
    https://github.com/rafayashfaq/i220954_Agentic02
 
-2. R&D REPORT (PDF):
-   Attached: GigBid_RD_Report.pdf
-   Path in Repository: docs/GigBid_RD_Report.pdf
+2. R&D REPORT & FINAL SUBMISSION (PDF):
+   Attached: GigBid_Final_Submission_and_RD_Report.pdf (and GigBid_RD_Report.pdf)
+   Path in Repository: submission/GigBid_Final_Submission_and_RD_Report.pdf
    Markdown Source: docs/RD_REPORT.md
 
 3. 3-MINUTE SCREEN RECORDING / WALKTHROUGH DEMO:
-   [Paste your Google Drive / YouTube unlisted video link here]
+   https://drive.google.com/file/d/1GBqggNue_ZHH4va6WjnlA7UH2k-wPRgw/view?usp=sharing
    (Demonstrates: job discovery in inbox, evidence citation hover, human approval gate, pipeline transition, and SSE live stream)
 
 4. LIVE DEPLOYED WEB APPLICATION URL:

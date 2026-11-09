@@ -1,6 +1,6 @@
 # GigBid: A Multi-Agent Freelancer Copilot
 ## Comprehensive Research & Development Technical Report
-**Author:** Candidate i220954  
+**Author:** Abdul Rafay (Candidate i220954)  
 **Date:** November 2026  
 **Course:** AI-4016 Advanced Agentic Coding, FAST-NUCES  
 **Artifacts Repository:** `docs/` | `evals/results/` | `agent/` | `mcp_servers/`

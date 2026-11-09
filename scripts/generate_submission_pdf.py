@@ -6,7 +6,7 @@ import os
 import sys
 from playwright.sync_api import sync_playwright
 
-HTML_CONTENT = """<!DOCTYPE html>
+HTML_CONTENT = r"""<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -348,7 +348,7 @@ HTML_CONTENT = """<!DOCTYPE html>
     <div class="meta-grid">
       <div class="meta-item">
         <div class="label">Student Name</div>
-        <div class="val">Muhammad Rafay Ashfaq</div>
+        <div class="val">Abdul Rafay</div>
       </div>
       <div class="meta-item">
         <div class="label">Student ID (Roll No)</div>
@@ -387,10 +387,10 @@ HTML_CONTENT = """<!DOCTYPE html>
       <div class="card">
         <div class="card-title">
           <span>🎥 3-Minute Video Walkthrough Demo</span>
-          <span class="status-pill status-live">Recording Done</span>
+          <span class="status-pill status-live">Active · Google Drive</span>
         </div>
         <p style="font-size: 8pt; margin-bottom: 4px;">Demonstrates job feed discovery, evidence grounding, human approval gate, and live runs:</p>
-        <div class="card-link" style="color: #475569; background: #f8fafc; border-color: #e2e8f0;">[Attach your Google Drive / YouTube video link here]</div>
+        <a class="card-link" href="https://drive.google.com/file/d/1GBqggNue_ZHH4va6WjnlA7UH2k-wPRgw/view?usp=sharing" target="_blank">https://drive.google.com/file/d/1GBqggNue_ZHH4va6WjnlA7UH2k-wPRgw/view?usp=sharing</a>
       </div>
 
       <div class="card">
@@ -449,7 +449,7 @@ HTML_CONTENT = """<!DOCTYPE html>
     </div>
 
     <div class="page-footer">
-      <span>GigBid Final Submission · Muhammad Rafay Ashfaq (i220954)</span>
+      <span>GigBid Final Submission · Abdul Rafay (i220954)</span>
       <span>Page 1 of 5</span>
     </div>
   </div>
@@ -532,7 +532,7 @@ HTML_CONTENT = """<!DOCTYPE html>
     </ul>
 
     <div class="page-footer">
-      <span>GigBid Final Submission · Muhammad Rafay Ashfaq (i220954)</span>
+      <span>GigBid Final Submission · Abdul Rafay (i220954)</span>
       <span>Page 2 of 5</span>
     </div>
   </div>
@@ -690,7 +690,7 @@ HTML_CONTENT = """<!DOCTYPE html>
     </p>
 
     <div class="page-footer">
-      <span>GigBid Final Submission · Muhammad Rafay Ashfaq (i220954)</span>
+      <span>GigBid Final Submission · Abdul Rafay (i220954)</span>
       <span>Page 3 of 5</span>
     </div>
   </div>
@@ -785,7 +785,7 @@ platform_rules:
     </p>
 
     <div class="page-footer">
-      <span>GigBid Final Submission · Muhammad Rafay Ashfaq (i220954)</span>
+      <span>GigBid Final Submission · Abdul Rafay (i220954)</span>
       <span>Page 4 of 5</span>
     </div>
   </div>
@@ -892,14 +892,14 @@ platform_rules:
         I certify that the work presented in this R&D report, the underlying LangGraph multi-agent architecture, the Model Context Protocol tools, and the deployed application are entirely original and developed in adherence to course integrity standards.
       </p>
       <div style="display: flex; justify-content: space-between; font-size: 8pt; color: #94a3b8; font-family: 'JetBrains Mono', monospace;">
-        <span>Candidate: Muhammad Rafay Ashfaq (i220954)</span>
+        <span>Candidate: Abdul Rafay (i220954)</span>
         <span>Repository: github.com/rafayashfaq/i220954_Agentic02</span>
         <span>Status: Production Verified</span>
       </div>
     </div>
 
     <div class="page-footer">
-      <span>GigBid Final Submission · Muhammad Rafay Ashfaq (i220954)</span>
+      <span>GigBid Final Submission · Abdul Rafay (i220954)</span>
       <span>Page 5 of 5</span>
     </div>
   </div>
@@ -944,3 +944,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
