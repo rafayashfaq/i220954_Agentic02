@@ -1,0 +1,1752 @@
+[
+  {
+    "proposal_id": "prop-dat-001",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "SQL",
+      "BigQuery"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building SQL pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-002",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "SQL",
+      "BigQuery"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in SQL and BigQuery. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-003",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Statistical Modeling",
+      "Snowflake"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Statistical Modeling and Snowflake. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-004",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Power BI",
+      "BigQuery"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Power BI and BigQuery. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-005",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Python",
+      "Snowflake"
+    ],
+    "text": "Hello. For your Python deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Snowflake within 10 days. Here is my portfolio case study: case-dat-005.",
+    "evidence_cited": [
+      "case-dat-005"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-006",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Power BI",
+      "SQL"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Power BI and SQL. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-007",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Snowflake",
+      "Python"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Snowflake pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-008",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Snowflake",
+      "Tableau"
+    ],
+    "text": "Hello. For your Snowflake deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Tableau within 10 days. Here is my portfolio case study: case-dat-008.",
+    "evidence_cited": [
+      "case-dat-008"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-009",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Tableau",
+      "SQL"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Tableau pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-010",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "dbt",
+      "Pandas"
+    ],
+    "text": "Hello. For your dbt deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Pandas within 10 days. Here is my portfolio case study: case-dat-010.",
+    "evidence_cited": [
+      "case-dat-010"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-011",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Tableau",
+      "Pandas"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Tableau and Pandas. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-012",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Pandas",
+      "SQL"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Pandas pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-013",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Python",
+      "SQL"
+    ],
+    "text": "Hello. For your Python deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with SQL within 10 days. Here is my portfolio case study: case-dat-013.",
+    "evidence_cited": [
+      "case-dat-013"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-014",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "dbt",
+      "Power BI"
+    ],
+    "text": "Hello. For your dbt deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Power BI within 10 days. Here is my portfolio case study: case-dat-014.",
+    "evidence_cited": [
+      "case-dat-014"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-015",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Tableau",
+      "Statistical Modeling"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Tableau and Statistical Modeling. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-016",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Looker",
+      "Statistical Modeling"
+    ],
+    "text": "Hello. For your Looker deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Statistical Modeling within 10 days. Here is my portfolio case study: case-dat-016.",
+    "evidence_cited": [
+      "case-dat-016"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-017",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "BigQuery",
+      "Python"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building BigQuery pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-018",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "dbt",
+      "Power BI"
+    ],
+    "text": "Hello. For your dbt deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Power BI within 10 days. Here is my portfolio case study: case-dat-018.",
+    "evidence_cited": [
+      "case-dat-018"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-019",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "dbt",
+      "Python"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in dbt and Python. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-020",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "SQL",
+      "Power BI"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building SQL pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-021",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "BigQuery",
+      "Pandas"
+    ],
+    "text": "Hello. For your BigQuery deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Pandas within 10 days. Here is my portfolio case study: repo-dat-1.",
+    "evidence_cited": [
+      "repo-dat-1"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-022",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Python",
+      "Looker"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Python and Looker. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-023",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Pandas",
+      "Statistical Modeling"
+    ],
+    "text": "Hello. For your Pandas deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Statistical Modeling within 10 days. Here is my portfolio case study: repo-dat-3.",
+    "evidence_cited": [
+      "repo-dat-3"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-024",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "SQL",
+      "Statistical Modeling"
+    ],
+    "text": "Hello. For your SQL deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Statistical Modeling within 10 days. Here is my portfolio case study: repo-dat-4.",
+    "evidence_cited": [
+      "repo-dat-4"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-025",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Looker",
+      "Power BI"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Looker pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-026",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Tableau",
+      "dbt"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Tableau and dbt. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-027",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "BigQuery",
+      "SQL"
+    ],
+    "text": "Hello. For your BigQuery deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with SQL within 10 days. Here is my portfolio case study: case-dat-002.",
+    "evidence_cited": [
+      "case-dat-002"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-028",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Looker",
+      "Snowflake"
+    ],
+    "text": "Hello. For your Looker deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Snowflake within 10 days. Here is my portfolio case study: case-dat-003.",
+    "evidence_cited": [
+      "case-dat-003"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-029",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Power BI",
+      "BigQuery"
+    ],
+    "text": "Hello. For your Power BI deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with BigQuery within 10 days. Here is my portfolio case study: case-dat-004.",
+    "evidence_cited": [
+      "case-dat-004"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-030",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Tableau",
+      "Python"
+    ],
+    "text": "Hello. For your Tableau deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Python within 10 days. Here is my portfolio case study: case-dat-005.",
+    "evidence_cited": [
+      "case-dat-005"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-031",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Statistical Modeling",
+      "Snowflake"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Statistical Modeling pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-032",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Python",
+      "Statistical Modeling"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Python pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-033",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Statistical Modeling",
+      "Looker"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Statistical Modeling pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-034",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Statistical Modeling",
+      "Looker"
+    ],
+    "text": "Hello. For your Statistical Modeling deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Looker within 10 days. Here is my portfolio case study: case-dat-009.",
+    "evidence_cited": [
+      "case-dat-009"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-035",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "SQL",
+      "BigQuery"
+    ],
+    "text": "Hello. For your SQL deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with BigQuery within 10 days. Here is my portfolio case study: case-dat-010.",
+    "evidence_cited": [
+      "case-dat-010"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-036",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Pandas",
+      "SQL"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Pandas pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-037",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "BigQuery",
+      "Snowflake"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in BigQuery and Snowflake. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-038",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "dbt",
+      "SQL"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building dbt pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-039",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Snowflake",
+      "Python"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Snowflake and Python. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-040",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Snowflake",
+      "Power BI"
+    ],
+    "text": "Hello. For your Snowflake deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Power BI within 10 days. Here is my portfolio case study: case-dat-015.",
+    "evidence_cited": [
+      "case-dat-015"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-041",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Python",
+      "Snowflake"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Python and Snowflake. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-042",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Tableau",
+      "SQL"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Tableau and SQL. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-043",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Snowflake",
+      "Statistical Modeling"
+    ],
+    "text": "Hello. For your Snowflake deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Statistical Modeling within 10 days. Here is my portfolio case study: case-dat-018.",
+    "evidence_cited": [
+      "case-dat-018"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-044",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Snowflake",
+      "Tableau"
+    ],
+    "text": "Hello. For your Snowflake deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Tableau within 10 days. Here is my portfolio case study: case-dat-019.",
+    "evidence_cited": [
+      "case-dat-019"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-045",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Pandas",
+      "Looker"
+    ],
+    "text": "Hello. For your Pandas deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Looker within 10 days. Here is my portfolio case study: case-dat-020.",
+    "evidence_cited": [
+      "case-dat-020"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-046",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Tableau",
+      "Looker"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Tableau and Looker. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-047",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Python",
+      "Pandas"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Python pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-048",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "SQL",
+      "dbt"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building SQL pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-049",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Power BI",
+      "SQL"
+    ],
+    "text": "Hello. For your Power BI deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with SQL within 10 days. Here is my portfolio case study: repo-dat-4.",
+    "evidence_cited": [
+      "repo-dat-4"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-050",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Power BI",
+      "SQL"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Power BI pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-051",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Snowflake",
+      "dbt"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Snowflake pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-052",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Statistical Modeling",
+      "BigQuery"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Statistical Modeling and BigQuery. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-053",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Statistical Modeling",
+      "Pandas"
+    ],
+    "text": "Hello. For your Statistical Modeling deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Pandas within 10 days. Here is my portfolio case study: case-dat-003.",
+    "evidence_cited": [
+      "case-dat-003"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-054",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "dbt",
+      "SQL"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in dbt and SQL. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-055",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Power BI",
+      "dbt"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Power BI and dbt. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-056",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Snowflake",
+      "SQL"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Snowflake and SQL. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-057",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Snowflake",
+      "dbt"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Snowflake and dbt. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-058",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Python",
+      "Snowflake"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Python pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-059",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "BigQuery",
+      "Looker"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in BigQuery and Looker. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-060",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Pandas",
+      "BigQuery"
+    ],
+    "text": "Hello. For your Pandas deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with BigQuery within 10 days. Here is my portfolio case study: case-dat-010.",
+    "evidence_cited": [
+      "case-dat-010"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-061",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Snowflake",
+      "Tableau"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Snowflake and Tableau. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-062",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Pandas",
+      "Looker"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Pandas pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-063",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Snowflake",
+      "Statistical Modeling"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Snowflake pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-064",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "dbt",
+      "Python"
+    ],
+    "text": "Hello. For your dbt deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Python within 10 days. Here is my portfolio case study: case-dat-014.",
+    "evidence_cited": [
+      "case-dat-014"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-065",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "BigQuery",
+      "Python"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building BigQuery pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-066",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "BigQuery",
+      "Tableau"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in BigQuery and Tableau. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-067",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Statistical Modeling",
+      "dbt"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Statistical Modeling pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-068",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Snowflake",
+      "Python"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Snowflake pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-069",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Python",
+      "Snowflake"
+    ],
+    "text": "Hello. For your Python deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Snowflake within 10 days. Here is my portfolio case study: case-dat-019.",
+    "evidence_cited": [
+      "case-dat-019"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-070",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "dbt",
+      "Looker"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in dbt and Looker. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-071",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Pandas",
+      "BigQuery"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Pandas pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-072",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Tableau",
+      "Pandas"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Tableau pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-073",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Snowflake",
+      "Pandas"
+    ],
+    "text": "Hello. For your Snowflake deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Pandas within 10 days. Here is my portfolio case study: repo-dat-3.",
+    "evidence_cited": [
+      "repo-dat-3"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-074",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "SQL",
+      "Snowflake"
+    ],
+    "text": "Hello. For your SQL deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Snowflake within 10 days. Here is my portfolio case study: repo-dat-4.",
+    "evidence_cited": [
+      "repo-dat-4"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-075",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Looker",
+      "BigQuery"
+    ],
+    "text": "Hello. For your Looker deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with BigQuery within 10 days. Here is my portfolio case study: repo-dat-5.",
+    "evidence_cited": [
+      "repo-dat-5"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-076",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "dbt",
+      "SQL"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in dbt and SQL. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-077",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Python",
+      "BigQuery"
+    ],
+    "text": "Hello. For your Python deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with BigQuery within 10 days. Here is my portfolio case study: case-dat-002.",
+    "evidence_cited": [
+      "case-dat-002"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-078",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Snowflake",
+      "Statistical Modeling"
+    ],
+    "text": "Hello. For your Snowflake deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Statistical Modeling within 10 days. Here is my portfolio case study: case-dat-003.",
+    "evidence_cited": [
+      "case-dat-003"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-079",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Tableau",
+      "SQL"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Tableau and SQL. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-080",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Tableau",
+      "Pandas"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Tableau pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-081",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "SQL",
+      "Tableau"
+    ],
+    "text": "Hello. For your SQL deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Tableau within 10 days. Here is my portfolio case study: case-dat-006.",
+    "evidence_cited": [
+      "case-dat-006"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-082",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Python",
+      "Power BI"
+    ],
+    "text": "Hello. For your Python deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Power BI within 10 days. Here is my portfolio case study: case-dat-007.",
+    "evidence_cited": [
+      "case-dat-007"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-083",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Snowflake",
+      "Looker"
+    ],
+    "text": "Hello. For your Snowflake deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Looker within 10 days. Here is my portfolio case study: case-dat-008.",
+    "evidence_cited": [
+      "case-dat-008"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-084",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "BigQuery",
+      "SQL"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in BigQuery and SQL. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-085",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Looker",
+      "Tableau"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Looker and Tableau. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-086",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Pandas",
+      "Snowflake"
+    ],
+    "text": "Hello. For your Pandas deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Snowflake within 10 days. Here is my portfolio case study: case-dat-011.",
+    "evidence_cited": [
+      "case-dat-011"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-087",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Snowflake",
+      "Pandas"
+    ],
+    "text": "Hello. For your Snowflake deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Pandas within 10 days. Here is my portfolio case study: case-dat-012.",
+    "evidence_cited": [
+      "case-dat-012"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-088",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Python",
+      "Tableau"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Python pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-089",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Statistical Modeling",
+      "Snowflake"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Statistical Modeling pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-090",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "BigQuery",
+      "Snowflake"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building BigQuery pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-091",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "dbt",
+      "Power BI"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in dbt and Power BI. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-092",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Python",
+      "SQL"
+    ],
+    "text": "Hello. For your Python deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with SQL within 10 days. Here is my portfolio case study: case-dat-017.",
+    "evidence_cited": [
+      "case-dat-017"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-093",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Tableau",
+      "Pandas"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Tableau pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-094",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Statistical Modeling",
+      "BigQuery"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Statistical Modeling and BigQuery. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-095",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Statistical Modeling",
+      "Python"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Statistical Modeling pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-096",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "dbt",
+      "Looker"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in dbt and Looker. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-097",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Pandas",
+      "Power BI"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Pandas and Power BI. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-098",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Looker",
+      "dbt"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Looker and dbt. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-099",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Pandas",
+      "Power BI"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Pandas and Power BI. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-100",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Python",
+      "Tableau"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Python pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-101",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Python",
+      "Pandas"
+    ],
+    "text": "Hello. For your Python deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Pandas within 10 days. Here is my portfolio case study: case-dat-001.",
+    "evidence_cited": [
+      "case-dat-001"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-102",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Tableau",
+      "Pandas"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Tableau pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-103",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Python",
+      "Snowflake"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Python and Snowflake. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-104",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Snowflake",
+      "Python"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Snowflake and Python. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-105",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Statistical Modeling",
+      "Looker"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Statistical Modeling pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-106",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "dbt",
+      "Looker"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building dbt pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-107",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Tableau",
+      "Looker"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Tableau and Looker. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-108",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Snowflake",
+      "Statistical Modeling"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Snowflake pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-109",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Power BI",
+      "Python"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Power BI and Python. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-110",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Power BI",
+      "Tableau"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Power BI pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-111",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Power BI",
+      "Pandas"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Power BI pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-112",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "SQL",
+      "Snowflake"
+    ],
+    "text": "Hello. For your SQL deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Snowflake within 10 days. Here is my portfolio case study: case-dat-012.",
+    "evidence_cited": [
+      "case-dat-012"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-113",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Statistical Modeling",
+      "Snowflake"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Statistical Modeling and Snowflake. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-114",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Pandas",
+      "Statistical Modeling"
+    ],
+    "text": "Hello. For your Pandas deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Statistical Modeling within 10 days. Here is my portfolio case study: case-dat-014.",
+    "evidence_cited": [
+      "case-dat-014"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-115",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Tableau",
+      "Python"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Tableau and Python. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-116",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Python",
+      "dbt"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Python pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-117",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "BigQuery",
+      "Pandas"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in BigQuery and Pandas. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-118",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Statistical Modeling",
+      "BigQuery"
+    ],
+    "text": "Hello. For your Statistical Modeling deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with BigQuery within 10 days. Here is my portfolio case study: case-dat-018.",
+    "evidence_cited": [
+      "case-dat-018"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-119",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "BigQuery",
+      "Python"
+    ],
+    "text": "Hello. For your BigQuery deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Python within 10 days. Here is my portfolio case study: case-dat-019.",
+    "evidence_cited": [
+      "case-dat-019"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-120",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Tableau",
+      "Snowflake"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Tableau and Snowflake. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-121",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Python",
+      "Pandas"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Python pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-122",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Pandas",
+      "Statistical Modeling"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Pandas and Statistical Modeling. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-123",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Snowflake",
+      "Tableau"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Snowflake and Tableau. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-124",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Statistical Modeling",
+      "Tableau"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Statistical Modeling and Tableau. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-125",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Tableau",
+      "BigQuery"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Tableau pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-126",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Statistical Modeling",
+      "SQL"
+    ],
+    "text": "Hello. For your Statistical Modeling deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with SQL within 10 days. Here is my portfolio case study: case-dat-001.",
+    "evidence_cited": [
+      "case-dat-001"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-127",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Python",
+      "Statistical Modeling"
+    ],
+    "text": "Hello. For your Python deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Statistical Modeling within 10 days. Here is my portfolio case study: case-dat-002.",
+    "evidence_cited": [
+      "case-dat-002"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-128",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Tableau",
+      "dbt"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Tableau pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-129",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Tableau",
+      "Looker"
+    ],
+    "text": "Hello. For your Tableau deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Looker within 10 days. Here is my portfolio case study: case-dat-004.",
+    "evidence_cited": [
+      "case-dat-004"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-130",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Snowflake",
+      "Power BI"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Snowflake pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-131",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Snowflake",
+      "Statistical Modeling"
+    ],
+    "text": "Hello. For your Snowflake deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Statistical Modeling within 10 days. Here is my portfolio case study: case-dat-006.",
+    "evidence_cited": [
+      "case-dat-006"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-132",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "dbt",
+      "Python"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building dbt pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-133",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "dbt",
+      "Power BI"
+    ],
+    "text": "Hello. For your dbt deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Power BI within 10 days. Here is my portfolio case study: case-dat-008.",
+    "evidence_cited": [
+      "case-dat-008"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-134",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Statistical Modeling",
+      "dbt"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Statistical Modeling pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-135",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Tableau",
+      "dbt"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Tableau and dbt. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-136",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Looker",
+      "Statistical Modeling"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Looker pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-137",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Python",
+      "Statistical Modeling"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Python pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-138",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Tableau",
+      "Looker"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Tableau pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-139",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Tableau",
+      "Snowflake"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Tableau pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-140",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Looker",
+      "SQL"
+    ],
+    "text": "Hello. For your Looker deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with SQL within 10 days. Here is my portfolio case study: case-dat-015.",
+    "evidence_cited": [
+      "case-dat-015"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-141",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "SQL",
+      "Python"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in SQL and Python. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-142",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "SQL",
+      "dbt"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in SQL and dbt. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-143",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Power BI",
+      "BigQuery"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Power BI and BigQuery. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-144",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "Looker",
+      "SQL"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Looker and SQL. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-145",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "Pandas",
+      "Statistical Modeling"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Pandas pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-146",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "dbt",
+      "Looker"
+    ],
+    "text": "Hello. For your dbt deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Looker within 10 days. Here is my portfolio case study: repo-dat-1.",
+    "evidence_cited": [
+      "repo-dat-1"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-147",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Pandas",
+      "Power BI"
+    ],
+    "text": "Hello. For your Pandas deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Power BI within 10 days. Here is my portfolio case study: repo-dat-2.",
+    "evidence_cited": [
+      "repo-dat-2"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-148",
+    "persona_id": "persona_data_analyst",
+    "outcome": "ignored",
+    "skills": [
+      "BigQuery",
+      "dbt"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in BigQuery and dbt. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-dat-149",
+    "persona_id": "persona_data_analyst",
+    "outcome": "won",
+    "skills": [
+      "Pandas",
+      "Python"
+    ],
+    "text": "Hello. For your Pandas deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Python within 10 days. Here is my portfolio case study: repo-dat-4.",
+    "evidence_cited": [
+      "repo-dat-4"
+    ]
+  },
+  {
+    "proposal_id": "prop-dat-150",
+    "persona_id": "persona_data_analyst",
+    "outcome": "replied",
+    "skills": [
+      "SQL",
+      "Tableau"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building SQL pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  }
+]

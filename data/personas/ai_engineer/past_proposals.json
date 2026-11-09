@@ -1,0 +1,1752 @@
+[
+  {
+    "proposal_id": "prop-ai_-001",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "HuggingFace",
+      "vLLM"
+    ],
+    "text": "Hello. For your HuggingFace deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with vLLM within 10 days. Here is my portfolio case study: case-ai_-001.",
+    "evidence_cited": [
+      "case-ai_-001"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-002",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "FastAPI",
+      "Python"
+    ],
+    "text": "Hello. For your FastAPI deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Python within 10 days. Here is my portfolio case study: case-ai_-002.",
+    "evidence_cited": [
+      "case-ai_-002"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-003",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "PyTorch",
+      "RAG"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building PyTorch pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-004",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "FastAPI",
+      "Python"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in FastAPI and Python. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-005",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "Python",
+      "Vector Databases"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Python pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-006",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "LangChain",
+      "FastAPI"
+    ],
+    "text": "Hello. For your LangChain deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with FastAPI within 10 days. Here is my portfolio case study: case-ai_-006.",
+    "evidence_cited": [
+      "case-ai_-006"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-007",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "LangChain",
+      "vLLM"
+    ],
+    "text": "Hello. For your LangChain deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with vLLM within 10 days. Here is my portfolio case study: case-ai_-007.",
+    "evidence_cited": [
+      "case-ai_-007"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-008",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "HuggingFace",
+      "RAG"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in HuggingFace and RAG. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-009",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "HuggingFace",
+      "Python"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in HuggingFace and Python. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-010",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "PyTorch",
+      "Fine-tuning"
+    ],
+    "text": "Hello. For your PyTorch deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Fine-tuning within 10 days. Here is my portfolio case study: case-ai_-010.",
+    "evidence_cited": [
+      "case-ai_-010"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-011",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "LangChain",
+      "HuggingFace"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in LangChain and HuggingFace. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-012",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "Python",
+      "Vector Databases"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Python and Vector Databases. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-013",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "Fine-tuning",
+      "HuggingFace"
+    ],
+    "text": "Hello. For your Fine-tuning deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with HuggingFace within 10 days. Here is my portfolio case study: case-ai_-013.",
+    "evidence_cited": [
+      "case-ai_-013"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-014",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "LangChain",
+      "RAG"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building LangChain pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-015",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "LangChain",
+      "Python"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building LangChain pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-016",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "FastAPI",
+      "Vector Databases"
+    ],
+    "text": "Hello. For your FastAPI deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Vector Databases within 10 days. Here is my portfolio case study: case-ai_-016.",
+    "evidence_cited": [
+      "case-ai_-016"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-017",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "Python",
+      "Vector Databases"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Python pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-018",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "LangGraph",
+      "Fine-tuning"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in LangGraph and Fine-tuning. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-019",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "PyTorch",
+      "Vector Databases"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in PyTorch and Vector Databases. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-020",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "HuggingFace",
+      "RAG"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building HuggingFace pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-021",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "Fine-tuning",
+      "LangChain"
+    ],
+    "text": "Hello. For your Fine-tuning deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with LangChain within 10 days. Here is my portfolio case study: repo-ai_-1.",
+    "evidence_cited": [
+      "repo-ai_-1"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-022",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "LangGraph",
+      "LangChain"
+    ],
+    "text": "Hello. For your LangGraph deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with LangChain within 10 days. Here is my portfolio case study: repo-ai_-2.",
+    "evidence_cited": [
+      "repo-ai_-2"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-023",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "LangChain",
+      "RAG"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building LangChain pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-024",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "Python",
+      "LangChain"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Python and LangChain. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-025",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "Vector Databases",
+      "RAG"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Vector Databases pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-026",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "LangGraph",
+      "FastAPI"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in LangGraph and FastAPI. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-027",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "LangChain",
+      "PyTorch"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building LangChain pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-028",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "RAG",
+      "Python"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in RAG and Python. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-029",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "vLLM",
+      "LangGraph"
+    ],
+    "text": "Hello. For your vLLM deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with LangGraph within 10 days. Here is my portfolio case study: case-ai_-004.",
+    "evidence_cited": [
+      "case-ai_-004"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-030",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "LangGraph",
+      "vLLM"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building LangGraph pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-031",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "Vector Databases",
+      "FastAPI"
+    ],
+    "text": "Hello. For your Vector Databases deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with FastAPI within 10 days. Here is my portfolio case study: case-ai_-006.",
+    "evidence_cited": [
+      "case-ai_-006"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-032",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "LangGraph",
+      "Fine-tuning"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in LangGraph and Fine-tuning. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-033",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "Python",
+      "LangGraph"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Python pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-034",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "RAG",
+      "Vector Databases"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building RAG pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-035",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "FastAPI",
+      "PyTorch"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building FastAPI pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-036",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "FastAPI",
+      "Vector Databases"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building FastAPI pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-037",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "HuggingFace",
+      "RAG"
+    ],
+    "text": "Hello. For your HuggingFace deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with RAG within 10 days. Here is my portfolio case study: case-ai_-012.",
+    "evidence_cited": [
+      "case-ai_-012"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-038",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "HuggingFace",
+      "Vector Databases"
+    ],
+    "text": "Hello. For your HuggingFace deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Vector Databases within 10 days. Here is my portfolio case study: case-ai_-013.",
+    "evidence_cited": [
+      "case-ai_-013"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-039",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "Python",
+      "PyTorch"
+    ],
+    "text": "Hello. For your Python deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with PyTorch within 10 days. Here is my portfolio case study: case-ai_-014.",
+    "evidence_cited": [
+      "case-ai_-014"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-040",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "FastAPI",
+      "LangChain"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building FastAPI pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-041",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "Fine-tuning",
+      "FastAPI"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Fine-tuning pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-042",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "Python",
+      "PyTorch"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Python and PyTorch. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-043",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "Fine-tuning",
+      "RAG"
+    ],
+    "text": "Hello. For your Fine-tuning deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with RAG within 10 days. Here is my portfolio case study: case-ai_-018.",
+    "evidence_cited": [
+      "case-ai_-018"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-044",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "Vector Databases",
+      "Fine-tuning"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Vector Databases and Fine-tuning. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-045",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "RAG",
+      "HuggingFace"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building RAG pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-046",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "PyTorch",
+      "RAG"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in PyTorch and RAG. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-047",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "Fine-tuning",
+      "LangGraph"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Fine-tuning and LangGraph. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-048",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "FastAPI",
+      "Python"
+    ],
+    "text": "Hello. For your FastAPI deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Python within 10 days. Here is my portfolio case study: repo-ai_-3.",
+    "evidence_cited": [
+      "repo-ai_-3"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-049",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "RAG",
+      "Python"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building RAG pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-050",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "HuggingFace",
+      "Fine-tuning"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building HuggingFace pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-051",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "LangGraph",
+      "Vector Databases"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building LangGraph pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-052",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "RAG",
+      "PyTorch"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building RAG pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-053",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "Vector Databases",
+      "Fine-tuning"
+    ],
+    "text": "Hello. For your Vector Databases deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Fine-tuning within 10 days. Here is my portfolio case study: case-ai_-003.",
+    "evidence_cited": [
+      "case-ai_-003"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-054",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "PyTorch",
+      "FastAPI"
+    ],
+    "text": "Hello. For your PyTorch deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with FastAPI within 10 days. Here is my portfolio case study: case-ai_-004.",
+    "evidence_cited": [
+      "case-ai_-004"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-055",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "HuggingFace",
+      "FastAPI"
+    ],
+    "text": "Hello. For your HuggingFace deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with FastAPI within 10 days. Here is my portfolio case study: case-ai_-005.",
+    "evidence_cited": [
+      "case-ai_-005"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-056",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "RAG",
+      "Vector Databases"
+    ],
+    "text": "Hello. For your RAG deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Vector Databases within 10 days. Here is my portfolio case study: case-ai_-006.",
+    "evidence_cited": [
+      "case-ai_-006"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-057",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "RAG",
+      "FastAPI"
+    ],
+    "text": "Hello. For your RAG deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with FastAPI within 10 days. Here is my portfolio case study: case-ai_-007.",
+    "evidence_cited": [
+      "case-ai_-007"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-058",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "HuggingFace",
+      "LangChain"
+    ],
+    "text": "Hello. For your HuggingFace deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with LangChain within 10 days. Here is my portfolio case study: case-ai_-008.",
+    "evidence_cited": [
+      "case-ai_-008"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-059",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "LangGraph",
+      "RAG"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building LangGraph pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-060",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "RAG",
+      "LangChain"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in RAG and LangChain. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-061",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "Fine-tuning",
+      "FastAPI"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Fine-tuning pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-062",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "RAG",
+      "HuggingFace"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in RAG and HuggingFace. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-063",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "Python",
+      "FastAPI"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Python pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-064",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "FastAPI",
+      "LangGraph"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in FastAPI and LangGraph. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-065",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "RAG",
+      "Vector Databases"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in RAG and Vector Databases. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-066",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "vLLM",
+      "Fine-tuning"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in vLLM and Fine-tuning. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-067",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "vLLM",
+      "LangGraph"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building vLLM pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-068",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "HuggingFace",
+      "vLLM"
+    ],
+    "text": "Hello. For your HuggingFace deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with vLLM within 10 days. Here is my portfolio case study: case-ai_-018.",
+    "evidence_cited": [
+      "case-ai_-018"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-069",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "LangChain",
+      "PyTorch"
+    ],
+    "text": "Hello. For your LangChain deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with PyTorch within 10 days. Here is my portfolio case study: case-ai_-019.",
+    "evidence_cited": [
+      "case-ai_-019"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-070",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "FastAPI",
+      "HuggingFace"
+    ],
+    "text": "Hello. For your FastAPI deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with HuggingFace within 10 days. Here is my portfolio case study: case-ai_-020.",
+    "evidence_cited": [
+      "case-ai_-020"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-071",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "Fine-tuning",
+      "Vector Databases"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Fine-tuning pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-072",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "PyTorch",
+      "LangGraph"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building PyTorch pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-073",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "FastAPI",
+      "LangGraph"
+    ],
+    "text": "Hello. For your FastAPI deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with LangGraph within 10 days. Here is my portfolio case study: repo-ai_-3.",
+    "evidence_cited": [
+      "repo-ai_-3"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-074",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "LangGraph",
+      "LangChain"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building LangGraph pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-075",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "Python",
+      "Fine-tuning"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Python pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-076",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "LangGraph",
+      "vLLM"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in LangGraph and vLLM. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-077",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "Fine-tuning",
+      "PyTorch"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Fine-tuning pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-078",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "vLLM",
+      "RAG"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in vLLM and RAG. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-079",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "Fine-tuning",
+      "LangGraph"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Fine-tuning pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-080",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "RAG",
+      "vLLM"
+    ],
+    "text": "Hello. For your RAG deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with vLLM within 10 days. Here is my portfolio case study: case-ai_-005.",
+    "evidence_cited": [
+      "case-ai_-005"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-081",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "RAG",
+      "LangGraph"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in RAG and LangGraph. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-082",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "LangChain",
+      "Python"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in LangChain and Python. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-083",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "PyTorch",
+      "RAG"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building PyTorch pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-084",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "LangGraph",
+      "LangChain"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in LangGraph and LangChain. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-085",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "HuggingFace",
+      "vLLM"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in HuggingFace and vLLM. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-086",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "Python",
+      "HuggingFace"
+    ],
+    "text": "Hello. For your Python deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with HuggingFace within 10 days. Here is my portfolio case study: case-ai_-011.",
+    "evidence_cited": [
+      "case-ai_-011"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-087",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "LangGraph",
+      "PyTorch"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in LangGraph and PyTorch. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-088",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "vLLM",
+      "LangChain"
+    ],
+    "text": "Hello. For your vLLM deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with LangChain within 10 days. Here is my portfolio case study: case-ai_-013.",
+    "evidence_cited": [
+      "case-ai_-013"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-089",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "vLLM",
+      "HuggingFace"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in vLLM and HuggingFace. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-090",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "HuggingFace",
+      "Vector Databases"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building HuggingFace pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-091",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "vLLM",
+      "HuggingFace"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building vLLM pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-092",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "RAG",
+      "HuggingFace"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building RAG pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-093",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "vLLM",
+      "LangChain"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building vLLM pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-094",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "vLLM",
+      "Fine-tuning"
+    ],
+    "text": "Hello. For your vLLM deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Fine-tuning within 10 days. Here is my portfolio case study: case-ai_-019.",
+    "evidence_cited": [
+      "case-ai_-019"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-095",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "FastAPI",
+      "LangGraph"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building FastAPI pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-096",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "FastAPI",
+      "HuggingFace"
+    ],
+    "text": "Hello. For your FastAPI deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with HuggingFace within 10 days. Here is my portfolio case study: repo-ai_-1.",
+    "evidence_cited": [
+      "repo-ai_-1"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-097",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "vLLM",
+      "LangGraph"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in vLLM and LangGraph. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-098",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "FastAPI",
+      "vLLM"
+    ],
+    "text": "Hello. For your FastAPI deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with vLLM within 10 days. Here is my portfolio case study: repo-ai_-3.",
+    "evidence_cited": [
+      "repo-ai_-3"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-099",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "PyTorch",
+      "FastAPI"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in PyTorch and FastAPI. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-100",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "LangGraph",
+      "FastAPI"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in LangGraph and FastAPI. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-101",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "Vector Databases",
+      "Fine-tuning"
+    ],
+    "text": "Hello. For your Vector Databases deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Fine-tuning within 10 days. Here is my portfolio case study: case-ai_-001.",
+    "evidence_cited": [
+      "case-ai_-001"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-102",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "HuggingFace",
+      "PyTorch"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building HuggingFace pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-103",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "LangChain",
+      "Fine-tuning"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in LangChain and Fine-tuning. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-104",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "LangGraph",
+      "RAG"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building LangGraph pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-105",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "LangChain",
+      "LangGraph"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building LangChain pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-106",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "PyTorch",
+      "RAG"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building PyTorch pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-107",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "RAG",
+      "Vector Databases"
+    ],
+    "text": "Hello. For your RAG deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Vector Databases within 10 days. Here is my portfolio case study: case-ai_-007.",
+    "evidence_cited": [
+      "case-ai_-007"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-108",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "HuggingFace",
+      "vLLM"
+    ],
+    "text": "Hello. For your HuggingFace deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with vLLM within 10 days. Here is my portfolio case study: case-ai_-008.",
+    "evidence_cited": [
+      "case-ai_-008"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-109",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "RAG",
+      "Python"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building RAG pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-110",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "LangGraph",
+      "RAG"
+    ],
+    "text": "Hello. For your LangGraph deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with RAG within 10 days. Here is my portfolio case study: case-ai_-010.",
+    "evidence_cited": [
+      "case-ai_-010"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-111",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "RAG",
+      "Python"
+    ],
+    "text": "Hello. For your RAG deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Python within 10 days. Here is my portfolio case study: case-ai_-011.",
+    "evidence_cited": [
+      "case-ai_-011"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-112",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "Fine-tuning",
+      "RAG"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Fine-tuning and RAG. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-113",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "vLLM",
+      "Python"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building vLLM pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-114",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "Vector Databases",
+      "FastAPI"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Vector Databases pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-115",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "RAG",
+      "Fine-tuning"
+    ],
+    "text": "Hello. For your RAG deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Fine-tuning within 10 days. Here is my portfolio case study: case-ai_-015.",
+    "evidence_cited": [
+      "case-ai_-015"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-116",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "HuggingFace",
+      "Fine-tuning"
+    ],
+    "text": "Hello. For your HuggingFace deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Fine-tuning within 10 days. Here is my portfolio case study: case-ai_-016.",
+    "evidence_cited": [
+      "case-ai_-016"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-117",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "Fine-tuning",
+      "LangGraph"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Fine-tuning pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-118",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "vLLM",
+      "LangGraph"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in vLLM and LangGraph. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-119",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "FastAPI",
+      "RAG"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in FastAPI and RAG. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-120",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "vLLM",
+      "Python"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in vLLM and Python. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-121",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "RAG",
+      "Vector Databases"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building RAG pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-122",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "RAG",
+      "LangChain"
+    ],
+    "text": "Hello. For your RAG deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with LangChain within 10 days. Here is my portfolio case study: repo-ai_-2.",
+    "evidence_cited": [
+      "repo-ai_-2"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-123",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "vLLM",
+      "LangChain"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in vLLM and LangChain. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-124",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "Fine-tuning",
+      "HuggingFace"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Fine-tuning and HuggingFace. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-125",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "Python",
+      "RAG"
+    ],
+    "text": "Hello. For your Python deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with RAG within 10 days. Here is my portfolio case study: repo-ai_-5.",
+    "evidence_cited": [
+      "repo-ai_-5"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-126",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "Fine-tuning",
+      "Python"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building Fine-tuning pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-127",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "PyTorch",
+      "RAG"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in PyTorch and RAG. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-128",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "LangChain",
+      "vLLM"
+    ],
+    "text": "Hello. For your LangChain deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with vLLM within 10 days. Here is my portfolio case study: case-ai_-003.",
+    "evidence_cited": [
+      "case-ai_-003"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-129",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "LangChain",
+      "Python"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in LangChain and Python. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-130",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "FastAPI",
+      "RAG"
+    ],
+    "text": "Hello. For your FastAPI deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with RAG within 10 days. Here is my portfolio case study: case-ai_-005.",
+    "evidence_cited": [
+      "case-ai_-005"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-131",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "Vector Databases",
+      "LangGraph"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Vector Databases and LangGraph. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-132",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "vLLM",
+      "Vector Databases"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in vLLM and Vector Databases. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-133",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "Vector Databases",
+      "RAG"
+    ],
+    "text": "Hello. For your Vector Databases deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with RAG within 10 days. Here is my portfolio case study: case-ai_-008.",
+    "evidence_cited": [
+      "case-ai_-008"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-134",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "FastAPI",
+      "RAG"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building FastAPI pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-135",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "FastAPI",
+      "PyTorch"
+    ],
+    "text": "Hello. For your FastAPI deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with PyTorch within 10 days. Here is my portfolio case study: case-ai_-010.",
+    "evidence_cited": [
+      "case-ai_-010"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-136",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "vLLM",
+      "Python"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building vLLM pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-137",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "HuggingFace",
+      "Python"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in HuggingFace and Python. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-138",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "Vector Databases",
+      "LangGraph"
+    ],
+    "text": "Hello. For your Vector Databases deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with LangGraph within 10 days. Here is my portfolio case study: case-ai_-013.",
+    "evidence_cited": [
+      "case-ai_-013"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-139",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "text": "Hello. For your PyTorch deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with Python within 10 days. Here is my portfolio case study: case-ai_-014.",
+    "evidence_cited": [
+      "case-ai_-014"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-140",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "Python",
+      "LangGraph"
+    ],
+    "text": "Hello. For your Python deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with LangGraph within 10 days. Here is my portfolio case study: case-ai_-015.",
+    "evidence_cited": [
+      "case-ai_-015"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-141",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "LangGraph",
+      "Python"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in LangGraph and Python. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-142",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "Fine-tuning",
+      "LangChain"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Fine-tuning and LangChain. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-143",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "LangGraph",
+      "LangChain"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in LangGraph and LangChain. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-144",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "replied",
+    "skills": [
+      "vLLM",
+      "PyTorch"
+    ],
+    "text": "Hi there. I have extensive hands-on experience building vLLM pipelines. Would you prefer a cloud deployment or on-prem? Let me know and we can schedule a brief call.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-145",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "Fine-tuning",
+      "LangGraph"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in Fine-tuning and LangGraph. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-146",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "vLLM",
+      "FastAPI"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in vLLM and FastAPI. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-147",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "Vector Databases",
+      "LangChain"
+    ],
+    "text": "Hello. For your Vector Databases deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with LangChain within 10 days. Here is my portfolio case study: repo-ai_-2.",
+    "evidence_cited": [
+      "repo-ai_-2"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-148",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "won",
+    "skills": [
+      "Fine-tuning",
+      "PyTorch"
+    ],
+    "text": "Hello. For your Fine-tuning deliverable, I recently completed a similar system reducing latency by 40%. I can set up a robust baseline with PyTorch within 10 days. Here is my portfolio case study: repo-ai_-3.",
+    "evidence_cited": [
+      "repo-ai_-3"
+    ]
+  },
+  {
+    "proposal_id": "prop-ai_-149",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "LangChain",
+      "FastAPI"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in LangChain and FastAPI. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  },
+  {
+    "proposal_id": "prop-ai_-150",
+    "persona_id": "persona_ai_engineer",
+    "outcome": "ignored",
+    "skills": [
+      "PyTorch",
+      "Python"
+    ],
+    "text": "Dear Client, I am an expert software developer with 10 years experience in PyTorch and Python. I guarantee 100% satisfaction. Please hire me.",
+    "evidence_cited": []
+  }
+]

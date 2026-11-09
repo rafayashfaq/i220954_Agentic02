@@ -21,3 +21,10 @@ dev = ["pytest", "pytest-asyncio", "ruff", "mypy"]
 
 [tool.ruff]
 line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "mcp_servers"]
+norecursedirs = ["starter_kit", ".git", "venv", ".venv", "node_modules", "apps/web/node_modules"]
+python_files = ["test_*.py"]
+asyncio_mode = "auto"
+

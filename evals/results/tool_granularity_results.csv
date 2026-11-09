@@ -1,0 +1,4 @@
+Configuration,Tool Count,Tool Selection Acc (%),Argument Acc (%),Tokens / Task
+Fine-grained (15 tools),15,77.5,70.0,620.0
+Coarse (2 monolithic tools),2,77.5,65.0,980.0
+Shipped Best Set (8 tools),8,97.5,95.0,410.0

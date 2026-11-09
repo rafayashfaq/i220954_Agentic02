@@ -1,15 +1,22 @@
-.PHONY: install api test lint eval
+.PHONY: install api test lint eval seed dev
+
 install:
 	python -m pip install -e ".[dev]"
+
+seed:
+	python data/generate_dataset.py
 
 api:
 	uvicorn apps.api.main:app --reload --port 8000
 
+dev:
+	uvicorn apps.api.main:app --port 8000
+
 test:
-	pytest -q
+	pytest tests/ mcp_servers/ -v
 
 lint:
 	ruff check .
 
 eval:
-	python -m evals.runners.run_demo_eval
+	python evals/runners/ci_eval.py

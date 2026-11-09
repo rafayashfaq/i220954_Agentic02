@@ -1,0 +1,144 @@
+{
+  "portfolio": {
+    "search_evidence": {
+      "name": "search_evidence",
+      "description": "Search portfolio evidence items (case studies, repos, past proposals) matching a technical requirement. Returns items with type, source, date, skills and outcome.",
+      "parameters": [
+        "requirement",
+        "k",
+        "persona_key"
+      ]
+    },
+    "get_case_study": {
+      "name": "get_case_study",
+      "description": "Retrieve the complete text and outcome metrics for a specific portfolio case study by ID.",
+      "parameters": [
+        "case_id",
+        "persona_key"
+      ]
+    },
+    "list_skills": {
+      "name": "list_skills",
+      "description": "List all verified skills present across the freelancer's portfolio.",
+      "parameters": [
+        "persona_key"
+      ]
+    }
+  },
+  "marketplace": {
+    "search_jobs": {
+      "name": "search_jobs",
+      "description": "Search active freelance jobs on the marketplace by keywords. Annotations: readOnlyHint=True, idempotentHint=True.",
+      "parameters": [
+        "query",
+        "limit",
+        "auth_token",
+        "trace_id"
+      ]
+    },
+    "get_job": {
+      "name": "get_job",
+      "description": "Fetch complete specifications and client metadata for a job by job ID. Annotations: readOnlyHint=True, idempotentHint=True.",
+      "parameters": [
+        "job_id",
+        "auth_token",
+        "trace_id"
+      ]
+    },
+    "get_client_history": {
+      "name": "get_client_history",
+      "description": "Retrieve client hiring track record, total spend, rating and verification status. Annotations: readOnlyHint=True, idempotentHint=True.",
+      "parameters": [
+        "client_id",
+        "auth_token",
+        "trace_id"
+      ]
+    },
+    "get_connects_balance": {
+      "name": "get_connects_balance",
+      "description": "Get current available Connects balance and transaction history. Annotations: readOnlyHint=True, idempotentHint=True.",
+      "parameters": [
+        "auth_token",
+        "trace_id"
+      ]
+    },
+    "list_messages": {
+      "name": "list_messages",
+      "description": "List client messages and threads. Annotations: readOnlyHint=True, idempotentHint=True.",
+      "parameters": [
+        "thread_id",
+        "auth_token",
+        "trace_id"
+      ]
+    },
+    "create_proposal_draft": {
+      "name": "create_proposal_draft",
+      "description": "Create a draft proposal on the marketplace. Supports dry_run=True to preview spend and payload without modifying state. Annotations: readOnlyHint=False, destructiveHint=False, idempotentHint=True.",
+      "parameters": [
+        "job_id",
+        "cover_letter",
+        "bid_amount",
+        "screening_answers",
+        "evidence_ids",
+        "dry_run",
+        "auth_token",
+        "trace_id"
+      ]
+    },
+    "submit_proposal": {
+      "name": "submit_proposal",
+      "description": "Submit an approved proposal to the marketplace. Spends Connects. Requires a unique idempotency_key to prevent duplicate submissions or duplicate charges. Annotations: readOnlyHint=False, destructiveHint=True, idempotentHint=True.",
+      "parameters": [
+        "job_id",
+        "cover_letter",
+        "bid_amount",
+        "idempotency_key",
+        "screening_answers",
+        "evidence_ids",
+        "auth_token",
+        "trace_id"
+      ]
+    },
+    "send_message": {
+      "name": "send_message",
+      "description": "Send a message or proposed interview slots to a client. Requires idempotency_key. Annotations: readOnlyHint=False, destructiveHint=True, idempotentHint=True.",
+      "parameters": [
+        "client_id",
+        "body",
+        "idempotency_key",
+        "proposed_slots",
+        "thread_id",
+        "auth_token",
+        "trace_id"
+      ]
+    }
+  },
+  "workspace": {
+    "get_free_calendar_slots": {
+      "name": "get_free_calendar_slots",
+      "description": "Check freelancer calendar availability and return a list of free interview slots in ISO 8601 format.",
+      "parameters": [
+        "days_ahead",
+        "duration_minutes"
+      ]
+    },
+    "create_tentative_interview_hold": {
+      "name": "create_tentative_interview_hold",
+      "description": "Create a tentative calendar hold for a prospective client interview.",
+      "parameters": [
+        "title",
+        "slot",
+        "client_name"
+      ]
+    },
+    "create_email_draft": {
+      "name": "create_email_draft",
+      "description": "Create a draft email in the freelancer's workspace inbox for manual review.",
+      "parameters": [
+        "recipient",
+        "subject",
+        "body"
+      ]
+    }
+  }
+}

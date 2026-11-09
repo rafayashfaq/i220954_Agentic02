@@ -13,4 +13,7 @@ data/processed/
 starter_kit/
 *.zip
 *.docx.pdf
+*.db
+*.sqlite
+*.log
 

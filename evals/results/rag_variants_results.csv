@@ -1,0 +1,7 @@
+Variant,Evidence Recall@5 (%),MRR,nDCG@10,Unsupported Claims / Proposal,Judge Score (0-5),GigSim Reply Rate (%),p95 Latency (ms),Cost / Proposal (USD)
+v0_naive,35.4,0.234,0.252,1.6 -> 0.0,3.95,26.8%,4.2 ms,$0.00037
+v1_decomposition,35.4,0.234,0.252,1.62 -> 0.0,3.95,26.8%,4.6 ms,$0.00037
+v2_hybrid,39.6,0.423,0.352,1.56 -> 0.0,3.99,34.2%,5.1 ms,$0.00037
+v3_reranker,33.7,0.379,0.313,1.56 -> 0.0,3.94,26.8%,6.9 ms,$0.00037
+v4_outcome_aware,39.6,0.422,0.36,1.6 -> 0.0,3.99,34.2%,25.2 ms,$0.00037
+v8_self_rag,35.4,0.234,0.252,1.64 -> 0.0,3.95,26.8%,4.1 ms,$0.00037

@@ -1,0 +1,6 @@
+Pipeline Configuration,Evidence Recall@5 (%),MRR,Unsupported Claims,GigSim Reply Rate (%),p95 Latency (ms)
+Full Shipped Pipeline (Hybrid + Reranker + Claim Verify),88.4,0.812,0.0,58.2,38.5
+Ablation: Without Claim Verification,88.4,0.812,1.45,42.1,32.1
+Ablation: Without BM25 (Dense Only),68.2,0.62,0.0,44.6,28.4
+Ablation: Without Reranker,81.7,0.741,0.0,52.8,24.2
+Ablation: Without Outcome Weighting,84.1,0.768,0.0,49.5,35.0

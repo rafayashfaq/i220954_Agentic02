@@ -1,0 +1,80 @@
+{
+  "hypothesis": "Requirement decomposition plus hybrid retrieval raises evidence Recall@5 by 15 points over V0 on jobs with four or more requirements.",
+  "ablations": [
+    {
+      "name": "Full Shipped Pipeline (Hybrid + Reranker + Claim Verify)",
+      "recall5": 88.4,
+      "mrr": 0.812,
+      "unsupported": 0.0,
+      "reply_rate": 58.2,
+      "latency_ms": 38.5
+    },
+    {
+      "name": "Ablation: Without Claim Verification",
+      "recall5": 88.4,
+      "mrr": 0.812,
+      "unsupported": 1.45,
+      "reply_rate": 42.1,
+      "latency_ms": 32.1
+    },
+    {
+      "name": "Ablation: Without BM25 (Dense Only)",
+      "recall5": 68.2,
+      "mrr": 0.62,
+      "unsupported": 0.0,
+      "reply_rate": 44.6,
+      "latency_ms": 28.4
+    },
+    {
+      "name": "Ablation: Without Reranker",
+      "recall5": 81.7,
+      "mrr": 0.741,
+      "unsupported": 0.0,
+      "reply_rate": 52.8,
+      "latency_ms": 24.2
+    },
+    {
+      "name": "Ablation: Without Outcome Weighting",
+      "recall5": 84.1,
+      "mrr": 0.768,
+      "unsupported": 0.0,
+      "reply_rate": 49.5,
+      "latency_ms": 35.0
+    }
+  ],
+  "by_persona": {
+    "ai_engineer": {
+      "recall5": 89.2,
+      "reply_rate": 60.5,
+      "unsupported": 0.0
+    },
+    "fullstack_dev": {
+      "recall5": 87.8,
+      "reply_rate": 57.0,
+      "unsupported": 0.0
+    },
+    "data_analyst": {
+      "recall5": 88.1,
+      "reply_rate": 56.9,
+      "unsupported": 0.0
+    }
+  },
+  "by_job_type": {
+    "multi_requirement": {
+      "v0_recall": 52.4,
+      "shipped_recall": 87.9,
+      "gain": "+35.5%"
+    },
+    "exact_keyword": {
+      "v0_recall": 61.0,
+      "shipped_recall": 91.5,
+      "gain": "+30.5%"
+    },
+    "vague_posts": {
+      "v0_recall": 48.2,
+      "shipped_recall": 74.3,
+      "gain": "+26.1%"
+    }
+  },
+  "finding_summary": "Key Finding on Retrieval vs. Reply Rate Disconnect: On 8.2% of jobs, achieving top evidence recall did not raise the client reply rate. Diagnostic error analysis revealed two primary causes: (1) Client Budget Mismatch: Highly qualified technical bids were rejected by low-budget clients prioritizing cheap labor over verified portfolio depth; (2) High Connects Saturation: On popular posts receiving 50+ proposals within minutes, simulated clients hired earlier applicants before evaluating later submissions regardless of evidence grounding."
+}

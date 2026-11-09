@@ -1,0 +1,23 @@
+{
+  "fine_grained": {
+    "total_tasks": 40,
+    "tool_selection_accuracy": 77.5,
+    "argument_accuracy": 70.0,
+    "tokens_per_task": 620.0,
+    "total_tokens": 24800
+  },
+  "coarse": {
+    "total_tasks": 40,
+    "tool_selection_accuracy": 77.5,
+    "argument_accuracy": 65.0,
+    "tokens_per_task": 980.0,
+    "total_tokens": 39200
+  },
+  "shipped_best_set": {
+    "total_tasks": 40,
+    "tool_selection_accuracy": 97.5,
+    "argument_accuracy": 95.0,
+    "tokens_per_task": 410.0,
+    "total_tokens": 16400
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "calibration_sample_size": 30,
+  "cohen_kappa": 0.932,
+  "agreement_accuracy": 96.7,
+  "interpretation": "Substantial / Almost Perfect Agreement (0.80 - 0.95)",
+  "disagreements_count": 1,
+  "disagreements": [
+    {
+      "item_id": 24,
+      "text": "Clear explanation of cohort retention methodology using BigQuery window functions.",
+      "human_verdict": 1,
+      "judge_verdict": 0,
+      "human_score": 4.1,
+      "judge_score": 3.5
+    }
+  ]
+}

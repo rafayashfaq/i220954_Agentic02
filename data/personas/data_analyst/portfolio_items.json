@@ -1,0 +1,422 @@
+[
+  {
+    "evidence_id": "case-dat-001",
+    "persona_id": "persona_data_analyst",
+    "type": "case_study",
+    "title": "Executive revenue & MRR forecasting models using Prophet and Python",
+    "summary": "Delivered Executive revenue & MRR forecasting models using Prophet and Python in Retail industry utilizing Statistical Modeling, SQL, Snowflake, Pandas.",
+    "skills": [
+      "Statistical Modeling",
+      "SQL",
+      "Snowflake",
+      "Pandas"
+    ],
+    "outcome": "Successful delivery with 47% measurable performance gain.",
+    "source": "case_studies/case-dat-001.md",
+    "client_industry": "Retail",
+    "date": "2025-12-15"
+  },
+  {
+    "evidence_id": "case-dat-002",
+    "persona_id": "persona_data_analyst",
+    "type": "case_study",
+    "title": "Modern data stack implementation: dbt core, Snowflake and BigQuery",
+    "summary": "Delivered Modern data stack implementation: dbt core, Snowflake and BigQuery in Retail industry utilizing SQL, dbt, Statistical Modeling, Tableau.",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Statistical Modeling",
+      "Tableau"
+    ],
+    "outcome": "Successful delivery with 41% measurable performance gain.",
+    "source": "case_studies/case-dat-002.md",
+    "client_industry": "Retail",
+    "date": "2025-08-15"
+  },
+  {
+    "evidence_id": "case-dat-003",
+    "persona_id": "persona_data_analyst",
+    "type": "case_study",
+    "title": "E-commerce customer lifetime value (LTV) and cohort retention analysis",
+    "summary": "Delivered E-commerce customer lifetime value (LTV) and cohort retention analysis in Gaming industry utilizing Power BI, Python, Snowflake, BigQuery.",
+    "skills": [
+      "Power BI",
+      "Python",
+      "Snowflake",
+      "BigQuery"
+    ],
+    "outcome": "Successful delivery with 45% measurable performance gain.",
+    "source": "case_studies/case-dat-003.md",
+    "client_industry": "Gaming",
+    "date": "2025-07-15"
+  },
+  {
+    "evidence_id": "case-dat-004",
+    "persona_id": "persona_data_analyst",
+    "type": "case_study",
+    "title": "Interactive Power BI sales pipeline dashboard for enterprise sales team",
+    "summary": "Delivered Interactive Power BI sales pipeline dashboard for enterprise sales team in Supply Chain industry utilizing Statistical Modeling, Looker, SQL, dbt.",
+    "skills": [
+      "Statistical Modeling",
+      "Looker",
+      "SQL",
+      "dbt"
+    ],
+    "outcome": "Successful delivery with 49% measurable performance gain.",
+    "source": "case_studies/case-dat-004.md",
+    "client_industry": "Supply Chain",
+    "date": "2025-06-15"
+  },
+  {
+    "evidence_id": "case-dat-005",
+    "persona_id": "persona_data_analyst",
+    "type": "case_study",
+    "title": "Marketing multi-touch attribution modeling in SQL and Python",
+    "summary": "Delivered Marketing multi-touch attribution modeling in SQL and Python in FinTech industry utilizing Snowflake, SQL, Tableau, BigQuery.",
+    "skills": [
+      "Snowflake",
+      "SQL",
+      "Tableau",
+      "BigQuery"
+    ],
+    "outcome": "Successful delivery with 24% measurable performance gain.",
+    "source": "case_studies/case-dat-005.md",
+    "client_industry": "FinTech",
+    "date": "2025-12-15"
+  },
+  {
+    "evidence_id": "case-dat-006",
+    "persona_id": "persona_data_analyst",
+    "type": "case_study",
+    "title": "Inventory turnover and supply chain demand forecasting in Tableau",
+    "summary": "Delivered Inventory turnover and supply chain demand forecasting in Tableau in Marketing industry utilizing SQL, Python, Power BI, Pandas.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI",
+      "Pandas"
+    ],
+    "outcome": "Successful delivery with 29% measurable performance gain.",
+    "source": "case_studies/case-dat-006.md",
+    "client_industry": "Marketing",
+    "date": "2025-12-15"
+  },
+  {
+    "evidence_id": "case-dat-007",
+    "persona_id": "persona_data_analyst",
+    "type": "case_study",
+    "title": "A/B test significance framework and Bayesian experimentation reporting",
+    "summary": "Delivered A/B test significance framework and Bayesian experimentation reporting in FinTech industry utilizing Snowflake, Python, SQL, Statistical Modeling.",
+    "skills": [
+      "Snowflake",
+      "Python",
+      "SQL",
+      "Statistical Modeling"
+    ],
+    "outcome": "Successful delivery with 28% measurable performance gain.",
+    "source": "case_studies/case-dat-007.md",
+    "client_industry": "FinTech",
+    "date": "2025-08-15"
+  },
+  {
+    "evidence_id": "case-dat-008",
+    "persona_id": "persona_data_analyst",
+    "type": "case_study",
+    "title": "Automated financial ETL pipeline extracting Stripe and QuickBooks data",
+    "summary": "Delivered Automated financial ETL pipeline extracting Stripe and QuickBooks data in Supply Chain industry utilizing BigQuery, Pandas, Statistical Modeling, Power BI.",
+    "skills": [
+      "BigQuery",
+      "Pandas",
+      "Statistical Modeling",
+      "Power BI"
+    ],
+    "outcome": "Successful delivery with 33% measurable performance gain.",
+    "source": "case_studies/case-dat-008.md",
+    "client_industry": "Supply Chain",
+    "date": "2025-02-15"
+  },
+  {
+    "evidence_id": "case-dat-009",
+    "persona_id": "persona_data_analyst",
+    "type": "case_study",
+    "title": "SaaS churn analytics and customer health scoring dashboard",
+    "summary": "Delivered SaaS churn analytics and customer health scoring dashboard in FinTech industry utilizing dbt, Pandas, Looker, SQL.",
+    "skills": [
+      "dbt",
+      "Pandas",
+      "Looker",
+      "SQL"
+    ],
+    "outcome": "Successful delivery with 26% measurable performance gain.",
+    "source": "case_studies/case-dat-009.md",
+    "client_industry": "FinTech",
+    "date": "2025-05-15"
+  },
+  {
+    "evidence_id": "case-dat-010",
+    "persona_id": "persona_data_analyst",
+    "type": "case_study",
+    "title": "Data warehouse migration from legacy MySQL to BigQuery",
+    "summary": "Delivered Data warehouse migration from legacy MySQL to BigQuery in Supply Chain industry utilizing Power BI, Tableau, dbt, Statistical Modeling.",
+    "skills": [
+      "Power BI",
+      "Tableau",
+      "dbt",
+      "Statistical Modeling"
+    ],
+    "outcome": "Successful delivery with 25% measurable performance gain.",
+    "source": "case_studies/case-dat-010.md",
+    "client_industry": "Supply Chain",
+    "date": "2025-03-15"
+  },
+  {
+    "evidence_id": "case-dat-011",
+    "persona_id": "persona_data_analyst",
+    "type": "case_study",
+    "title": "Executive revenue & MRR forecasting models using Prophet and Python",
+    "summary": "Delivered Executive revenue & MRR forecasting models using Prophet and Python in Gaming industry utilizing BigQuery, Statistical Modeling, Power BI, dbt.",
+    "skills": [
+      "BigQuery",
+      "Statistical Modeling",
+      "Power BI",
+      "dbt"
+    ],
+    "outcome": "Successful delivery with 32% measurable performance gain.",
+    "source": "case_studies/case-dat-011.md",
+    "client_industry": "Gaming",
+    "date": "2025-12-15"
+  },
+  {
+    "evidence_id": "case-dat-012",
+    "persona_id": "persona_data_analyst",
+    "type": "case_study",
+    "title": "Modern data stack implementation: dbt core, Snowflake and BigQuery",
+    "summary": "Delivered Modern data stack implementation: dbt core, Snowflake and BigQuery in Retail industry utilizing SQL, BigQuery, Looker, Power BI.",
+    "skills": [
+      "SQL",
+      "BigQuery",
+      "Looker",
+      "Power BI"
+    ],
+    "outcome": "Successful delivery with 38% measurable performance gain.",
+    "source": "case_studies/case-dat-012.md",
+    "client_industry": "Retail",
+    "date": "2025-07-15"
+  },
+  {
+    "evidence_id": "case-dat-013",
+    "persona_id": "persona_data_analyst",
+    "type": "case_study",
+    "title": "E-commerce customer lifetime value (LTV) and cohort retention analysis",
+    "summary": "Delivered E-commerce customer lifetime value (LTV) and cohort retention analysis in Retail industry utilizing BigQuery, dbt, Python, Power BI.",
+    "skills": [
+      "BigQuery",
+      "dbt",
+      "Python",
+      "Power BI"
+    ],
+    "outcome": "Successful delivery with 46% measurable performance gain.",
+    "source": "case_studies/case-dat-013.md",
+    "client_industry": "Retail",
+    "date": "2025-12-15"
+  },
+  {
+    "evidence_id": "case-dat-014",
+    "persona_id": "persona_data_analyst",
+    "type": "case_study",
+    "title": "Interactive Power BI sales pipeline dashboard for enterprise sales team",
+    "summary": "Delivered Interactive Power BI sales pipeline dashboard for enterprise sales team in Retail industry utilizing Snowflake, Python, BigQuery, Pandas.",
+    "skills": [
+      "Snowflake",
+      "Python",
+      "BigQuery",
+      "Pandas"
+    ],
+    "outcome": "Successful delivery with 36% measurable performance gain.",
+    "source": "case_studies/case-dat-014.md",
+    "client_industry": "Retail",
+    "date": "2025-02-15"
+  },
+  {
+    "evidence_id": "case-dat-015",
+    "persona_id": "persona_data_analyst",
+    "type": "case_study",
+    "title": "Marketing multi-touch attribution modeling in SQL and Python",
+    "summary": "Delivered Marketing multi-touch attribution modeling in SQL and Python in Supply Chain industry utilizing BigQuery, dbt, Snowflake, Python.",
+    "skills": [
+      "BigQuery",
+      "dbt",
+      "Snowflake",
+      "Python"
+    ],
+    "outcome": "Successful delivery with 40% measurable performance gain.",
+    "source": "case_studies/case-dat-015.md",
+    "client_industry": "Supply Chain",
+    "date": "2025-02-15"
+  },
+  {
+    "evidence_id": "case-dat-016",
+    "persona_id": "persona_data_analyst",
+    "type": "case_study",
+    "title": "Inventory turnover and supply chain demand forecasting in Tableau",
+    "summary": "Delivered Inventory turnover and supply chain demand forecasting in Tableau in Supply Chain industry utilizing Statistical Modeling, Looker, Power BI, BigQuery.",
+    "skills": [
+      "Statistical Modeling",
+      "Looker",
+      "Power BI",
+      "BigQuery"
+    ],
+    "outcome": "Successful delivery with 23% measurable performance gain.",
+    "source": "case_studies/case-dat-016.md",
+    "client_industry": "Supply Chain",
+    "date": "2025-03-15"
+  },
+  {
+    "evidence_id": "case-dat-017",
+    "persona_id": "persona_data_analyst",
+    "type": "case_study",
+    "title": "A/B test significance framework and Bayesian experimentation reporting",
+    "summary": "Delivered A/B test significance framework and Bayesian experimentation reporting in FinTech industry utilizing dbt, Power BI, Tableau, Looker.",
+    "skills": [
+      "dbt",
+      "Power BI",
+      "Tableau",
+      "Looker"
+    ],
+    "outcome": "Successful delivery with 50% measurable performance gain.",
+    "source": "case_studies/case-dat-017.md",
+    "client_industry": "FinTech",
+    "date": "2025-11-15"
+  },
+  {
+    "evidence_id": "case-dat-018",
+    "persona_id": "persona_data_analyst",
+    "type": "case_study",
+    "title": "Automated financial ETL pipeline extracting Stripe and QuickBooks data",
+    "summary": "Delivered Automated financial ETL pipeline extracting Stripe and QuickBooks data in Gaming industry utilizing Pandas, Looker, Statistical Modeling, Snowflake.",
+    "skills": [
+      "Pandas",
+      "Looker",
+      "Statistical Modeling",
+      "Snowflake"
+    ],
+    "outcome": "Successful delivery with 47% measurable performance gain.",
+    "source": "case_studies/case-dat-018.md",
+    "client_industry": "Gaming",
+    "date": "2025-11-15"
+  },
+  {
+    "evidence_id": "case-dat-019",
+    "persona_id": "persona_data_analyst",
+    "type": "case_study",
+    "title": "SaaS churn analytics and customer health scoring dashboard",
+    "summary": "Delivered SaaS churn analytics and customer health scoring dashboard in Marketing industry utilizing Snowflake, Tableau, Pandas, SQL.",
+    "skills": [
+      "Snowflake",
+      "Tableau",
+      "Pandas",
+      "SQL"
+    ],
+    "outcome": "Successful delivery with 38% measurable performance gain.",
+    "source": "case_studies/case-dat-019.md",
+    "client_industry": "Marketing",
+    "date": "2025-01-15"
+  },
+  {
+    "evidence_id": "case-dat-020",
+    "persona_id": "persona_data_analyst",
+    "type": "case_study",
+    "title": "Data warehouse migration from legacy MySQL to BigQuery",
+    "summary": "Delivered Data warehouse migration from legacy MySQL to BigQuery in Marketing industry utilizing Snowflake, Statistical Modeling, Python, Tableau.",
+    "skills": [
+      "Snowflake",
+      "Statistical Modeling",
+      "Python",
+      "Tableau"
+    ],
+    "outcome": "Successful delivery with 46% measurable performance gain.",
+    "source": "case_studies/case-dat-020.md",
+    "client_industry": "Marketing",
+    "date": "2025-05-15"
+  },
+  {
+    "evidence_id": "repo-dat-1",
+    "persona_id": "persona_data_analyst",
+    "type": "repo",
+    "title": "Open Source Repo: repo-dat-1",
+    "summary": "Production reference architecture demonstrating Python, Looker, BigQuery.",
+    "skills": [
+      "Python",
+      "Looker",
+      "BigQuery"
+    ],
+    "outcome": "Maintained repository with 150+ GitHub stars.",
+    "source": "repos/repo-dat-1_README.md",
+    "client_industry": "Open Source",
+    "date": "2025-06-01"
+  },
+  {
+    "evidence_id": "repo-dat-2",
+    "persona_id": "persona_data_analyst",
+    "type": "repo",
+    "title": "Open Source Repo: repo-dat-2",
+    "summary": "Production reference architecture demonstrating Pandas, Statistical Modeling, SQL.",
+    "skills": [
+      "Pandas",
+      "Statistical Modeling",
+      "SQL"
+    ],
+    "outcome": "Maintained repository with 150+ GitHub stars.",
+    "source": "repos/repo-dat-2_README.md",
+    "client_industry": "Open Source",
+    "date": "2025-06-01"
+  },
+  {
+    "evidence_id": "repo-dat-3",
+    "persona_id": "persona_data_analyst",
+    "type": "repo",
+    "title": "Open Source Repo: repo-dat-3",
+    "summary": "Production reference architecture demonstrating Pandas, Power BI, Snowflake.",
+    "skills": [
+      "Pandas",
+      "Power BI",
+      "Snowflake"
+    ],
+    "outcome": "Maintained repository with 150+ GitHub stars.",
+    "source": "repos/repo-dat-3_README.md",
+    "client_industry": "Open Source",
+    "date": "2025-06-01"
+  },
+  {
+    "evidence_id": "repo-dat-4",
+    "persona_id": "persona_data_analyst",
+    "type": "repo",
+    "title": "Open Source Repo: repo-dat-4",
+    "summary": "Production reference architecture demonstrating Looker, Pandas, Tableau.",
+    "skills": [
+      "Looker",
+      "Pandas",
+      "Tableau"
+    ],
+    "outcome": "Maintained repository with 150+ GitHub stars.",
+    "source": "repos/repo-dat-4_README.md",
+    "client_industry": "Open Source",
+    "date": "2025-06-01"
+  },
+  {
+    "evidence_id": "repo-dat-5",
+    "persona_id": "persona_data_analyst",
+    "type": "repo",
+    "title": "Open Source Repo: repo-dat-5",
+    "summary": "Production reference architecture demonstrating SQL, Pandas, Python.",
+    "skills": [
+      "SQL",
+      "Pandas",
+      "Python"
+    ],
+    "outcome": "Maintained repository with 150+ GitHub stars.",
+    "source": "repos/repo-dat-5_README.md",
+    "client_industry": "Open Source",
+    "date": "2025-06-01"
+  }
+]
