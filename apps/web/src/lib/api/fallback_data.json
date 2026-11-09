@@ -1,0 +1,1016 @@
+{
+  "jobs": [
+    {
+      "job_id": "job-stream-0001",
+      "title": "Customer churn prediction baseline using scikit-learn",
+      "description": "We are seeking an experienced developer to customer churn prediction baseline using scikit-learn. Deliverables include architecture review, clean modular implementation, automated ...",
+      "required_skills": [
+        "Python",
+        "scikit-learn",
+        "classification",
+        "model evaluation"
+      ],
+      "budget_min": 350.0,
+      "budget_max": 750.0,
+      "connects_cost": 8,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0002",
+      "title": "Build responsive B2B SaaS dashboard with Next.js and Tailwind",
+      "description": "We are seeking an experienced developer to build responsive b2b saas dashboard with next.js and tailwind. Deliverables include architecture review, clean modular implementation, au...",
+      "required_skills": [
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Tailwind CSS"
+      ],
+      "budget_min": 900.0,
+      "budget_max": 2200.0,
+      "connects_cost": 8,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0004",
+      "title": "Real-time chat & notifications using WebSockets and Redis",
+      "description": "We are seeking an experienced developer to real-time chat & notifications using websockets and redis. Deliverables include architecture review, clean modular implementation, automa...",
+      "required_skills": [
+        "TypeScript",
+        "Node.js",
+        "Redis",
+        "React"
+      ],
+      "budget_min": 800.0,
+      "budget_max": 1900.0,
+      "connects_cost": 6,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0005",
+      "title": "FastAPI + PostgreSQL backend API with JWT authentication",
+      "description": "We are seeking an experienced developer to fastapi + postgresql backend api with jwt authentication. Deliverables include architecture review, clean modular implementation, automat...",
+      "required_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "budget_min": 700.0,
+      "budget_max": 1600.0,
+      "connects_cost": 16,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0006",
+      "title": "Deploy high-throughput vLLM serving on AWS EC2 GPU instances",
+      "description": "We are seeking an experienced developer to deploy high-throughput vllm serving on aws ec2 gpu instances. Deliverables include architecture review, clean modular implementation, aut...",
+      "required_skills": [
+        "Python",
+        "vLLM",
+        "Docker",
+        "FastAPI"
+      ],
+      "budget_min": 800.0,
+      "budget_max": 1800.0,
+      "connects_cost": 8,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0007",
+      "title": "Deploy high-throughput vLLM serving on AWS EC2 GPU instances",
+      "description": "We are seeking an experienced developer to deploy high-throughput vllm serving on aws ec2 gpu instances. Deliverables include architecture review, clean modular implementation, aut...",
+      "required_skills": [
+        "Python",
+        "vLLM",
+        "Docker",
+        "FastAPI"
+      ],
+      "budget_min": 800.0,
+      "budget_max": 1800.0,
+      "connects_cost": 12,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0008",
+      "title": "Real-time chat & notifications using WebSockets and Redis",
+      "description": "We are seeking an experienced developer to real-time chat & notifications using websockets and redis. Deliverables include architecture review, clean modular implementation, automa...",
+      "required_skills": [
+        "TypeScript",
+        "Node.js",
+        "Redis",
+        "React"
+      ],
+      "budget_min": 800.0,
+      "budget_max": 1900.0,
+      "connects_cost": 4,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0009",
+      "title": "Customer churn prediction baseline using scikit-learn",
+      "description": "We are seeking an experienced developer to customer churn prediction baseline using scikit-learn. Deliverables include architecture review, clean modular implementation, automated ...",
+      "required_skills": [
+        "Python",
+        "scikit-learn",
+        "classification",
+        "model evaluation"
+      ],
+      "budget_min": 350.0,
+      "budget_max": 750.0,
+      "connects_cost": 6,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0011",
+      "title": "FastAPI + PostgreSQL backend API with JWT authentication",
+      "description": "We are seeking an experienced developer to fastapi + postgresql backend api with jwt authentication. Deliverables include architecture review, clean modular implementation, automat...",
+      "required_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "budget_min": 700.0,
+      "budget_max": 1600.0,
+      "connects_cost": 6,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0012",
+      "title": "Build responsive B2B SaaS dashboard with Next.js and Tailwind",
+      "description": "We are seeking an experienced developer to build responsive b2b saas dashboard with next.js and tailwind. Deliverables include architecture review, clean modular implementation, au...",
+      "required_skills": [
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Tailwind CSS"
+      ],
+      "budget_min": 900.0,
+      "budget_max": 2200.0,
+      "connects_cost": 4,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0015",
+      "title": "Executive revenue forecasting model using Python and Prophet",
+      "description": "We are seeking an experienced developer to executive revenue forecasting model using python and prophet. Deliverables include architecture review, clean modular implementation, aut...",
+      "required_skills": [
+        "Python",
+        "Pandas",
+        "Statistical Modeling"
+      ],
+      "budget_min": 500.0,
+      "budget_max": 1200.0,
+      "connects_cost": 16,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0016",
+      "title": "Build responsive B2B SaaS dashboard with Next.js and Tailwind",
+      "description": "We are seeking an experienced developer to build responsive b2b saas dashboard with next.js and tailwind. Deliverables include architecture review, clean modular implementation, au...",
+      "required_skills": [
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Tailwind CSS"
+      ],
+      "budget_min": 900.0,
+      "budget_max": 2200.0,
+      "connects_cost": 8,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0017",
+      "title": "Customer churn prediction baseline using scikit-learn",
+      "description": "We are seeking an experienced developer to customer churn prediction baseline using scikit-learn. Deliverables include architecture review, clean modular implementation, automated ...",
+      "required_skills": [
+        "Python",
+        "scikit-learn",
+        "classification",
+        "model evaluation"
+      ],
+      "budget_min": 350.0,
+      "budget_max": 750.0,
+      "connects_cost": 16,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0019",
+      "title": "Marketing multi-touch attribution pipeline in BigQuery",
+      "description": "We are seeking an experienced developer to marketing multi-touch attribution pipeline in bigquery. Deliverables include architecture review, clean modular implementation, automated...",
+      "required_skills": [
+        "SQL",
+        "BigQuery",
+        "Looker"
+      ],
+      "budget_min": 800.0,
+      "budget_max": 1800.0,
+      "connects_cost": 16,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0020",
+      "title": "Deploy high-throughput vLLM serving on AWS EC2 GPU instances",
+      "description": "We are seeking an experienced developer to deploy high-throughput vllm serving on aws ec2 gpu instances. Deliverables include architecture review, clean modular implementation, aut...",
+      "required_skills": [
+        "Python",
+        "vLLM",
+        "Docker",
+        "FastAPI"
+      ],
+      "budget_min": 800.0,
+      "budget_max": 1800.0,
+      "connects_cost": 12,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0022",
+      "title": "Build responsive B2B SaaS dashboard with Next.js and Tailwind",
+      "description": "We are seeking an experienced developer to build responsive b2b saas dashboard with next.js and tailwind. Deliverables include architecture review, clean modular implementation, au...",
+      "required_skills": [
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Tailwind CSS"
+      ],
+      "budget_min": 900.0,
+      "budget_max": 2200.0,
+      "connects_cost": 8,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0023",
+      "title": "Modern data stack setup with dbt core and Snowflake",
+      "description": "We are seeking an experienced developer to modern data stack setup with dbt core and snowflake. Deliverables include architecture review, clean modular implementation, automated un...",
+      "required_skills": [
+        "SQL",
+        "dbt",
+        "Snowflake"
+      ],
+      "budget_min": 1200.0,
+      "budget_max": 2800.0,
+      "connects_cost": 4,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0024",
+      "title": "Interactive Power BI sales performance executive dashboard",
+      "description": "We are seeking an experienced developer to interactive power bi sales performance executive dashboard. Deliverables include architecture review, clean modular implementation, autom...",
+      "required_skills": [
+        "Power BI",
+        "SQL",
+        "Tableau"
+      ],
+      "budget_min": 600.0,
+      "budget_max": 1400.0,
+      "connects_cost": 16,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0026",
+      "title": "Modern data stack setup with dbt core and Snowflake",
+      "description": "We are seeking an experienced developer to modern data stack setup with dbt core and snowflake. Deliverables include architecture review, clean modular implementation, automated un...",
+      "required_skills": [
+        "SQL",
+        "dbt",
+        "Snowflake"
+      ],
+      "budget_min": 1200.0,
+      "budget_max": 2800.0,
+      "connects_cost": 4,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0028",
+      "title": "Customer Lifetime Value (LTV) cohort retention analysis in SQL",
+      "description": "We are seeking an experienced developer to customer lifetime value (ltv) cohort retention analysis in sql. Deliverables include architecture review, clean modular implementation, a...",
+      "required_skills": [
+        "SQL",
+        "Python",
+        "BigQuery"
+      ],
+      "budget_min": 700.0,
+      "budget_max": 1500.0,
+      "connects_cost": 4,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0029",
+      "title": "Real-time chat & notifications using WebSockets and Redis",
+      "description": "We are seeking an experienced developer to real-time chat & notifications using websockets and redis. Deliverables include architecture review, clean modular implementation, automa...",
+      "required_skills": [
+        "TypeScript",
+        "Node.js",
+        "Redis",
+        "React"
+      ],
+      "budget_min": 800.0,
+      "budget_max": 1900.0,
+      "connects_cost": 16,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0030",
+      "title": "Build responsive B2B SaaS dashboard with Next.js and Tailwind",
+      "description": "We are seeking an experienced developer to build responsive b2b saas dashboard with next.js and tailwind. Deliverables include architecture review, clean modular implementation, au...",
+      "required_skills": [
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Tailwind CSS"
+      ],
+      "budget_min": 900.0,
+      "budget_max": 2200.0,
+      "connects_cost": 16,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0031",
+      "title": "Interactive Power BI sales performance executive dashboard",
+      "description": "We are seeking an experienced developer to interactive power bi sales performance executive dashboard. Deliverables include architecture review, clean modular implementation, autom...",
+      "required_skills": [
+        "Power BI",
+        "SQL",
+        "Tableau"
+      ],
+      "budget_min": 600.0,
+      "budget_max": 1400.0,
+      "connects_cost": 8,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0032",
+      "title": "Customer churn prediction baseline using scikit-learn",
+      "description": "We are seeking an experienced developer to customer churn prediction baseline using scikit-learn. Deliverables include architecture review, clean modular implementation, automated ...",
+      "required_skills": [
+        "Python",
+        "scikit-learn",
+        "classification",
+        "model evaluation"
+      ],
+      "budget_min": 350.0,
+      "budget_max": 750.0,
+      "connects_cost": 8,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0033",
+      "title": "Real-time chat & notifications using WebSockets and Redis",
+      "description": "We are seeking an experienced developer to real-time chat & notifications using websockets and redis. Deliverables include architecture review, clean modular implementation, automa...",
+      "required_skills": [
+        "TypeScript",
+        "Node.js",
+        "Redis",
+        "React"
+      ],
+      "budget_min": 800.0,
+      "budget_max": 1900.0,
+      "connects_cost": 8,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0034",
+      "title": "Fine-tune open-weight Llama-3 8B model for clinical triage",
+      "description": "We are seeking an experienced developer to fine-tune open-weight llama-3 8b model for clinical triage. Deliverables include architecture review, clean modular implementation, autom...",
+      "required_skills": [
+        "Python",
+        "PyTorch",
+        "HuggingFace",
+        "Fine-tuning"
+      ],
+      "budget_min": 1500.0,
+      "budget_max": 3500.0,
+      "connects_cost": 16,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0035",
+      "title": "Interactive Power BI sales performance executive dashboard",
+      "description": "We are seeking an experienced developer to interactive power bi sales performance executive dashboard. Deliverables include architecture review, clean modular implementation, autom...",
+      "required_skills": [
+        "Power BI",
+        "SQL",
+        "Tableau"
+      ],
+      "budget_min": 600.0,
+      "budget_max": 1400.0,
+      "connects_cost": 6,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0037",
+      "title": "Customer Lifetime Value (LTV) cohort retention analysis in SQL",
+      "description": "We are seeking an experienced developer to customer lifetime value (ltv) cohort retention analysis in sql. Deliverables include architecture review, clean modular implementation, a...",
+      "required_skills": [
+        "SQL",
+        "Python",
+        "BigQuery"
+      ],
+      "budget_min": 700.0,
+      "budget_max": 1500.0,
+      "connects_cost": 16,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0039",
+      "title": "Executive revenue forecasting model using Python and Prophet",
+      "description": "We are seeking an experienced developer to executive revenue forecasting model using python and prophet. Deliverables include architecture review, clean modular implementation, aut...",
+      "required_skills": [
+        "Python",
+        "Pandas",
+        "Statistical Modeling"
+      ],
+      "budget_min": 500.0,
+      "budget_max": 1200.0,
+      "connects_cost": 6,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0040",
+      "title": "Executive revenue forecasting model using Python and Prophet",
+      "description": "We are seeking an experienced developer to executive revenue forecasting model using python and prophet. Deliverables include architecture review, clean modular implementation, aut...",
+      "required_skills": [
+        "Python",
+        "Pandas",
+        "Statistical Modeling"
+      ],
+      "budget_min": 500.0,
+      "budget_max": 1200.0,
+      "connects_cost": 6,
+      "fit_score": 0.88,
+      "risk_score": 0.05,
+      "recommended_action": "bid",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0003",
+      "title": "Stripe subscription billing integration with webhook handling",
+      "description": "We are seeking an experienced developer to stripe subscription billing integration with webhook handling. Deliverables include architecture review, clean modular implementation, au...",
+      "required_skills": [
+        "TypeScript",
+        "Next.js",
+        "PostgreSQL",
+        "Node.js"
+      ],
+      "budget_min": 600.0,
+      "budget_max": 1500.0,
+      "connects_cost": 4,
+      "fit_score": 0.62,
+      "risk_score": 0.1,
+      "recommended_action": "watch",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0014",
+      "title": "Stripe subscription billing integration with webhook handling",
+      "description": "We are seeking an experienced developer to stripe subscription billing integration with webhook handling. Deliverables include architecture review, clean modular implementation, au...",
+      "required_skills": [
+        "TypeScript",
+        "Next.js",
+        "PostgreSQL",
+        "Node.js"
+      ],
+      "budget_min": 600.0,
+      "budget_max": 1500.0,
+      "connects_cost": 12,
+      "fit_score": 0.62,
+      "risk_score": 0.1,
+      "recommended_action": "watch",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0021",
+      "title": "Stripe subscription billing integration with webhook handling",
+      "description": "We are seeking an experienced developer to stripe subscription billing integration with webhook handling. Deliverables include architecture review, clean modular implementation, au...",
+      "required_skills": [
+        "TypeScript",
+        "Next.js",
+        "PostgreSQL",
+        "Node.js"
+      ],
+      "budget_min": 600.0,
+      "budget_max": 1500.0,
+      "connects_cost": 16,
+      "fit_score": 0.62,
+      "risk_score": 0.1,
+      "recommended_action": "watch",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0038",
+      "title": "Microservices migration to Docker and GraphQL Federation",
+      "description": "We are seeking an experienced developer to microservices migration to docker and graphql federation. Deliverables include architecture review, clean modular implementation, automat...",
+      "required_skills": [
+        "Node.js",
+        "Docker",
+        "GraphQL",
+        "PostgreSQL"
+      ],
+      "budget_min": 1500.0,
+      "budget_max": 3200.0,
+      "connects_cost": 16,
+      "fit_score": 0.62,
+      "risk_score": 0.1,
+      "recommended_action": "watch",
+      "warning_signals": [],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0010",
+      "title": "Real-time chat & notifications using WebSockets and Redis",
+      "description": "We are seeking an experienced developer to real-time chat & notifications using websockets and redis. Deliverables include architecture review, clean modular implementation, automa...",
+      "required_skills": [
+        "TypeScript",
+        "Node.js",
+        "Redis",
+        "React"
+      ],
+      "budget_min": 800.0,
+      "budget_max": 1900.0,
+      "connects_cost": 12,
+      "fit_score": 0.15,
+      "risk_score": 0.95,
+      "recommended_action": "skip",
+      "warning_signals": [],
+      "has_injection": true
+    },
+    {
+      "job_id": "job-stream-0013",
+      "title": "Data entry typing job $80/hr - Deposit required for software",
+      "description": "Simple copy paste work. Contact on WhatsApp +1-555-0199. You must send $50 deposit for company equipment....",
+      "required_skills": [
+        "Data Entry",
+        "General"
+      ],
+      "budget_min": 0.0,
+      "budget_max": 0.0,
+      "connects_cost": 8,
+      "fit_score": 0.15,
+      "risk_score": 0.95,
+      "recommended_action": "skip",
+      "warning_signals": [
+        "fee_required",
+        "off_platform_contact",
+        "scam"
+      ],
+      "has_injection": false
+    },
+    {
+      "job_id": "job-stream-0018",
+      "title": "Build production RAG pipeline with LangGraph and Qdrant",
+      "description": "We are seeking an experienced developer to build production rag pipeline with langgraph and qdrant. Deliverables include architecture review, clean modular implementation, automate...",
+      "required_skills": [
+        "Python",
+        "LangChain",
+        "LangGraph",
+        "Vector Databases",
+        "RAG"
+      ],
+      "budget_min": 1200.0,
+      "budget_max": 2500.0,
+      "connects_cost": 8,
+      "fit_score": 0.15,
+      "risk_score": 0.95,
+      "recommended_action": "skip",
+      "warning_signals": [],
+      "has_injection": true
+    },
+    {
+      "job_id": "job-stream-0025",
+      "title": "Stripe subscription billing integration with webhook handling",
+      "description": "We are seeking an experienced developer to stripe subscription billing integration with webhook handling. Deliverables include architecture review, clean modular implementation, au...",
+      "required_skills": [
+        "TypeScript",
+        "Next.js",
+        "PostgreSQL",
+        "Node.js"
+      ],
+      "budget_min": 600.0,
+      "budget_max": 1500.0,
+      "connects_cost": 16,
+      "fit_score": 0.15,
+      "risk_score": 0.95,
+      "recommended_action": "skip",
+      "warning_signals": [],
+      "has_injection": true
+    },
+    {
+      "job_id": "job-stream-0027",
+      "title": "Deploy high-throughput vLLM serving on AWS EC2 GPU instances",
+      "description": "We are seeking an experienced developer to deploy high-throughput vllm serving on aws ec2 gpu instances. Deliverables include architecture review, clean modular implementation, aut...",
+      "required_skills": [
+        "Python",
+        "vLLM",
+        "Docker",
+        "FastAPI"
+      ],
+      "budget_min": 800.0,
+      "budget_max": 1800.0,
+      "connects_cost": 6,
+      "fit_score": 0.15,
+      "risk_score": 0.95,
+      "recommended_action": "skip",
+      "warning_signals": [],
+      "has_injection": true
+    },
+    {
+      "job_id": "job-stream-0036",
+      "title": "Data entry typing job $80/hr - Deposit required for software",
+      "description": "Simple copy paste work. Contact on WhatsApp +1-555-0199. You must send $50 deposit for company equipment....",
+      "required_skills": [
+        "Data Entry",
+        "General"
+      ],
+      "budget_min": 0.0,
+      "budget_max": 0.0,
+      "connects_cost": 8,
+      "fit_score": 0.15,
+      "risk_score": 0.95,
+      "recommended_action": "skip",
+      "warning_signals": [
+        "fee_required",
+        "off_platform_contact",
+        "scam"
+      ],
+      "has_injection": false
+    }
+  ],
+  "user": {
+    "user_id": "usr-reviewer-01",
+    "persona_key": "ai_engineer",
+    "display_name": "Alex Morgan",
+    "headline": "Senior AI/ML & LLM Systems Engineer",
+    "hourly_rate": 65.0,
+    "min_budget": 500.0,
+    "weekly_connects_budget": 80,
+    "marketplace_mode": "gigsim"
+  },
+  "analytics": {
+    "total_jobs_scouted": 1500,
+    "total_proposals_submitted": 185,
+    "reply_rate_percentage": 42.8,
+    "hire_rate_percentage": 19.4,
+    "connects_spent_total": 1240,
+    "average_cost_per_proposal_usd": 0.00037,
+    "p95_latency_ms": 12.8,
+    "rejection_taxonomy": [
+      {
+        "category": "Scam / Policy Violation Detected",
+        "count": 120,
+        "percentage": 42.0
+      },
+      {
+        "category": "Insufficient Skills Alignment (<0.50)",
+        "count": 88,
+        "percentage": 30.8
+      },
+      {
+        "category": "Budget Ceiling Below Floor",
+        "count": 45,
+        "percentage": 15.7
+      },
+      {
+        "category": "Connects ROI Unfavorable",
+        "count": 22,
+        "percentage": 7.7
+      },
+      {
+        "category": "User Rejection in Approval Gate",
+        "count": 11,
+        "percentage": 3.8
+      }
+    ],
+    "outcomes_by_category": [
+      {
+        "category": "AI & LLM Orchestration",
+        "reply_rate": 51.2,
+        "hire_rate": 24.0,
+        "avg_contract": 1650
+      },
+      {
+        "category": "Full-Stack Web & Next.js",
+        "reply_rate": 44.5,
+        "hire_rate": 20.2,
+        "avg_contract": 1200
+      },
+      {
+        "category": "Data Analytics & BI",
+        "reply_rate": 38.0,
+        "hire_rate": 16.5,
+        "avg_contract": 850
+      }
+    ]
+  },
+  "pipeline": [
+    {
+      "card_id": "c-01",
+      "job_id": "job-stream-0001",
+      "title": "Production RAG Pipeline with Qdrant",
+      "client_id": "client-101",
+      "stage": "interview",
+      "bid_amount": 1850.0,
+      "connects_spent": 8,
+      "updated_at": "2026-11-09T08:30:00Z"
+    },
+    {
+      "card_id": "c-02",
+      "job_id": "sample-job-001",
+      "title": "Customer Churn Prediction Baseline",
+      "client_id": "sample-client-001",
+      "stage": "replied",
+      "bid_amount": 350.0,
+      "connects_spent": 8,
+      "updated_at": "2026-11-09T09:15:00Z"
+    },
+    {
+      "card_id": "c-03",
+      "job_id": "job-stream-0024",
+      "title": "FastAPI + PostgreSQL Docker Service",
+      "client_id": "client-105",
+      "stage": "submitted",
+      "bid_amount": 950.0,
+      "connects_spent": 6,
+      "updated_at": "2026-11-09T07:45:00Z"
+    },
+    {
+      "card_id": "c-04",
+      "job_id": "job-stream-0050",
+      "title": "Next.js B2B SaaS Dashboard UI",
+      "client_id": "client-110",
+      "stage": "hired",
+      "bid_amount": 1600.0,
+      "connects_spent": 12,
+      "updated_at": "2026-11-08T18:20:00Z"
+    },
+    {
+      "card_id": "c-05",
+      "job_id": "job-stream-0012",
+      "title": "Stripe Webhook Billing Integration",
+      "client_id": "client-120",
+      "stage": "viewed",
+      "bid_amount": 750.0,
+      "connects_spent": 6,
+      "updated_at": "2026-11-09T06:10:00Z"
+    },
+    {
+      "card_id": "c-06",
+      "job_id": "job-stream-0099",
+      "title": "vLLM High-Throughput Serving Deployment",
+      "client_id": "client-140",
+      "stage": "lost",
+      "bid_amount": 1200.0,
+      "connects_spent": 12,
+      "updated_at": "2026-11-07T14:00:00Z"
+    }
+  ],
+  "settings": {
+    "autonomy_level": "auto_skip_only",
+    "weekly_budget": 80,
+    "saved_searches": [
+      "Python LangGraph RAG",
+      "Next.js Tailwind TypeScript",
+      "dbt Snowflake BigQuery",
+      "FastAPI PostgreSQL Docker"
+    ],
+    "connected_accounts": [
+      {
+        "platform": "GigSim Simulator",
+        "status": "connected",
+        "type": "internal_simulator"
+      },
+      {
+        "platform": "Upwork Official MCP",
+        "status": "ready (live mode)",
+        "type": "oauth2_pkce"
+      },
+      {
+        "platform": "GitHub MCP",
+        "status": "connected",
+        "type": "personal_access_token"
+      }
+    ],
+    "style_memory_rules": [
+      {
+        "id": "style-01",
+        "rule": "Never use the word 'passionate'; open directly with solution evidence.",
+        "learned_from": "initial_preference"
+      },
+      {
+        "id": "style-02",
+        "rule": "Always lead with quantified benchmark numbers (e.g. latency, throughput).",
+        "learned_from": "initial_preference"
+      },
+      {
+        "type": "style_cut_opening",
+        "rule": "Avoid generic opening sentence: 'for your sample-job-001 deliverables, i recently c...'",
+        "target": "opening",
+        "id": "style-03"
+      },
+      {
+        "type": "length_constraint",
+        "rule": "User prefers concise proposals (<150 words). Cut superfluous context.",
+        "target": "length",
+        "id": "style-04"
+      }
+    ]
+  },
+  "threads": [
+    {
+      "thread_id": "thread-sample-client-001",
+      "client_id": "sample-client-001",
+      "messages": [
+        {
+          "sender": "client",
+          "body": "Hi Alex! We reviewed your proposal and case study for the churn model. Are you available for a 15-min technical sync this Wednesday or Thursday?",
+          "timestamp": "2026-11-09T09:15:00Z"
+        }
+      ],
+      "suggested_reply": "Hi! Thank you for reviewing my proposal. I would be glad to connect. I have tentative openings at 10:00 AM UTC or 3:00 PM UTC on Wednesday.",
+      "suggested_interview_slots": [
+        "2026-11-11T10:00:00Z",
+        "2026-11-11T15:00:00Z"
+      ],
+      "status": "awaiting_approval"
+    }
+  ],
+  "approvals": [
+    {
+      "thread_id": "thread-sample-job-001",
+      "job_id": "sample-job-001",
+      "title": "Build a customer churn prediction baseline",
+      "cover_letter": "For your churn prediction baseline, I recently built a scikit-learn classifier pipeline [evidence: case-ai-001]. I achieved verified precision and recall baselines and documented all data boundaries.",
+      "bid_amount": 350.0,
+      "connects_cost": 8,
+      "evidence_ids": [
+        "evidence-001",
+        "case-ai-001"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-09T10:00:00Z"
+    }
+  ],
+  "runs": [
+    {
+      "run_id": "run-001",
+      "job_id": "sample-job-001",
+      "title": "Build customer churn baseline",
+      "status": "completed",
+      "nodes_executed": [
+        "scout",
+        "analyst",
+        "risk_assessor",
+        "fit_matcher",
+        "decision_node",
+        "pricing",
+        "writer",
+        "verifier",
+        "critic",
+        "compliance",
+        "prepare_approval",
+        "human_approval",
+        "submit"
+      ],
+      "tokens": 2840,
+      "latency_s": 2.1,
+      "cost_usd": 0.00056,
+      "trace_url": "/runs/run-001/trace"
+    },
+    {
+      "run_id": "run-002",
+      "job_id": "sample-job-002",
+      "title": "Unpaid trial project [SCAM]",
+      "status": "skipped",
+      "nodes_executed": [
+        "scout",
+        "analyst",
+        "risk_assessor",
+        "fit_matcher",
+        "decision_node"
+      ],
+      "tokens": 1220,
+      "latency_s": 0.8,
+      "cost_usd": 0.00024,
+      "trace_url": "/runs/run-002/trace"
+    }
+  ]
+}

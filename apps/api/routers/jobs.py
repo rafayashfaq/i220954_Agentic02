@@ -25,9 +25,12 @@ def load_jobs() -> list[dict]:
         STREAM_JOBS_FILE,
         SAMPLE_JOBS_FILE,
         os.path.join(os.getcwd(), "data", "processed", "jobs_stream.json"),
+        os.path.join(os.getcwd(), "api", "data", "processed", "jobs_stream.json"),
         os.path.join(os.getcwd(), "data", "sample", "jobs.json"),
         os.path.join(os.path.dirname(os.path.dirname(BASE_DIR)), "data", "processed", "jobs_stream.json"),
         os.path.join(os.path.dirname(BASE_DIR), "data", "processed", "jobs_stream.json"),
+        os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "..", "apps", "web", "src", "lib", "api", "fallback_data.json"),
+        os.path.join(os.getcwd(), "apps", "web", "src", "lib", "api", "fallback_data.json"),
     ]
 
     for fpath in candidate_files:
@@ -35,12 +38,12 @@ def load_jobs() -> list[dict]:
             try:
                 with open(fpath, "r", encoding="utf-8") as f:
                     data = json.load(f)
-                    if isinstance(data, list):
-                        for j in data:
-                            jid = j.get("job_id")
-                            if jid and jid not in seen:
-                                seen.add(jid)
-                                all_jobs.append(j)
+                    items = data.get("jobs", []) if isinstance(data, dict) else (data if isinstance(data, list) else [])
+                    for j in items:
+                        jid = j.get("job_id")
+                        if jid and jid not in seen:
+                            seen.add(jid)
+                            all_jobs.append(j)
             except Exception:
                 pass
 
