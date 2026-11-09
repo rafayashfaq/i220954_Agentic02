@@ -26,39 +26,39 @@
 ```mermaid
 flowchart TD
     subgraph Ingestion ["1. FastMCP Portfolio & Knowledge Layer"]
-        CV[Freelancer CV] --> Chunker[Metadata Chunker]
-        CS[60 Case Studies] --> Chunker
-        GH[GitHub Repositories] --> Chunker
-        HP[450 Past Proposals] --> Chunker
-        Chunker --> DualIndex[(BM25 Lexical + Dense Vector Index)]
+        CV["Freelancer CV"] --> Chunker["Metadata Chunker"]
+        CS["60 Case Studies"] --> Chunker
+        GH["GitHub Repositories"] --> Chunker
+        HP["450 Past Proposals"] --> Chunker
+        Chunker --> DualIndex[("BM25 Lexical + Dense Vector Index")]
     end
 
     subgraph LangGraph ["2. Multi-Agent Orchestration (Compiled StateGraph)"]
-        Stream([Marketplace Stream / GigSim]) --> Scout[Scout Node]
-        Scout --> Analyst[Analyst Node]
-        Analyst --> Fork{Parallel Fork}
-        Fork --> Risk[Risk Assessor Node]
-        Fork --> Fit[Fit Matcher Node]
+        Stream(["Marketplace Stream / GigSim"]) --> Scout["Scout Node"]
+        Scout --> Analyst["Analyst Node"]
+        Analyst --> Fork{"Parallel Fork"}
+        Fork --> Risk["Risk Assessor Node"]
+        Fork --> Fit["Fit Matcher Node"]
         DualIndex -.->|Hybrid RRF Retrieval| Fit
-        Risk --> Join{Join & Edge Routing}
+        Risk --> Join{"Join & Edge Routing"}
         Fit --> Join
-        Join -->|is_scam == True OR fit < 0.60| Skip[Auto-Skip Pipeline]
-        Join -->|Qualified Job| Pricing[Pricing Engine]
-        Pricing --> Writer[Writer Node]
-        Writer --> Verifier[Pre-Critic Claim Verifier]
-        Verifier --> Critic[Critic Node]
-        Critic -->|<= 2 Revisions| Compliance[Compliance Guard]
-        Compliance --> Interrupt[Human Approval Gate: interrupt()]
+        Join -->|is_scam == True OR fit < 0.60| Skip["Auto-Skip Pipeline"]
+        Join -->|Qualified Job| Pricing["Pricing Engine"]
+        Pricing --> Writer["Writer Node"]
+        Writer --> Verifier["Pre-Critic Claim Verifier"]
+        Verifier --> Critic["Critic Node"]
+        Critic -->|<= 2 Revisions| Compliance["Compliance Guard"]
+        Compliance --> Interrupt["Human Approval Gate: interrupt()"]
     end
 
     subgraph HumanLoop ["3. Durable Human-in-the-Loop & API Layer"]
-        Interrupt -->|Persist Thread State| SQLite[(agent_state.db)]
-        SQLite --> API[FastAPI + SSE Stream]
-        API --> WebUI[Vite React Proposal Studio]
-        WebUI -->|Approve / Edit Proposal| Resume[Resume Graph Command]
-        Resume --> Dispatch[FastMCP Marketplace Adapter]
-        Dispatch --> AuditLog[(audit_log.jsonl)]
-        Dispatch --> Outbound([Upwork Live / GigSim])
+        Interrupt -->|Persist Thread State| SQLite[("agent_state.db")]
+        SQLite --> API["FastAPI + SSE Stream"]
+        API --> WebUI["Vite React Proposal Studio"]
+        WebUI -->|Approve / Edit Proposal| Resume["Resume Graph Command"]
+        Resume --> Dispatch["FastMCP Marketplace Adapter"]
+        Dispatch --> AuditLog[("audit_log.jsonl")]
+        Dispatch --> Outbound(["Upwork Live / GigSim"])
     end
 
     style Ingestion fill:#f0fdf4,stroke:#16a34a,stroke-width:1px
