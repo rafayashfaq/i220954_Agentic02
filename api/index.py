@@ -1,6 +1,6 @@
 """
 Vercel Serverless Function entrypoint for GigBid Backend.
-Exposes ASGI application with foolproof diagnostic fallback.
+Exposes ASGI application with foolproof route normalization and diagnostic fallback.
 """
 import os
 import sys
@@ -21,14 +21,23 @@ try:
     @_real_app.middleware("http")
     async def vercel_rewrite_middleware(request, call_next):
         path = request.scope.get("path", "")
-        matched = request.headers.get("x-matched-path", "")
-        forwarded = request.headers.get("x-forwarded-uri", "")
+        
+        # Check all headers where Vercel passes the original requested path
+        candidate_headers = [
+            "x-matched-path",
+            "x-invoke-path",
+            "x-forwarded-uri",
+            "x-now-route-matches"
+        ]
+        orig_path = ""
+        for h in candidate_headers:
+            val = request.headers.get(h)
+            if val and not val.startswith("/api/index") and not val.startswith("/index.py"):
+                orig_path = val.split("?")[0]
+                break
 
-        if path in ("/api/index.py", "/api/index", "/api", "/api/"):
-            if matched and not matched.startswith("/api/index"):
-                request.scope["path"] = matched.split("?")[0]
-            elif forwarded and not forwarded.startswith("/api/index"):
-                request.scope["path"] = forwarded.split("?")[0]
+        if path in ("/api/index.py", "/api/index", "/api", "/api/", "/index.py") and orig_path:
+            request.scope["path"] = orig_path
         elif path.startswith("/api/"):
             candidate = path[4:]
             for r in request.app.routes:
@@ -37,6 +46,17 @@ try:
                     break
 
         return await call_next(request)
+
+    @_real_app.get("/diagnostic")
+    @_real_app.get("/api/diagnostic")
+    def vercel_diagnostic():
+        return {
+            "status": "ok",
+            "service": "gigbid-api",
+            "cwd": CWD,
+            "api_dir": CURRENT_DIR,
+            "api_files": os.listdir(CURRENT_DIR) if os.path.exists(CURRENT_DIR) else [],
+        }
 
     app = _real_app
 
