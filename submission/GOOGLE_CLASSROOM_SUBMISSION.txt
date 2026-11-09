@@ -20,7 +20,8 @@ SUBMISSION CONTENT (COPY-PASTE READY FOR GOOGLE CLASSROOM):
    (Demonstrates: job discovery in inbox, evidence citation hover, human approval gate, pipeline transition, and SSE live stream)
 
 4. LIVE DEPLOYED WEB APPLICATION URL:
-   [Paste your live URL here, e.g. https://gigbid-i220954.loca.lt or Render / Railway URL]
+   https://i220954-agentic02.vercel.app/
+   (Backup / Alternative: Localtunnel npx localtunnel --port 3000 --subdomain gigbid-i220954)
    Note: Full Docker Compose configuration is available in infra/docker-compose.yml.
    Local run command: python -m uvicorn apps.api.main:app & cd apps/web && npm run dev
 
