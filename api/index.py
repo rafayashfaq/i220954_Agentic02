@@ -1,13 +1,13 @@
 """
 Vercel Serverless Function entrypoint for GigBid FastAPI Backend.
 Exposes the ASGI app directly to Vercel's Python runtime.
-Includes path rewrite middleware and startup error diagnostics.
+Includes path rewrite middleware and container diagnostic routes.
 """
 import os
 import sys
 import traceback
 
-# Add multiple candidate root paths to sys.path
+# Add candidate root paths to sys.path
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.dirname(CURRENT_DIR)
 CWD = os.getcwd()
@@ -17,42 +17,45 @@ for p in [ROOT_DIR, CWD, CURRENT_DIR]:
         sys.path.insert(0, p)
 
 try:
-    from apps.api.main import app as _real_app
+    from apps.api.main import app
 
-    class VercelPathMiddleware:
+    @app.middleware("http")
+    async def vercel_rewrite_middleware(request, call_next):
         """
-        Ensures request paths from Vercel rewrites (e.g. x-matched-path)
-        or /api prefixes are correctly routed to FastAPI routes.
+        Normalize request paths rewritten by Vercel.
+        Restores x-matched-path or strips /api prefix when necessary.
         """
-        def __init__(self, app):
-            self.app = app
+        path = request.scope.get("path", "")
+        matched = request.headers.get("x-matched-path", "")
+        forwarded = request.headers.get("x-forwarded-uri", "")
 
-        async def __call__(self, scope, receive, send):
-            if scope.get("type") == "http":
-                headers = dict(scope.get("headers", []))
-                matched_path = headers.get(b"x-matched-path", b"").decode("utf-8")
-                forwarded_uri = headers.get(b"x-forwarded-uri", b"").decode("utf-8")
+        if path in ("/api/index.py", "/api/index", "/api", "/api/"):
+            if matched and not matched.startswith("/api/index"):
+                request.scope["path"] = matched.split("?")[0]
+            elif forwarded and not forwarded.startswith("/api/index"):
+                request.scope["path"] = forwarded.split("?")[0]
+        elif path.startswith("/api/"):
+            candidate = path[4:]
+            for r in request.app.routes:
+                if getattr(r, "path", None) == candidate:
+                    request.scope["path"] = candidate
+                    break
 
-                path = scope.get("path", "")
+        return await call_next(request)
 
-                # If rewrite directed to /api/index.py or /api/index, restore original matched path
-                if path in ("/api/index.py", "/api/index", "/api", "/api/", "api/index.py"):
-                    if matched_path and not matched_path.startswith("/api/index"):
-                        scope["path"] = matched_path.split("?")[0]
-                    elif forwarded_uri and not forwarded_uri.startswith("/api/index"):
-                        scope["path"] = forwarded_uri.split("?")[0]
-
-                # If path starts with /api/ but FastAPI routes don't use /api prefix, strip it
-                current_path = scope.get("path", "")
-                if current_path.startswith("/api/") and not current_path.startswith("/api/index"):
-                    scope["path"] = current_path[4:]
-
-            await self.app(scope, receive, send)
-
-        def __getattr__(self, name):
-            return getattr(self.app, name)
-
-    app = VercelPathMiddleware(_real_app)
+    @app.get("/diagnostic")
+    @app.get("/api/diagnostic")
+    def vercel_diagnostic():
+        return {
+            "status": "ok",
+            "cwd": CWD,
+            "root_dir": ROOT_DIR,
+            "files_in_cwd": os.listdir(CWD) if os.path.exists(CWD) else [],
+            "files_in_root": os.listdir(ROOT_DIR) if os.path.exists(ROOT_DIR) else [],
+            "data_exists": os.path.exists(os.path.join(ROOT_DIR, "data")),
+            "stream_exists": os.path.exists(os.path.join(ROOT_DIR, "data", "processed", "jobs_stream.json")),
+            "sample_exists": os.path.exists(os.path.join(ROOT_DIR, "data", "sample", "jobs.json")),
+        }
 
 except Exception as exc:
     err_tb = traceback.format_exc()

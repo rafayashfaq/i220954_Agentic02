@@ -3,20 +3,17 @@
   "outputDirectory": "apps/web/dist",
   "framework": null,
   "functions": {
-    "api/*.py": {
-      "includeFiles": "{apps/api/**,apps/__init__.py,agent/**,rag/**,mcp_servers/**,gigsim/**,data/**}"
-    },
     "api/index.py": {
       "includeFiles": "{apps/api/**,apps/__init__.py,agent/**,rag/**,mcp_servers/**,gigsim/**,data/**}"
     }
   },
   "rewrites": [
     {
-      "source": "/api/(.*)",
+      "source": "/(auth|jobs|proposals|approvals|messages|runs|analytics|settings|health|diagnostic)(.*)",
       "destination": "/api/index.py"
     },
     {
-      "source": "/(auth|jobs|proposals|approvals|messages|runs|analytics|settings|health)(.*)",
+      "source": "/api/(.*)",
       "destination": "/api/index.py"
     },
     {
