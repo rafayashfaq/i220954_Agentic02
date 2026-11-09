@@ -34,9 +34,12 @@ class LongTermMemoryStore:
         }
 
     def _save(self):
-        os.makedirs(os.path.dirname(self.filepath), exist_ok=True)
-        with open(self.filepath, "w", encoding="utf-8") as f:
-            json.dump(self.state, f, indent=2)
+        try:
+            os.makedirs(os.path.dirname(self.filepath), exist_ok=True)
+            with open(self.filepath, "w", encoding="utf-8") as f:
+                json.dump(self.state, f, indent=2)
+        except Exception:
+            pass
 
     def get_style_guidelines(self) -> list[str]:
         return [item["rule"] for item in self.state.get("style_rules", [])]

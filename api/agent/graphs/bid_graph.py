@@ -35,10 +35,13 @@ from agent.memory.store import get_memory_store
 from mcp_servers.marketplace.server import tool_create_proposal_draft, tool_submit_proposal
 
 CHECKPOINT_DB = os.path.join(
-    os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
-    "data", "processed", "bid_checkpoints.db"
+    "/tmp" if (os.getenv("VERCEL") or os.getenv("AWS_LAMBDA_FUNCTION_NAME")) else os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "data", "processed"),
+    "bid_checkpoints.db"
 )
-os.makedirs(os.path.dirname(CHECKPOINT_DB), exist_ok=True)
+try:
+    os.makedirs(os.path.dirname(CHECKPOINT_DB), exist_ok=True)
+except Exception:
+    CHECKPOINT_DB = ":memory:"
 
 # -------------------------------------------------------------
 # Decision and Routing Nodes

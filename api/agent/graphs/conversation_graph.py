@@ -21,10 +21,13 @@ from agent.nodes.client_liaison import client_liaison_node
 from mcp_servers.marketplace.server import tool_send_message
 
 CONV_CHECKPOINT_DB = os.path.join(
-    os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
-    "data", "processed", "conversation_checkpoints.db"
+    "/tmp" if (os.getenv("VERCEL") or os.getenv("AWS_LAMBDA_FUNCTION_NAME")) else os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "data", "processed"),
+    "conversation_checkpoints.db"
 )
-os.makedirs(os.path.dirname(CONV_CHECKPOINT_DB), exist_ok=True)
+try:
+    os.makedirs(os.path.dirname(CONV_CHECKPOINT_DB), exist_ok=True)
+except Exception:
+    CONV_CHECKPOINT_DB = ":memory:"
 
 def human_approval_message_node(state: ConversationGraphState) -> dict:
     """Interrupts graph execution to wait for user approval before sending client reply."""
