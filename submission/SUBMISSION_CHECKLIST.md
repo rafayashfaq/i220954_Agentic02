@@ -65,3 +65,4 @@ cd apps/web && npm run dev
 1. **Attach File:** Upload `submission/GigBid_RD_Report.pdf`
 2. **Text / Links Box:** Copy and paste the contents of `submission/GOOGLE_CLASSROOM_SUBMISSION.txt`
 3. **Private Comment:** Paste the reviewer credentials (included in `GOOGLE_CLASSROOM_SUBMISSION.txt`).
+

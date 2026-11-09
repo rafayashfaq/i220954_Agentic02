@@ -16,7 +16,10 @@ export const RunViewerView: React.FC<RunViewerViewProps> = ({ initialJobId = 'sa
     setIsStreaming(true);
     setActiveNode('init');
 
-    const streamUrl = typeof window !== 'undefined' && window.location.port === '3000'
+    const isRemoteDeployed = typeof window !== 'undefined' && window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1';
+    const streamUrl = isRemoteDeployed
+      ? `/runs/stream/${jobId}`
+      : typeof window !== 'undefined' && window.location.port === '3000'
       ? `/runs/stream/${jobId}`
       : `http://127.0.0.1:8000/runs/stream/${jobId}`;
     const eventSource = new EventSource(streamUrl);

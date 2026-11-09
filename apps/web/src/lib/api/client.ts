@@ -154,9 +154,8 @@ export interface SettingsResponse {
   style_memory_rules: Array<{ id: string; rule: string; learned_from?: string }>;
 }
 
-const API_BASE = typeof window !== 'undefined' && window.location.port === '3000'
-  ? ''
-  : 'http://127.0.0.1:8000';
+const isRemoteDeployed = typeof window !== 'undefined' && window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1';
+const API_BASE = (import.meta as any).env?.VITE_API_URL || (isRemoteDeployed ? '' : typeof window !== 'undefined' && window.location.port === '3000' ? '' : 'http://127.0.0.1:8000');
 
 
 async function fetchJson<T>(path: string, options?: RequestInit): Promise<T> {
